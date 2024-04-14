@@ -320,9 +320,12 @@
         </div>
     </section>
 
+
+
     <section class="program">
         <div class="container">
             <h2>Программа обучения</h2>
+
             <dl class="program__description">
                 <div class="program__description-item">
 <!--                    <dt>Занимает</dt>-->
@@ -341,7 +344,9 @@
                     <dd>онлайн-лекции и видео</dd>
                 </div>
             </dl>
+
             <ol class="program__modules" data-accordion="parent" data-single="">
+
                 <li class="program__module" data-accordion="element" data-collapse-item="">
                     <h3 class="program__module-title">Администратор гостиницы</h3>
                     <ul class="program__module-content" data-accordion="content">
@@ -355,10 +360,11 @@
                         <li>• Понятие личности в психологии. Структура личности</li>
                         <li>• Принципы и закономерности изменения личности</li>
                     </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" аскрыть/закрыть содержание модуля"></button>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label="показать/закрыть содержание модуля"></button>
                 </li>
+
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Администратор гостиницы</h3>
+                    <h3 class="program__module-title">Психологическая диагностика</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Методы психодиагностики в психологическом консультировании</li>
                         <li>• Тестовые методики: область применения и анализ</li>
@@ -366,55 +372,77 @@
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label=" аскрыть/закрыть содержание модуля"></button>
                 </li>
+
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Администратор гостиницы</h3>
+                    <h3 class="program__module-title">Психологическая диагностика</h3>
                     <ul class="program__module-content" data-accordion="content">
-                        <li>• Основы психологического консультирования. Карл  оджерс как основатель современного консультирования. Дистанционное консультирование</li>
-                        <li>• Структура психологического консультирования</li>
-                        <li>• Особенности каждого этапа консультации: цели, трудности, техники и возможные ошибки</li>
-                        <li>• Глубинная психология в консультировании (психоанализ)</li>
-                        <li>• Методы когнитивно-поведенческой терапии</li>
-                        <li>• Экзистенциальный подход в консультировании и область его применения</li>
-                        <li>• Транзактный анализ</li>
-                        <li>• Гештальт-терапия</li>
-                        <li>• Техники коучинга</li>
-                        <li>• Виды клиентов в консультировании и особенности работы с ними. Особенности взаимодействия с клиентами дистанционно</li>
+                        <li>• Методы психодиагностики в психологическом консультировании</li>
+                        <li>• Тестовые методики: область применения и анализ</li>
+                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label=" аскрыть/закрыть содержание модуля"></button>
                 </li>
+
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title"> Администратор гостиницы</h3>
+                    <h3 class="program__module-title">Психологическая диагностика</h3>
                     <ul class="program__module-content" data-accordion="content">
-                        <li>• Кризис личности (самооценка, самоидентичность, самореализация, нарушения адаптации и социализации)</li>
-                        <li>• Детско-родительские отношения</li>
-                        <li>• Проблемы в отношениях. Сексология</li>
-                        <li>• Семейные конфликты и кризисы, построение семьи</li>
-                        <li>• Эмоциональное выгорание в различных сферах жизни</li>
-                        <li>• Конфликтология</li>
-                        <li>• Переживание горя и утраты</li>
-                        <li>• Зависимость и созависимость</li>
-                        <li>• Прокрастинация, лень, мотивация</li>
-                        <li>• Тревога и страх</li>
+                        <li>• Методы психодиагностики в психологическом консультировании</li>
+                        <li>• Тестовые методики: область применения и анализ</li>
+                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label=" аскрыть/закрыть содержание модуля"></button>
                 </li>
+
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Администратор гостиницы</h3>
+                    <h3 class="program__module-title">Психологическая диагностика</h3>
                     <ul class="program__module-content" data-accordion="content">
-                        <li>• Групповые консультации и психотерапия</li>
-                        <li>• Тренинговая группа, ее особенности</li>
-                        <li>• Приемы и упражнения для групповых тренингов</li>
+                        <li>• Методы психодиагностики в психологическом консультировании</li>
+                        <li>• Тестовые методики: область применения и анализ</li>
+                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label=" аскрыть/закрыть содержание модуля"></button>
                 </li>
+
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Администратор гостиницы</h3>
+                    <h3 class="program__module-title">Психологическая диагностика</h3>
                     <ul class="program__module-content" data-accordion="content">
-                        <li>• Правовые аспекты деятельности психолога-консультанта</li>
-                        <li>• Продвижение личного бренда</li>
+                        <li>• Методы психодиагностики в психологическом консультировании</li>
+                        <li>• Тестовые методики: область применения и анализ</li>
+                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label=" аскрыть/закрыть содержание модуля"></button>
                 </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Психологическая диагностика</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Методы психодиагностики в психологическом консультировании</li>
+                        <li>• Тестовые методики: область применения и анализ</li>
+                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" аскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Психологическая диагностика</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Методы психодиагностики в психологическом консультировании</li>
+                        <li>• Тестовые методики: область применения и анализ</li>
+                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" аскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Психологическая диагностика</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Методы психодиагностики в психологическом консультировании</li>
+                        <li>• Тестовые методики: область применения и анализ</li>
+                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" аскрыть/закрыть содержание модуля"></button>
+                </li>
+
             </ol>
             <button class="show-button" type="button" data-show-button="">Показать еще</button>
         </div>
