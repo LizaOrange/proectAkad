@@ -10,7 +10,10 @@
                     <p class="home__description">И получите помощь с трудоустройством от государства с зарплатой от 65 000 рублей</p>
                     <p class="home__description_p2">*по данным hh.ru</p>
                     <button type="button" class="btn">Начать обучение</button> <!-- data-modal-id="modal-main-form" data-modal-open=""-->
+<<<<<<< HEAD
+=======
 
+>>>>>>> 1e71c66591973f97d9819d695112a2e743a6baaf
                 </div>
             </div>
         </div>
@@ -60,7 +63,9 @@
         </div>
     </section>
 
+
     <section class="participation" id="participation">
+
         <div class="container">
             <div class="participation__header">
                 <h2>Кто может участвовать и какие документы потребуются?</h2>
@@ -69,247 +74,165 @@
                     <div class="swiper-pagination"></div>
                     <button class="slider-navigation__button slider-navigation__button--next" type="button"></button>
                 </div>
-
             </div>
         </div>
-<!--        <div class="participation__slider swiper">-->
-<!--            <ul class="participation__slides swiper-wrapper">-->
-<!--                <li class="participation__slide swiper-slide">-->
-<!--                    <div class="participation__slide-image">-->
-<!--                        <img src="images/10.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">-->
-<!--                        <div class="swiper-lazy-preloader"></div>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-content">-->
-<!--                        <p>Я трудоустроен или ищу работу</p>-->
-<!--                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-info">-->
-<!--                        <p>Я трудоустроен или ищу работу</p>-->
-<!--                        <ol class="participation__slide-rules">-->
-<!--                            <li>Оставьте заявку, выбрав в поле «Категория участника» вариант <b>«Граждане, ищущие работу (или трудоустроенные)»</b>.</li>-->
-<!--                            <li>Зарегистрируйтесь на портале <b>« абота  оссии»</b>. Войдите с помощью портала «Госуслуги». У вас должна быть подтвержденная учетная запись на портале «Госуслуги». Как получить этот статус, можете узнать по <a href="https://www.gosuslugi.ru/help/faq/login/2" target="_blank">ссылке</a>.</li>-->
-<!--                            <li><b>Внимание:</b>  аботодатель тоже должен быть зарегистрирован на портале « абота  оссии». По этой <a href="/instruction-for-employers">ссылке</a> можно посмотреть инструкцию для регистрации работодателя.</li>-->
-<!--                            <li>Создайте и заполните <b>резюме</b> на портале « абота  оссии». Это обязательное условие, но оно не обязывает вас искать работу и менять работодателя, если вы уже официально трудоустроены.</li>-->
-<!--                            <li><b>Создайте заявление</b>. Выберите категорию «Я ищу работу и не претендую на признание безработным» и прикрепите к заявлению заполненное резюме. Дождитесь модерации в течение 1 дня. По этой <a href="https://trudvsem.ru/information-pages/service-assistance-finding-job/info" target="_blank">ссылке</a> можно посмотреть инструкцию.</li>-->
-<!--                            <li>Подтвердите заявку на обучение на портале <b>« абота  оссии»</b>. Пройти этот и следующие шаги вам поможет <a href="https://www.tgu-dpo.ru/steps-for-participants" target="_blank">инструкция</a>.</li>-->
-<!--                            <li>Загрузите документы в <b>Личный кабинет</b> гражданина (паспорт, диплом об образовании, при наличии — свидетельство о смене фамилии).</li>-->
-<!--                            <li>Предоставьте документы, подтверждающие категорию участника <b>в Центр занятости населения</b> (ЦЗН).</li>-->
-<!--                        </ol>-->
-<!--                        <ol class="participation__slide-documents">-->
-<!--                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>-->
-<!--                            <li>Копия трудовой книжки или документ, ее заменяющий. Вы можете получить выписку, даже если никогда не были трудоустроены.</li>-->
-<!--                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>-->
-<!--                        </ol>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="participation__slide swiper-slide">-->
-<!--                    <div class="participation__slide-image">-->
-<!--                        <img src="images/11.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">-->
-<!--                        <div class="swiper-lazy-preloader"></div>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-content">-->
-<!--                        <p>Я работник, находящийся под риском увольнения</p>-->
-<!--                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-info">-->
-<!--                        <p>Я работник, находящийся под риском увольнения</p>-->
-<!--                        <ol class="participation__slide-rules">-->
-<!--                            <li>Оставьте заявку, выбрав в разделе «Категория участника»-->
-<!--                                вариант <b>« аботники, находящиеся под риском увольнения».</b></li>-->
-<!--                            <li>Подтвердите заявку на портале « абота в оссии».</li>-->
-<!--                            <li>Загрузите документы в Личный кабинет гражданина  (паспорт, диплом об образовании, при наличии —свидетельство о смене фамилии)</li>-->
-<!--                            <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>-->
-<!--                        </ol>-->
-<!--                        <ol class="participation__slide-documents">-->
-<!--                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>-->
-<!--                            <li>Копия или выписка из приказа о введении режима неполного рабочего времени, простое, временной приостановке работ или предоставлении отпуска без сохранения заработной платы.</li>-->
-<!--                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>-->
-<!--                        </ol>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="participation__slide swiper-slide">-->
-<!--                    <div class="participation__slide-image">-->
-<!--                        <img src="images/2.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография мамы с ребёнком">-->
-<!--                        <div class="swiper-lazy-preloader"></div>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-content">-->
-<!--                        <p>Я нахожусь в отпуске по уходу за ребенком до 3 лет</p>-->
-<!--                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-info">-->
-<!--                        <p>Я нахожусь в отпуске по уходу за ребенком до 3 лет</p>-->
-<!--                        <ol class="participation__slide-rules">-->
-<!--                            <li>Оставьте заявку, выбрав в разделе «Категория участника» вариант <b>«Граждане, находящиеся в отпуске по уходу за ребенком в возрасте до 3 лет»</b>.</li>-->
-<!--                            <li>Подтвердите заявку на портале « абота  оссии».</li>-->
-<!--                            <li>Загрузите документы в Личный кабинет гражданина(паспорт, аттестат об образовании, при наличии свидетельство о смене фамилии).</li>-->
-<!--                            <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>-->
-<!--                        </ol>-->
-<!--                        <ol class="participation__slide-documents">-->
-<!--                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>-->
-<!--                            <li>Копия документа, связанного с работой и подтверждающего нахождения в отпуске по уходу за ребенком до достижения им возраста трех лет (в том числе и до 1,5 лет)</li>-->
-<!--                            <li>Свидетельство о рождении ребенка</li>-->
-<!--                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>-->
-<!--                        </ol>-->
-<!--                        <a href="#"></a>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="participation__slide swiper-slide">-->
-<!--                    <div class="participation__slide-image">-->
-<!--                        <img src="images/4.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография гражданина старше 50 лет">-->
-<!--                        <div class="swiper-lazy-preloader"></div>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-content">-->
-<!--                        <p>Я гражданин старше 50 лет</p>-->
-<!--                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-info">-->
-<!--                        <p>Я гражданин старше 50 лет</p>-->
-<!--                        <ol class="participation__slide-rules">-->
-<!--                            <li>Оставьте заявку, выбрав в разделе «Категория участника» вариант <b>«Лица в возрасте 50-ти лет и старше»</b>.</li>-->
-<!--                            <li>Подтвердите заявку на портале « абота  оссии».</li>-->
-<!--                            <li>Загрузите документы в Личный кабинет гражданина (паспорт, диплом об образовании, при наличии — свидетельство о смене фамилии).</li>-->
-<!--                            <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>-->
-<!--                        </ol>-->
-<!--                        <ol class="participation__slide-documents">-->
-<!--                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>-->
-<!--                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>-->
-<!--                        </ol>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="participation__slide swiper-slide">-->
-<!--                    <div class="participation__slide-image">-->
-<!--                        <img src="images/7.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">-->
-<!--                        <div class="swiper-lazy-preloader"></div>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-content">-->
-<!--                        <p><span class="note">*</span> Я ищу работу уже 4 месяца с даты завершения обучения</p>-->
-<!--                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-info">-->
-<!--                        <p>Я ищу работу уже 4 месяца с даты завершения обучения</p>-->
-<!--                        <ol class="participation__slide-rules">-->
-<!--                            <li>Оставьте заявку, выбрав в разделе «Категория участника» вариант <b>«Граждане до 35 лет включительно, не занятые по истечении 4 месяцев с даты выдачи им документа об образовании и о квалификации»</b>.</li>-->
-<!--                            <li>Подтвердите заявку на портале « абота  оссии».</li>-->
-<!--                            <li>Загрузите документы в Личный кабинет гражданина (паспорт, диплом об образовании, при наличии — свидетельство о смене фамилии).</li>-->
-<!--                            <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>-->
-<!--                        </ol>-->
-<!--                        <ol class="participation__slide-documents">-->
-<!--                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>-->
-<!--                            <li>Трудовая книжка или документ, ее замещающий.</li>-->
-<!--                            <li>Справка об отсутствии статуса индивидуального предпринимателя, формирующаяся на основании данных ЕГ ИП из ФНС.</li>-->
-<!--                            <li>Справка (извещение) о состоянии лицевого счета из ПФ  (в данном документе видно, что отсутствуют страховые поступления).</li>-->
-<!--                            <li>Документ об образовании и (или) о квалификации, или документ, заменяющий их.</li>-->
-<!--                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>-->
-<!--                        </ol>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="participation__slide swiper-slide">-->
-<!--                    <div class="participation__slide-image">-->
-<!--                        <img src="images/3.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография мамы с ребёнком">-->
-<!--                        <div class="swiper-lazy-preloader"></div>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-content">-->
-<!--                        <p>Я мама ребенка до 7 лет и ищу работу</p>-->
-<!--                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-info">-->
-<!--                        <p>Я мама ребенка до 7 лет и ищу работу</p>-->
-<!--                        <ol class="participation__slide-rules">-->
-<!--                            <li>Оставьте заявку, выбрав в разделе «Категория участника» вариант <b>«Женщины, имеющие детей дошкольного возраста, не состоящие в трудовых отношениях»</b>.</li>-->
-<!--                            <li>Подтвердите заявку на портале « абота  оссии».</li>-->
-<!--                            <li>Загрузите документы в Личный кабинет гражданина (паспорт, диплом об образовании, при наличии — свидетельство о смене фамилии).</li>-->
-<!--                            <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>-->
-<!--                        </ol>-->
-<!--                        <ol class="participation__slide-documents">-->
-<!--                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>-->
-<!--                            <li>Свидетельство о рождении ребенка.</li>-->
-<!--                            <li>Справка об отсутствии статуса индивидуального предпринимателя, формирующаяся на основании данных ЕГ ИП из ФНС</li>-->
-<!--                            <li>Справка (извещение) о состоянии лицевого счета из ПФ  (в данном документе видно, что отсутствуют страховые поступления).</li>-->
-<!--                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>-->
-<!--                        </ol>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="participation__slide swiper-slide">-->
-<!--                    <div class="participation__slide-image">-->
-<!--                        <img src="images/5.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография предпенсионера">-->
-<!--                        <div class="swiper-lazy-preloader"></div>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-content">-->
-<!--                        <p>Я предпенсионер</p>-->
-<!--                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-info">-->
-<!--                        <p>Я предпенсионер</p>-->
-<!--                        <ol class="participation__slide-rules">-->
-<!--                            <li>Оставьте заявку, выбрав в разделе «Категория участника» вариант <b>«Гражданин предпенсионного возраста»</b>.</li>-->
-<!--                            <li>Подтвердите заявку на портале « абота  оссии».</li>-->
-<!--                            <li>Загрузите документы в Личный кабинет гражданина (паспорт, диплом об образовании, при наличии — свидетельство о смене фамилии).</li>-->
-<!--                            <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>-->
-<!--                        </ol>-->
-<!--                        <ol class="participation__slide-documents">-->
-<!--                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>-->
-<!--                            <li>Справка об отнесении к категории предпенсионера из ПФ .</li>-->
-<!--                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>-->
-<!--                        </ol>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="participation__slide swiper-slide">-->
-<!--                    <div class="participation__slide-image">-->
-<!--                        <img src="images/6.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография безработного">-->
-<!--                        <div class="swiper-lazy-preloader"></div>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-content">-->
-<!--                        <p>Я зарегистрирован в качестве безработного</p>-->
-<!--                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-info">-->
-<!--                        <p>Я зарегистрирован в качестве безработного</p>-->
-<!--                        <ol class="participation__slide-rules">-->
-<!--                            <li>Оставьте заявку, выбрав в разделе «Категория участника» вариант <b>«Безработные граждане, зарегистрированные в органах службы занятости»</b>.</li>-->
-<!--                            <li>Подтвердите заявку на портале « абота  оссии».</li>-->
-<!--                            <li>Загрузите документы в Личный кабинет гражданина (паспорт, диплом об образовании, при наличии — свидетельство о смене фамилии).</li>-->
-<!--                            <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>-->
-<!--                        </ol>-->
-<!--                        <ol class="participation__slide-documents">-->
-<!--                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>-->
-<!--                            <li>Копия трудовой книжки или документ, ее заменяющий.</li>-->
-<!--                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>-->
-<!--                        </ol>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--                <li class="participation__slide swiper-slide">-->
-<!--                    <div class="participation__slide-image">-->
-<!--                        <img src="images/8.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография безработного">-->
-<!--                        <div class="swiper-lazy-preloader"></div>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-content">-->
-<!--                        <p>Я прошел военную службу и ищу работу более 4 месяцев</p>-->
-<!--                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>-->
-<!--                    </div>-->
-<!--                    <div class="participation__slide-info">-->
-<!--                        <p>Я прошел военную службу и ищу работу более 4 месяцев</p>-->
-<!--                        <ol class="participation__slide-rules">-->
-<!--                            <li>Оставьте заявку, выбрав в разделе «Категория участника» вариант <b>«Граждане до 35 лет включительно, не занятые по истечении 4 месяцев с даты окончания военной службы по призыву»</b>.</li>-->
-<!--                            <li>Подтвердите заявку на портале « абота  оссии».</li>-->
-<!--                            <li>Загрузите документы в Личный кабинет гражданина (паспорт, диплом об образовании, при наличии — свидетельство о смене фамилии).</li>-->
-<!--                            <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>-->
-<!--                        </ol>-->
-<!--                        <ol class="participation__slide-documents">-->
-<!--                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>-->
-<!--                            <li>Копия трудовой книжки или документ, ее заменяющий.</li>-->
-<!--                            <li>Справка об отсутствии статуса индивидуального предпринимателя, формирующаяся на основании данных ЕГ ИП из ФНС.</li>-->
-<!--                            <li>Справка (извещение) о состоянии лицевого счета из ПФ  (в данном документе видно, что отсутствуют страховые поступления).</li>-->
-<!--                            <li>Справка из военкомата, подтверждающая дату окончания военной службы по призыву.</li>-->
-<!--                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>-->
-<!--                        </ol>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
+
+        <div class="participation__slider swiper">
+
+            <ul class="participation__slides swiper-wrapper">
+
+                <li class="participation__slide swiper-slide">
+
+                    <div class="participation__slide-image">
+                        <img src="images/10.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">
+                        <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="participation__slide-content">
+                        <p>Я трудоустроен или ищу работу</p>
+                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
+                    </div>
+                    <div class="participation__slide-info">
+                        <p>Я трудоустроен или ищу работу</p>
+                        <ol class="participation__slide-rules">
+                            <li>Предоставьте документы, подтверждающие категорию участника <b>в Центр занятости населения</b> (ЦЗН).</li>
+                        </ol>
+                        <ol class="participation__slide-documents">
+                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>
+                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>
+                        </ol>
+                    </div>
+
+                </li>
+                <li class="participation__slide swiper-slide">
+
+                    <div class="participation__slide-image">
+                        <img src="images/11.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
+                        <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="participation__slide-content">
+                        <p>Я работник, находящийся под риском увольнения</p>
+                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
+                    </div>
+                    <div class="participation__slide-info">
+                        <p>Я работник, находящийся под риском увольнения</p>
+                        <ol class="participation__slide-rules">
+                            <li>Подтвердите заявку на портале « абота в оссии».</li>
+                            <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>
+                        </ol>
+                        <ol class="participation__slide-documents">
+                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>
+                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>
+                        </ol>
+                    </div>
+
+                </li>
+
+                <li class="participation__slide swiper-slide">
+
+                    <div class="participation__slide-image">
+                        <img src="images/10.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">
+                        <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="participation__slide-content">
+                        <p>Я трудоустроен или ищу работу</p>
+                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
+                    </div>
+                    <div class="participation__slide-info">
+                        <p>Я трудоустроен или ищу работу</p>
+                        <ol class="participation__slide-rules">
+                            <li>Предоставьте документы, подтверждающие категорию участника <b>в Центр занятости населения</b> (ЦЗН).</li>
+                        </ol>
+                        <ol class="participation__slide-documents">
+                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>
+                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>
+                        </ol>
+                    </div>
+
+                </li>
+                <li class="participation__slide swiper-slide">
+
+                    <div class="participation__slide-image">
+                        <img src="images/11.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
+                        <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="participation__slide-content">
+                        <p>Я работник, находящийся под риском увольнения</p>
+                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
+                    </div>
+                    <div class="participation__slide-info">
+                        <p>Я работник, находящийся под риском увольнения</p>
+                        <ol class="participation__slide-rules">
+                            <li>Подтвердите заявку на портале « абота в оссии».</li>
+                            <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>
+                        </ol>
+                        <ol class="participation__slide-documents">
+                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>
+                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>
+                        </ol>
+                    </div>
+
+                </li>
+
+                <li class="participation__slide swiper-slide">
+
+                    <div class="participation__slide-image">
+                        <img src="images/10.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">
+                        <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="participation__slide-content">
+                        <p>Я трудоустроен или ищу работу</p>
+                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
+                    </div>
+                    <div class="participation__slide-info">
+                        <p>Я трудоустроен или ищу работу</p>
+                        <ol class="participation__slide-rules">
+                            <li>Предоставьте документы, подтверждающие категорию участника <b>в Центр занятости населения</b> (ЦЗН).</li>
+                        </ol>
+                        <ol class="participation__slide-documents">
+                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>
+                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>
+                        </ol>
+                    </div>
+
+                </li>
+                <li class="participation__slide swiper-slide">
+
+                    <div class="participation__slide-image">
+                        <img src="images/11.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
+                        <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="participation__slide-content">
+                        <p>Я работник, находящийся под риском увольнения</p>
+                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
+                    </div>
+                    <div class="participation__slide-info">
+                        <p>Я работник, находящийся под риском увольнения</p>
+                        <ol class="participation__slide-rules">
+                            <li>Подтвердите заявку на портале « абота в оссии».</li>
+                            <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>
+                        </ol>
+                        <ol class="participation__slide-documents">
+                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>
+                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>
+                        </ol>
+                    </div>
+
+                </li>
+
+
+
+
+            </ul>
+            <div class="swiper-pagination"></div>
+        </div>
+
         <div class="container">
             <p class="participation__accent">Категории, выделенные <span class="note">звездочкой</span>, предназначены для лиц до 35 лет включительно</p>
         </div>
     </section>
+
+
+
 
     <section class="d-none">
         <div class="participation__modal custom-modal__hidden" id="participation-modal">
