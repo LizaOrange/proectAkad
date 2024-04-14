@@ -10,8 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8d6557c-9758-42fb-b9c9-ec6c183c2ac3" name="Default Changelist" comment="INIT">
+    <list default="true" id="a8d6557c-9758-42fb-b9c9-ec6c183c2ac3" name="Default Changelist" comment="внесены правки по тексту, закончена верстка блоков кроме слайдеров и всплывающих">
+      <change afterPath="$PROJECT_DIR$/modal.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +61,7 @@
       <workItem from="1712910792662" duration="38290000" />
       <workItem from="1713021036203" duration="18130000" />
       <workItem from="1713089301670" duration="60000" />
-      <workItem from="1713089379089" duration="11667000" />
+      <workItem from="1713089379089" duration="15409000" />
     </task>
     <task id="LOCAL-00001" summary="INIT">
       <created>1713089446297</created>
@@ -67,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713089446297</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="внесены правки по тексту, закончена верстка блоков кроме слайдеров и всплывающих">
+      <created>1713109226512</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713109226512</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -87,13 +97,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="INIT" />
-    <option name="LAST_COMMIT_MESSAGE" value="INIT" />
+    <MESSAGE value="внесены правки по тексту, закончена верстка блоков кроме слайдеров и всплывающих" />
+    <option name="LAST_COMMIT_MESSAGE" value="внесены правки по тексту, закончена верстка блоков кроме слайдеров и всплывающих" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1712912016881">
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1713110067427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1712912016881" />
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1713110067427" />
     <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1712942326398">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
