@@ -105,10 +105,3 @@
 <!--        </div>-->
     </div>
 </footer>
-
-</div>
-
-<script src="js/main.js"></script>
-<script src="js/slider.js"></script>
-</body>
-</html>
