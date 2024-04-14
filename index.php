@@ -953,11 +953,10 @@
 
 
 
-
-
 </main>
 
 
 
 
 <?php include 'footer.php'; ?>
+<?php include 'modal.php'; ?>
