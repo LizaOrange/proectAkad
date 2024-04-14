@@ -10,10 +10,6 @@
                     <p class="home__description">И получите помощь с трудоустройством от государства с зарплатой от 65 000 рублей</p>
                     <p class="home__description_p2">*по данным hh.ru</p>
                     <button type="button" class="btn">Начать обучение</button> <!-- data-modal-id="modal-main-form" data-modal-open=""-->
-<<<<<<< HEAD
-=======
-
->>>>>>> 1e71c66591973f97d9819d695112a2e743a6baaf
                 </div>
             </div>
         </div>
@@ -588,11 +584,11 @@
         <div class="container">
             <h2>Отзывы о программе обучения</h2>
             <div class="cases__wrap">
-<!--                <div class="cases__navigation slider-navigation">-->
-<!--                    <button class="slider-navigation__button slider-navigation__button--prev" type="button"></button>-->
-<!--                    <div class="swiper-pagination"></div>-->
-<!--                    <button class="slider-navigation__button slider-navigation__button--next" type="button"></button>-->
-<!--                </div>-->
+                <div class="cases__navigation slider-navigation">
+                    <button class="slider-navigation__button slider-navigation__button--prev" type="button"></button>
+                    <div class="swiper-pagination"></div>
+                    <button class="slider-navigation__button slider-navigation__button--next" type="button"></button>
+                </div>
 
                 <div class="cases__slider swiper">
                     <div class="cases__slides swiper-wrapper">
