@@ -320,7 +320,7 @@
 
     <section class="program">
         <div class="container">
-            <h2>Программа обучения</h2>
+            <h2 id="program_start">Программа обучения</h2>
 
             <dl class="program__description">
                 <div class="program__description-item">
@@ -344,7 +344,7 @@
             <ol class="program__modules" data-accordion="parent" data-single="">
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Администратор гостиницы</h3>
+                    <h3 class="program__module-title">1Администратор гостиницы</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Приветствие. Введение в проект</li>
                         <li>• Нормативно-правовые аспекты самозанятости</li>
@@ -360,7 +360,7 @@
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Психологическая диагностика</h3>
+                    <h3 class="program__module-title">2Психологическая диагностика</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Методы психодиагностики в психологическом консультировании</li>
                         <li>• Тестовые методики: область применения и анализ</li>
@@ -370,7 +370,7 @@
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Психологическая диагностика</h3>
+                    <h3 class="program__module-title">3Психологическая диагностика</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Методы психодиагностики в психологическом консультировании</li>
                         <li>• Тестовые методики: область применения и анализ</li>
@@ -380,7 +380,7 @@
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Психологическая диагностика</h3>
+                    <h3 class="program__module-title">4Психологическая диагностика</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Методы психодиагностики в психологическом консультировании</li>
                         <li>• Тестовые методики: область применения и анализ</li>
@@ -390,7 +390,7 @@
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Психологическая диагностика</h3>
+                    <h3 class="program__module-title">5Психологическая диагностика</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Методы психодиагностики в психологическом консультировании</li>
                         <li>• Тестовые методики: область применения и анализ</li>
@@ -400,7 +400,7 @@
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Психологическая диагностика</h3>
+                    <h3 class="program__module-title">6Психологическая диагностика</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Методы психодиагностики в психологическом консультировании</li>
                         <li>• Тестовые методики: область применения и анализ</li>
@@ -410,7 +410,7 @@
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Психологическая диагностика</h3>
+                    <h3 class="program__module-title">7Психологическая диагностика</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Методы психодиагностики в психологическом консультировании</li>
                         <li>• Тестовые методики: область применения и анализ</li>
@@ -420,7 +420,7 @@
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Психологическая диагностика</h3>
+                    <h3 class="program__module-title">8Психологическая диагностика</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Методы психодиагностики в психологическом консультировании</li>
                         <li>• Тестовые методики: область применения и анализ</li>
@@ -430,7 +430,67 @@
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Психологическая диагностика</h3>
+                    <h3 class="program__module-title">9Психологическая диагностика</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Методы психодиагностики в психологическом консультировании</li>
+                        <li>• Тестовые методики: область применения и анализ</li>
+                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">10Психологическая диагностика</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Методы психодиагностики в психологическом консультировании</li>
+                        <li>• Тестовые методики: область применения и анализ</li>
+                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">11Психологическая диагностика</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Методы психодиагностики в психологическом консультировании</li>
+                        <li>• Тестовые методики: область применения и анализ</li>
+                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">12Психологическая диагностика</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Методы психодиагностики в психологическом консультировании</li>
+                        <li>• Тестовые методики: область применения и анализ</li>
+                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">13Психологическая диагностика</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Методы психодиагностики в психологическом консультировании</li>
+                        <li>• Тестовые методики: область применения и анализ</li>
+                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">14Психологическая диагностика</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Методы психодиагностики в психологическом консультировании</li>
+                        <li>• Тестовые методики: область применения и анализ</li>
+                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">15Психологическая диагностика</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Методы психодиагностики в психологическом консультировании</li>
                         <li>• Тестовые методики: область применения и анализ</li>

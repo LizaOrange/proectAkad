@@ -33,14 +33,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
 //кнопка "показать еще"
 document.addEventListener("DOMContentLoaded", function() {
-    var modules = document.querySelectorAll('.program__module');
-    var showButton = document.querySelector('.show-button');
-    var numToShow = 4; // Количество модулей для отображения при первой загрузке
-    var numToIncrement = 4; // Количество модулей для добавления при каждом нажатии на кнопку
-    var totalModules = modules.length;
+    let modules = document.querySelectorAll('.program__module');
+    let showButton = document.querySelector('.show-button');
+    let numToShow = 4; // Количество модулей для отображения при первой загрузке
+    let numToIncrement = 4; // Количество модулей для добавления при каждом нажатии на кнопку
+    let totalModules = modules.length;
 
     // Показать только первые модули
-    for (var i = 0; i < totalModules; i++) {
+    for (let i = 0; i < totalModules; i++) {
         if (i < numToShow) {
             modules[i].style.display = 'block';
         } else {
@@ -48,25 +48,30 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    // Обработчик клика на кнопку "Показать еще"
+    // Обработчик клика на кнопку "Показать еще" или "Свернуть"
     showButton.addEventListener('click', function() {
-        var currentlyShown = document.querySelectorAll('.program__module[style="display: block;"]');
-        var numCurrentlyShown = currentlyShown.length;
+        let currentlyShown = document.querySelectorAll('.program__module[style="display: block;"]');
+        let numCurrentlyShown = currentlyShown.length;
 
-        // Если есть еще модули для показа
-        if (numCurrentlyShown + numToIncrement <= totalModules) {
-            for (var i = numCurrentlyShown; i < numCurrentlyShown + numToIncrement; i++) {
-                modules[i].style.display = 'block';
+        if (this.textContent === 'Показать еще') {
+            // Если есть еще модули для показа
+            if (numCurrentlyShown < totalModules) {
+                for (let i = numCurrentlyShown; i < numCurrentlyShown + numToIncrement && i < totalModules; i++) {
+                    modules[i].style.display = 'block';
+                }
+                // Если показаны все модули
+                if (numCurrentlyShown + numToIncrement >= totalModules) {
+                    this.textContent = 'Свернуть';
+                }
             }
-            // Если показаны все модули
-            if (numCurrentlyShown + numToIncrement >= totalModules) {
-                this.textContent = 'Свернуть';
-            }
-        } else { // Скрыть дополнительные модули
-            for (var i = numCurrentlyShown; i < totalModules; i++) {
+        } else {
+            // Скрыть дополнительные модули
+            for (let i = numToShow; i < totalModules; i++) {
                 modules[i].style.display = 'none';
             }
             this.textContent = 'Показать еще';
+            // Прокрутить страницу к началу блока с модулями
+            document.getElementById('program_start').scrollIntoView({ behavior: 'smooth' });
         }
     });
 });
@@ -74,10 +79,10 @@ document.addEventListener("DOMContentLoaded", function() {
 //форма заявки
 document.addEventListener("DOMContentLoaded", function() {
     // Получите ссылки на ваши элементы select
-    var categorySelect = document.getElementById('Category');
-    var employmentFormatSelect = document.getElementById('EmploymentFormat');
-    var regionsSelect = document.getElementById('Regions');
-    var educationSelect = document.getElementById('Education');
+    let categorySelect = document.getElementById('Category');
+    let employmentFormatSelect = document.getElementById('EmploymentFormat');
+    let regionsSelect = document.getElementById('Regions');
+    let educationSelect = document.getElementById('Education');
 
     // Инициализация Select2 для каждого элемента select
     if (categorySelect) {
