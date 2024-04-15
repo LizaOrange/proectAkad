@@ -42,7 +42,7 @@ const swiperCases = new Swiper('.cases__slider', {
     loop: true,
 
     // Default parameters
-    slidesPerView: 5,
+    slidesPerView: 4,
     spaceBetween: 30,
 
     // Responsive breakpoints
@@ -59,7 +59,7 @@ const swiperCases = new Swiper('.cases__slider', {
         },
         // when window width is >= 640px
         640: {
-            slidesPerView: 5,
+            slidesPerView: 4,
             spaceBetween: 30
         }
     },

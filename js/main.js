@@ -11,7 +11,7 @@ t = document.querySelector(".header-btn"),
 })));
 
 
-//выподающий список
+//выпадающий список
 document.addEventListener("DOMContentLoaded", function() {
     let moduleButtons = document.querySelectorAll('.program__module-button');
 

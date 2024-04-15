@@ -3564,7 +3564,7 @@ section {
 .cases__slide {
     position: relative;
     overflow: hidden;
-    height: auto;
+    height: auto!important;
     background-color: #fff;
     padding: 2.5rem 1.25rem;
     border-radius: 20px
