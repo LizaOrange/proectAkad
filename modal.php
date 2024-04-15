@@ -92,7 +92,9 @@
 
 </div>
 
-<script src="js/main.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/select2.min.js"></script>
 <script src="js/slider.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>

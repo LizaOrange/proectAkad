@@ -71,6 +71,32 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+//форма заявки
+document.addEventListener("DOMContentLoaded", function() {
+    // Получите ссылки на ваши элементы select
+    var categorySelect = document.getElementById('Category');
+    var employmentFormatSelect = document.getElementById('EmploymentFormat');
+    var regionsSelect = document.getElementById('Regions');
+    var educationSelect = document.getElementById('Education');
+
+    // Инициализация Select2 для каждого элемента select
+    if (categorySelect) {
+        $(categorySelect).select2();
+    }
+
+    if (employmentFormatSelect) {
+        $(employmentFormatSelect).select2();
+    }
+
+    if (regionsSelect) {
+        $(regionsSelect).select2();
+    }
+
+    if (educationSelect) {
+        $(educationSelect).select2();
+    }
+});
+
 
 
 
