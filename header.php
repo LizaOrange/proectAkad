@@ -6,16 +6,16 @@
 
             <div class="header-social">
                 <a class="header-social__logo" href="#" target="_blank">
-                    <img src="images/cosmosacademy.png" loading="eager" alt="">
+                    <img src="images/cosmosacademy.png" loading="eager" alt="Космос Академия">
                 </a>
                 <a class="header-social__link" href="#" target="_blank">
-                    <img src="images/Logo2.png" loading="eager" alt="">
+                    <img src="images/Logo2.png" loading="eager" alt="Минтруд РФ">
                 </a>
                 <a class="header-social__link" href="#" target="_blank">
-                    <img src="images/Logo3.png" loading="eager" alt="">
+                    <img src="images/Logo3.png" loading="eager" alt="Томский Государственный Университет">
                 </a>
                 <a class="header-social__link" href="#" target="_blank">
-                    <img src="images/Logo4.png" loading="eager" alt="">
+                    <img src="images/Logo4.png" loading="eager" alt="Национальные проекты России">
                 </a>
             </div>
 
@@ -25,7 +25,7 @@
                 </div>
                 <div class="header-wrapper">
 <!--                    <div class="header-logo">-->
-<!--                        <a href="/"><img src="images/sigma.svg" loading="eager" alt="Sigma Academy"></a>-->
+<!--                        <a href="/"><img src="images" loading="eager" alt=""></a>-->
 <!--                    </div>-->
                     <div class="header__links">
                         <a class="header__link" href="#">О проекте</a>
