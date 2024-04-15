@@ -94,7 +94,7 @@ section {
 .note {
     font-family: "Montserrat-Semibold", sans-serif;
     font-weight: 600;
-    color: #703eff
+    color: #575757
 }
 
 .visually-hidden {
@@ -815,11 +815,11 @@ section {
     width: fit-content;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    background-color: #703eff;
+    background-color: #587abc;
     padding: 1.25rem 2.5rem;
     border-radius: 3.75rem;
-    -webkit-box-shadow: 0px 8px 13px 0px #cabaf6 inset, 0px -7px 23px 0px #4522a9 inset;
-    box-shadow: 0px 8px 13px 0px #cabaf6 inset, 0px -7px 23px 0px #4522a9 inset;
+    -webkit-box-shadow: 0px 8px 13px 0px #cabaf6 inset, 0px -7px 23px 0px #25408f inset;
+    box-shadow: 0px 8px 13px 0px #cabaf6 inset, 0px -7px 23px 0px #25408f inset;
     color: #fff;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
@@ -1051,7 +1051,7 @@ section {
 
 .resolution__block {
     position: relative;
-    background-color: #c8f69a;
+    background-color: #587abc;
     border-radius: 1.25rem;
     padding: 1.5rem 2.25rem 1.5rem 9.8125rem;
     display: -webkit-box;
@@ -1103,6 +1103,7 @@ section {
 
 .resolution__block p {
     font-family: "Montserrat-Semibold", sans-serif;
+    color: #ffffff;
     font-weight: 600;
     font-size: 1.375rem;
     line-height: normal
@@ -1159,7 +1160,7 @@ section {
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
-    background-color: #c8f69a;
+    background-color: #587abc;
     background-repeat: no-repeat;
     background-position: center
 }
@@ -1301,7 +1302,7 @@ section {
 /*блок со слайдером participation*/
 
 .participation {
-    background-color: #c8f69a;
+    background-color: #587abc;
     padding: 2.5rem 0 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1543,7 +1544,7 @@ section {
     text-align: center;
     font-size: 1rem;
     line-height: 1.375rem;
-    border: .125rem solid #703eff;
+    border: .125rem solid #575757;
     margin-bottom: 2.5rem
 }
 
@@ -2134,7 +2135,7 @@ section {
 }
 
 .demand__wrapper {
-    background-color: #703eff;
+    background-color: #25408f;
     padding: 1.625rem 7rem;
     border-radius: 1.25rem;
     display: -webkit-box;
@@ -2240,7 +2241,7 @@ section {
     content: "";
     width: 3.375rem;
     height: 3.375rem;
-    background-color: #c8f69a;
+    background-color: #587abc;
     border-radius: 50%;
     background-position: center;
     background-repeat: no-repeat;
@@ -2309,7 +2310,7 @@ section {
     gap: .75rem;
     border-radius: 1.25rem;
     padding: 1.25rem;
-    border: .125rem solid #703eff;
+    border: .125rem solid #25408f;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
     font-size: 1rem;
@@ -2362,7 +2363,7 @@ section {
     width: 3.125rem;
     height: 3.125rem;
     border-radius: 50%;
-    background-color: #703eff;
+    background-color: #25408f;
     background-image: url("../images/check.svg");
     background-repeat: no-repeat;
     background-position: center;
@@ -2390,7 +2391,7 @@ section {
     -ms-flex-pack: justify;
     justify-content: space-between;
     border-radius: 1.25rem;
-    background-color: #c8f69a;
+    background-color: #25408f;
     padding: 1.25rem 3.4375rem;
     margin-bottom: 2.5rem
 }
@@ -2446,7 +2447,7 @@ section {
     font-size: 1.25rem;
     line-height: normal;
     padding: .75rem 1.25rem;
-    background-color: #703eff;
+    background-color: #587abc;
     border-radius: 18.75rem;
     color: #fff
 }
@@ -2702,7 +2703,7 @@ section {
     content: "";
     width: 3.375rem;
     height: 3.375rem;
-    background-color: #703eff;
+    background-color: #25408f;
     border-radius: 50%
 }
 
@@ -2754,7 +2755,7 @@ section {
     height: .375rem;
     left: .5rem;
     top: .5rem;
-    background-color: #703eff;
+    background-color: #25408f;
     border-radius: 50%
 }
 
@@ -2795,8 +2796,8 @@ section {
     top: -2.5rem;
     width: 48%;
     height: auto;
-    aspect-ratio: 200/140;
-    background-color: #c8f69a;
+    aspect-ratio: 200/200;
+    background-color: #587abc;
     border-radius: 1.875rem;
     -webkit-transform: rotate(-10deg);
     -ms-transform: rotate(-10deg);
@@ -3040,7 +3041,7 @@ section {
     font-weight: 700;
     font-size: 1.25rem;
     line-height: 1.5rem;
-    color: #703eff
+    color: #25408f
 }
 
 @media (max-width: 767px) {
@@ -3921,7 +3922,7 @@ section {
 }
 
 .join__item h4 {
-    color: #c8f69a;
+    color: #587abc;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
     font-size: 5.5rem;
@@ -3975,7 +3976,7 @@ section {
 }
 
 .join--program .join__item h4 {
-    color: #703eff
+    color: #25408f
 }
 
 .join--program .join__item p {
@@ -4191,7 +4192,7 @@ section {
 
 .form__info h2 {
     position: relative;
-    color: #703eff;
+    color: #25408f;
     font-family: "Montserrat-Bold", sans-serif;
     font-weight: 700;
     font-size: 3.375rem;
