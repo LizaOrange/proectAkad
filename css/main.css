@@ -2377,7 +2377,7 @@ section {
     }
 }
 
-/*с выпадающим меню*/
+/*программа с выпадающим меню*/
 
 .program__description {
     display: -webkit-box;
@@ -2593,6 +2593,45 @@ section {
         -ms-transform: rotate(90deg);
         transform: rotate(90deg)
     }
+}
+
+.show-button {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: normal;
+    margin: 3.75rem auto 0;
+    padding: 1.5625rem 6.5625rem;
+    border-radius: 3.75rem;
+    border: .125rem solid #1f1f1f;
+    color: #1f1f1f;
+    -webkit-transition: color .3s, background-color .3s;
+    transition: color .3s, background-color .3s
+}
+
+@media (max-width: 767px) {
+    .show-button {
+        font-family: "Montserrat-Semibold", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 22px;
+        padding: 18px 26px;
+        border-radius: 60px;
+        border: 1px solid #1f1f1f;
+        margin: 40px auto 0
+    }
+}
+
+.show-button:hover {
+    color: #fff;
+    background-color: #1f1f1f
+}
+
+.show-button.hidden {
+    display: none
 }
 
 /* результат обучения*/
