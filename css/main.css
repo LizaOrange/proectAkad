@@ -32,12 +32,32 @@ html {
         font-size: 100%
     }
 }
+@font-face {
+    font-family: "Circe-Bold";
+    src: url("../fonts/circe/Circe-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Circe-Regular";
+    src: url("../fonts/circe/Circe-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Circe-Light";
+    src: url("../fonts/circe/Circe-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
 
 body {
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400;
     color: #1f1f1f;
     overflow-x: hidden;
@@ -61,7 +81,7 @@ a {
     color: inherit
 }
 h2 {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 2.875rem;
     line-height: 3.375rem;
@@ -92,7 +112,7 @@ section {
     }
 }
 .note {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600;
     color: #575757
 }
@@ -199,13 +219,15 @@ section {
 .header-social {
     display: grid;
     grid-auto-flow: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    grid-column-gap: 25px;
-    -webkit-column-gap: 25px;
-    -moz-column-gap: 25px;
-    column-gap: 25px
+    justify-content: start;
+    align-content: center;
+    /*-webkit-box-align: center;*/
+    /*-ms-flex-align: center;*/
+    /*align-items: center;*/
+    /*grid-column-gap: 25px;*/
+    /*-webkit-column-gap: 25px;*/
+    /*-moz-column-gap: 25px;*/
+    /*column-gap: 25px*/
 }
 
 @media (max-width: 767px) {
@@ -213,7 +235,13 @@ section {
         display: none
     }
 }
-
+.header-social__logo{
+    align-content: center;
+    background-size: contain
+}
+.header-social__link{
+    height: 5rem;
+}
 .header-social__link img {
     display: block;
     -o-object-fit: contain;
@@ -222,6 +250,15 @@ section {
     max-width: 100%;
     height: 100%;
     min-height: 100%
+}
+.header-social__logo img {
+    display: block;
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 100%;
+    max-width: 100%;
+    height: 70%;
+    min-height: 70%
 }
 
 .header-content {
@@ -319,12 +356,12 @@ section {
 }
 
 .header__link--catalog {
-    border: .0625rem solid #703eff;
-    color: #703eff
+    border: .0625rem solid #25408f;
+    color: #25408f
 }
 
 .header__link--catalog:hover {
-    background-color: #703eff
+    background-color: #25408f
 }
 .header .popup-mob {
     position: absolute;
@@ -336,7 +373,7 @@ section {
     transition-duration: .5s;
     z-index: 9999;
     height: 100vh;
-    background-color: #703eff;
+    background-color: #25408f;
     color: #fff;
     font-size: 16px;
     line-height: normal
@@ -361,7 +398,7 @@ section {
     border-radius: 100px;
     border: 2px solid #fff;
     font-size: 18px;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     line-height: normal;
     padding: 25px 0
@@ -690,7 +727,7 @@ section {
 }
 
 .home__title {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 2rem;
     line-height: 2.375rem;
@@ -728,7 +765,7 @@ section {
 }
 
 .home__title span {
-    color: #703eff
+    color: #25408f
 }
 
 @media screen and (max-width: 1440px) {
@@ -766,8 +803,8 @@ section {
 }
 
 /**.home__description span {
-    color: #703eff;
-    font-family: "Montserrat-Semibold", sans-serif;
+    color: #25408f;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
@@ -778,7 +815,7 @@ section {
 }
 
 .home__description-gift span {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700
 }
 
@@ -821,7 +858,7 @@ section {
     -webkit-box-shadow: 0px 8px 13px 0px #cabaf6 inset, 0px -7px 23px 0px #25408f inset;
     box-shadow: 0px 8px 13px 0px #cabaf6 inset, 0px -7px 23px 0px #25408f inset;
     color: #fff;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.375rem;
     line-height: normal;
@@ -841,7 +878,7 @@ section {
 }
 
 .btn:hover {
-    background-color: #4e21ce;
+    background-color: #25408f;
     -webkit-box-shadow: 0px 8px 13px 0px #cabaf6 inset, 0px -7px 23px 0px #4522a9 inset;
     box-shadow: 0px 8px 13px 0px #cabaf6 inset, 0px -7px 23px 0px #4522a9 inset
 }
@@ -991,8 +1028,8 @@ section {
 }
 
 /**.federation__description span {
-    color: #703eff;
-    font-family: "Montserrat-Semibold", sans-serif;
+    color: #25408f;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
@@ -1003,7 +1040,7 @@ section {
 }
 
 .federation__description-gift span {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700
 }
 
@@ -1102,7 +1139,7 @@ section {
 }
 
 .resolution__block p {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     color: #ffffff;
     font-weight: 600;
     font-size: 1.375rem;
@@ -1207,7 +1244,7 @@ section {
 .about__item h4 {
     position: relative;
     z-index: 1;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.375rem;
     line-height: normal
@@ -1233,13 +1270,13 @@ section {
 }
 
 .about__item p strong {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
 .about__item p span {
-    color: #703eff;
-    font-family: "Montserrat-Semibold", sans-serif;
+    color: #25408f;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
@@ -1489,7 +1526,7 @@ section {
 
 @media (max-width: 767px) {
     .participation__slide-content p {
-        font-family: "Montserrat-Semibold", sans-serif;
+        font-family: "Circe-Bold", sans-serif;
         font-weight: 600;
         font-size: 14px;
         line-height: 21px;
@@ -1520,7 +1557,7 @@ section {
 
 @media (max-width: 767px) {
     .participation__slide-content button {
-        font-family: "Montserrat-Semibold", sans-serif;
+        font-family: "Circe-Bold", sans-serif;
         font-weight: 600;
         padding: 9px 0;
         font-size: 16px;
@@ -1554,7 +1591,7 @@ section {
         padding: 10px 16px;
         font-size: 16px;
         line-height: 22px;
-        border: 1px solid #703eff;
+        border: 1px solid #25408f;
         margin-bottom: 20px
     }
 }
@@ -1564,7 +1601,7 @@ section {
 }
 
 .participation__modal h2 {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.875rem;
     line-height: normal;
@@ -1625,11 +1662,11 @@ section {
 }
 
 .participation__rules-item h3 {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600;
     font-size: 1.125rem;
     line-height: normal;
-    color: #703eff;
+    color: #25408f;
     padding-bottom: 1.25rem;
     border-bottom: .0625rem solid #7c7c7c
 }
@@ -1674,14 +1711,14 @@ section {
 }
 
 .participation__rules-list b {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
 .participation__rules-list a {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
-    color: #703eff;
+    color: #25408f;
     -webkit-text-decoration: underline;
     text-decoration: underline;
     -webkit-transition: text-decoration-color .3s;
@@ -1970,7 +2007,7 @@ section {
 /*    animation: swiper-preloader-spin 1s infinite linear;*/
 /*    -webkit-box-sizing: border-box;*/
 /*    box-sizing: border-box;*/
-/*    border: 4px solid #703EFF;*/
+/*    border: 4px solid #25408f;*/
 /*    border: 4px solid var(--swiper-preloader-color, var(--swiper-theme-color));*/
 /*    border-radius: 50%;*/
 /*    border-top-color: rgba(0, 0, 0, 0)*/
@@ -2059,7 +2096,7 @@ section {
 
 .causes__item h5 {
     position: relative;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.375rem;
     line-height: normal;
@@ -2261,7 +2298,7 @@ section {
 }
 
 .demand__item b {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
@@ -2311,7 +2348,7 @@ section {
     border-radius: 1.25rem;
     padding: 1.25rem;
     border: .125rem solid #25408f;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1rem;
     line-height: 1.25rem;
@@ -2323,7 +2360,7 @@ section {
         gap: 10px;
         border-radius: 20px;
         padding: 25px 20px;
-        border: 2px solid #703eff;
+        border: 2px solid #25408f;
         font-size: 18px;
         line-height: normal;
         min-height: 0;
@@ -2337,16 +2374,16 @@ section {
 }
 
 .features__item p {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400;
     font-size: 1.125rem;
     line-height: normal
 }
 
 .features__item a {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600;
-    color: #703eff;
+    color: #25408f;
     -webkit-text-decoration: underline;
     text-decoration: underline;
     -webkit-transition: text-decoration-color .3s;
@@ -2442,7 +2479,7 @@ section {
 }
 
 .program__description-item dd {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.25rem;
     line-height: normal;
@@ -2510,7 +2547,7 @@ section {
 }
 
 .program__module-title {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.25rem;
     line-height: normal;
@@ -2600,7 +2637,7 @@ section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.375rem;
     line-height: normal;
@@ -2615,7 +2652,7 @@ section {
 
 @media (max-width: 767px) {
     .show-button {
-        font-family: "Montserrat-Semibold", sans-serif;
+        font-family: "Circe-Bold", sans-serif;
         font-weight: 600;
         font-size: 18px;
         line-height: 22px;
@@ -2674,7 +2711,7 @@ section {
 }
 
 .prospects__item h3 {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.375rem;
     line-height: normal;
@@ -2840,7 +2877,7 @@ section {
 }
 
 .prospects .prospects-bottom {
-    border: 2px solid #703eff;
+    border: 2px solid #25408f;
     border-radius: 20px
 }
 
@@ -2857,7 +2894,7 @@ section {
 .prospects .prospects-bottom .prospects-bottom__p {
     font-size: 1rem;
     line-height: 1.375rem;
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
@@ -3037,7 +3074,7 @@ section {
 
 .steps__item::before {
     content: "Шаг " counter(num) ".";
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.25rem;
     line-height: 1.5rem;
@@ -3073,13 +3110,13 @@ section {
 }
 
 .steps__item b {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
 .steps__item i {
     font-style: normal;
-    color: #703eff
+    color: #25408f
 }
 
 .steps__item-time {
@@ -3123,7 +3160,7 @@ section {
     width: 5.6875rem;
     height: 1.6875rem;
     border-radius: 1.875rem;
-    background-color: #703eff;
+    background-color: #25408f;
     color: #fff;
     font-size: 1.125rem;
     line-height: 1.5rem;
@@ -3222,7 +3259,7 @@ section {
 }
 
 .steps__modal strong {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.25rem;
     line-height: 1.5rem
@@ -3257,9 +3294,9 @@ section {
 }
 
 .steps__modal a {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600;
-    color: #703eff;
+    color: #25408f;
     -webkit-text-decoration: underline;
     text-decoration: underline;
     -webkit-transition: text-decoration-color .3s;
@@ -3271,16 +3308,16 @@ section {
 }
 
 .steps__modal b {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
 .steps__modal h4 {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.875rem;
     line-height: normal;
-    color: #703eff
+    color: #25408f
 }
 
 @media (max-width: 767px) {
@@ -3292,14 +3329,14 @@ section {
 .steps__bottom {
     margin-top: 2.5rem;
     border-radius: 18px;
-    border: 2px solid #703eff;
+    border: 2px solid #25408f;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
     padding: 2rem 0;
     font-size: 1rem;
     line-height: 1.375rem;
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600;
     text-align: center
 }
@@ -3314,7 +3351,7 @@ section {
 }
 
 .steps__bottom a {
-    color: #703eff;
+    color: #25408f;
     -webkit-text-decoration: underline;
     text-decoration: underline
 }
@@ -3356,7 +3393,7 @@ section {
     align-items: center;
     text-align: center;
     font-size: 1.4375rem;
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600;
     border-radius: 60px;
     padding: 1.25rem 2.5rem;
@@ -3380,13 +3417,13 @@ section {
 .steps__item-links .steps__item-link:first-child {
     -webkit-box-shadow: inset 0 8px 13px 0 #cabaf6, inset 0 -7px 23px 0 #4522a9;
     box-shadow: inset 0 8px 13px 0 #cabaf6, inset 0 -7px 23px 0 #4522a9;
-    background: #703eff;
+    background: #25408f;
     color: #fff
 }
 
 .steps__item-links .steps__item-link:last-child {
-    border: 2px solid #703eff;
-    color: #703eff
+    border: 2px solid #25408f;
+    color: #25408f
 }
 .formModal__modal-steps {
     display: -webkit-box;
@@ -3418,7 +3455,7 @@ section {
 .formModal__modal-steps span::after {
     position: absolute;
     content: "";
-    background-color: #703eff;
+    background-color: #25408f;
     left: 0;
     top: 0;
     height: .25rem;
@@ -3455,9 +3492,9 @@ section {
     background-color: #fff;
     padding: 1.25rem 2.5rem;
     border-radius: 3.75rem;
-    border: 1px solid #703eff;
-    color: #703eff;
-    font-family: "Montserrat-Bold", sans-serif;
+    border: 1px solid #25408f;
+    color: #25408f;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.375rem;
     line-height: normal;
@@ -3475,7 +3512,7 @@ section {
 }
 
 .btn-white:hover {
-    background-color: #703eff;
+    background-color: #25408f;
     color: #fff
 }
 
@@ -3583,7 +3620,7 @@ section {
 }
 
 .cases__slide-info h4 {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     margin-bottom: .25rem;
     font-size: 1.375rem;
@@ -3609,8 +3646,8 @@ section {
 }
 
 .cases__slide-info p span {
-    color: #703eff;
-    font-family: "Montserrat-Semibold", sans-serif;
+    color: #25408f;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
@@ -3666,7 +3703,7 @@ section {
     background-color: #fff;
     padding: 1.25rem;
     color: #1f1f1f;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.375rem;
     line-height: normal;
@@ -3676,7 +3713,7 @@ section {
 
 @media (max-width: 767px) {
     .cases__slide-btn button {
-        color: #703eff;
+        color: #25408f;
         font-size: 16px;
         line-height: 22px;
         padding: 0;
@@ -3697,7 +3734,7 @@ section {
 @media (max-width: 767px) {
     .cases__slide-btn button:hover {
         background-color: rgba(0, 0, 0, 0);
-        color: #703eff;
+        color: #25408f;
         opacity: .9
     }
 }
@@ -3764,7 +3801,7 @@ section {
 }
 
 .cases__modal-content__info h4 {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.75rem;
     line-height: normal;
@@ -3791,8 +3828,8 @@ section {
 }
 
 .cases__modal-content__info p span {
-    color: #703eff;
-    font-family: "Montserrat-Semibold", sans-serif;
+    color: #25408f;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
@@ -3809,7 +3846,7 @@ section {
 .join {
     position: relative;
     overflow: hidden;
-    background-color: #703eff;
+    background-color: #25408f;
     padding: 2.5rem 0 9.625rem
 }
 
@@ -3923,7 +3960,7 @@ section {
 
 .join__item h4 {
     color: #587abc;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 5.5rem;
     line-height: 3.375rem;
@@ -4041,7 +4078,7 @@ section {
 
 .other__item h5 {
     position: relative;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.375rem;
     line-height: normal;
@@ -4127,7 +4164,7 @@ section {
 
 @media (max-width: 767px) {
     .form {
-        background-color: #703eff;
+        background-color: #25408f;
         padding: 20px 20px 50px
     }
 }
@@ -4193,7 +4230,7 @@ section {
 .form__info h2 {
     position: relative;
     color: #25408f;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 3.375rem;
     line-height: 4rem;
@@ -4221,18 +4258,18 @@ section {
 }
 
 .form__info p strong {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
 .form__info p strong span {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
-    color: #703eff
+    color: #25408f
 }
 
 .form__info p b {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700
 }
 
@@ -4273,12 +4310,12 @@ section {
 
 .form__info-options div {
     border-radius: 6.25rem;
-    background-color: #703eff;
+    background-color: #25408f;
     padding: .625rem 1.25rem;
     color: #fff;
     font-size: 1.125rem;
     line-height: normal;
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
@@ -4322,7 +4359,7 @@ section {
 
 .form__panel h3 {
     text-align: center;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     margin-bottom: 3.75rem;
     font-size: 3.125rem;
@@ -4338,11 +4375,11 @@ section {
 }
 
 .form__lead {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600;
     font-size: 1.125rem;
     line-height: 1.5rem;
-    color: #703eff;
+    color: #25408f;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4352,7 +4389,7 @@ section {
     gap: .625rem;
     padding: 1.25rem;
     border-radius: .625rem;
-    border: .0625rem solid #703eff;
+    border: .0625rem solid #25408f;
     margin-bottom: 2.1875rem;
     text-align: left
 }
@@ -4368,7 +4405,7 @@ section {
         gap: 10px;
         padding: 20px;
         border-radius: 10px;
-        border: 1px solid #703eff;
+        border: 1px solid #25408f;
         margin-bottom: 30px
     }
 }
@@ -4428,9 +4465,9 @@ section {
     -ms-transform: translate(-6px, -50%);
     transform: translate(-6px, -50%);
     border: 4px solid #f9f9f9;
-    border-top: 4px solid #703eff;
-    border-right: 4px solid #703eff;
-    border-bottom: 4px solid #703eff;
+    border-top: 4px solid #25408f;
+    border-right: 4px solid #25408f;
+    border-bottom: 4px solid #25408f;
     border-radius: 50%;
     width: 23px;
     height: 23px;
@@ -4466,15 +4503,15 @@ section {
 }
 
 .form__field .datepicker__header {
-    background: #703eff
+    background: #25408f
 }
 
 .form__field .datepicker table th {
-    color: #703eff
+    color: #25408f
 }
 
 .form__field .datepicker__day.is-today {
-    color: #703eff
+    color: #25408f
 }
 
 .form__field .datepicker__day.is-today div {
@@ -4482,7 +4519,7 @@ section {
 }
 
 .form__field .datepicker__day.is-selected div {
-    background: #703eff
+    background: #25408f
 }
 
 .form__field span.select2 {
@@ -4502,7 +4539,7 @@ section {
 }
 
 .form__field span.select2.select2-container--open {
-    border-color: #703eff !important
+    border-color: #25408f !important
 }
 
 .form__field span.select2 .select2-selection--single {
@@ -4518,7 +4555,7 @@ section {
 
 .form__field span.select2 .select2-selection__rendered {
     padding: 0;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.625rem;
@@ -4532,7 +4569,7 @@ section {
 }
 
 .form__field span.select2 .select2-selection__placeholder {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.625rem;
@@ -4593,7 +4630,7 @@ section {
     line-height: 1.625rem;
     outline: none;
     color: #1f1f1f;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400
 }
 
@@ -4605,14 +4642,14 @@ section {
 }
 
 .form__input:focus {
-    border-color: #703eff
+    border-color: #25408f
 }
 
 .form__input::-webkit-input-placeholder {
     font-size: 1.125rem;
     line-height: 1.625rem;
     color: #1f1f1f;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400
 }
 
@@ -4620,7 +4657,7 @@ section {
     font-size: 1.125rem;
     line-height: 1.625rem;
     color: #1f1f1f;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400
 }
 
@@ -4628,7 +4665,7 @@ section {
     font-size: 1.125rem;
     line-height: 1.625rem;
     color: #1f1f1f;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400
 }
 
@@ -4636,7 +4673,7 @@ section {
     font-size: 1.125rem;
     line-height: 1.625rem;
     color: #1f1f1f;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400
 }
 
@@ -4644,7 +4681,7 @@ section {
     font-size: 1.125rem;
     line-height: 1.625rem;
     color: #1f1f1f;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400
 }
 
@@ -4681,7 +4718,7 @@ section {
     line-height: 1.625rem;
     outline: none;
     color: #1f1f1f;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400
 }
 
@@ -4695,14 +4732,14 @@ section {
 }
 
 .form__textarea:focus {
-    border-color: #703eff
+    border-color: #25408f
 }
 
 .form__textarea::-webkit-input-placeholder {
     font-size: 1.125rem;
     line-height: 1.625rem;
     color: #1f1f1f;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400
 }
 
@@ -4710,7 +4747,7 @@ section {
     font-size: 1.125rem;
     line-height: 1.625rem;
     color: #1f1f1f;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400
 }
 
@@ -4718,7 +4755,7 @@ section {
     font-size: 1.125rem;
     line-height: 1.625rem;
     color: #1f1f1f;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400
 }
 
@@ -4726,7 +4763,7 @@ section {
     font-size: 1.125rem;
     line-height: 1.625rem;
     color: #1f1f1f;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400
 }
 
@@ -4734,7 +4771,7 @@ section {
     font-size: 1.125rem;
     line-height: 1.625rem;
     color: #1f1f1f;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400
 }
 
@@ -4762,7 +4799,7 @@ section {
 
 .form-required {
     position: absolute;
-    color: #703eff;
+    color: #25408f;
     font-size: 1.125rem;
     line-height: 1.625rem;
     left: .875rem;
@@ -4813,13 +4850,13 @@ section {
 }
 
 .form__mandatory strong {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
 @media (max-width: 767px) {
     .form__mandatory strong {
-        font-family: "Montserrat", sans-serif;
+        font-family: "Circe-Regular", sans-serif;
         font-weight: 400
     }
 }
@@ -4835,7 +4872,7 @@ section {
     width: 1.25rem;
     height: 1.25rem;
     margin-right: .6875rem;
-    border: 1px solid #703eff;
+    border: 1px solid #25408f;
     border-radius: 3px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -4857,7 +4894,7 @@ section {
     content: "";
     width: .625rem;
     height: .625rem;
-    background: #703eff;
+    background: #25408f;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -4874,7 +4911,7 @@ section {
 }
 
 .form__checkbox label {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600;
     font-size: 1.25rem;
     line-height: 1.625rem;
@@ -4886,7 +4923,7 @@ section {
     .form__checkbox label {
         font-size: 16px;
         line-height: 22px;
-        font-family: "Montserrat", sans-serif;
+        font-family: "Circe-Regular", sans-serif;
         font-weight: 400
     }
 }
@@ -4894,7 +4931,7 @@ section {
 .form__checkbox label a {
     -webkit-text-decoration: underline;
     text-decoration: underline;
-    color: #703eff
+    color: #25408f
 }
 
 .form__btn {
@@ -4928,7 +4965,7 @@ section {
     display: none;
     border-radius: 10px;
     z-index: 1;
-    background-color: #703eff;
+    background-color: #25408f;
     color: #fff;
     font-size: 1.125rem;
     line-height: 1.4375rem;
@@ -4966,11 +5003,11 @@ section {
     width: 1.125rem
 }
 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
-    background-color: #703eff !important
+    background-color: #25408f !important
 }
 
 .select2-results__option--selectable {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Circe-Regular", sans-serif;
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.375rem
@@ -5017,7 +5054,7 @@ section {
 
 .form__field-regions__block {
     position: relative;
-    background: #703eff;
+    background: #25408f;
     border-radius: 10px
 }
 
@@ -5166,7 +5203,7 @@ section {
     color: #fff;
     font-size: 1.125rem;
     line-height: 1.5rem;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700
 }
 
@@ -5293,7 +5330,7 @@ section {
 }
 
 .footer__phone a {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700
 }
 
@@ -5349,13 +5386,13 @@ section {
 .footer__mail p a {
     -webkit-text-decoration: underline;
     text-decoration: underline;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700
 }
 
 @media (max-width: 767px) {
     .footer__mail p a {
-        font-family: "Montserrat-Semibold", sans-serif;
+        font-family: "Circe-Bold", sans-serif;
         font-weight: 600;
         -webkit-text-decoration: none;
         text-decoration: none
@@ -5382,7 +5419,7 @@ section {
     text-align: center;
     font-size: 1rem;
     line-height: 1.375rem;
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     -webkit-transition: all .3s;
     transition: all .3s
@@ -5602,7 +5639,7 @@ section {
 }
 
 .appearing-modal h2 {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.875rem;
     line-height: 2.3125rem;
@@ -5627,12 +5664,12 @@ section {
 }
 
 .appearing-modal h2 span {
-    color: #703eff
+    color: #25408f
 }
 
 .appearing-modal__accent {
-    color: #703eff;
-    font-family: "Montserrat-Bold", sans-serif;
+    color: #25408f;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
     font-size: 1.5625rem;
     font-style: italic;
@@ -5649,7 +5686,7 @@ section {
 }
 
 .appearing-modal__accent--alt {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600;
     font-style: normal;
     color: #1f1f1f;
@@ -5665,12 +5702,12 @@ section {
 }
 
 .appearing-modal__accent .note {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700
 }
 
 .appearing-modal__accent b {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700
 }
 
@@ -5763,7 +5800,7 @@ section {
 }
 
 .appearing-modal__list li b {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700
 }
 
@@ -5795,7 +5832,7 @@ section {
 }
 
 .appearing-modal__note {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600;
     font-size: 1.25rem;
     line-height: 1.625rem;
@@ -5822,14 +5859,14 @@ section {
 }
 
 .appearing-modal__note b {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700
 }
 
 .appearing-modal__note span {
-    font-family: "Montserrat-Bold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
-    color: #703eff
+    color: #25408f
 }
 
 .appearing-modal__bottom {
@@ -5853,7 +5890,7 @@ section {
 }
 
 .appearing-modal__bottom p {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600;
     font-size: 1rem;
     line-height: 1.375rem
@@ -5868,7 +5905,7 @@ section {
 }
 
 .appearing-modal__bottom b {
-    font-family: "Montserrat-Semibold", sans-serif;
+    font-family: "Circe-Bold", sans-serif;
     font-weight: 600
 }
 
@@ -5962,3 +5999,5 @@ section {
 }
 
 /*select*/
+
+

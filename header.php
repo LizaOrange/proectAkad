@@ -5,17 +5,17 @@
         <div class="header-wrap">
 
             <div class="header-social">
-                <a class="header-social__link" href="#" target="_blank">
-                    <img src="images/2.svg" loading="eager" alt="">
+                <a class="header-social__logo" href="#" target="_blank">
+                    <img src="images/cosmosacademy.png" loading="eager" alt="">
                 </a>
                 <a class="header-social__link" href="#" target="_blank">
-                    <img src="images/1.svg" loading="eager" alt="">
+                    <img src="images/Logo2.png" loading="eager" alt="">
                 </a>
                 <a class="header-social__link" href="#" target="_blank">
-                    <img src="images/3.svg" loading="eager" alt="">
+                    <img src="images/Logo3.png" loading="eager" alt="">
                 </a>
                 <a class="header-social__link" href="#" target="_blank">
-                    <img src="images/4.svg" loading="eager" alt="">
+                    <img src="images/Logo4.png" loading="eager" alt="">
                 </a>
             </div>
 
