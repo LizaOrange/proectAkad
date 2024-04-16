@@ -607,12 +607,12 @@ section {
 }
 
 .home--admin .home__content::before {
-    background-image: url("../images")
+    background-image: url("../images/photo1.jpg")
 }
 
 @media screen and (max-width: 1440px) {
     .home--admin .home__content::before {
-        background-image: url("../images")
+        background-image: url("../images/photo1.jpg")
     }
 }
 
@@ -703,20 +703,22 @@ section {
 .home__content::before {
     position: absolute;
     content: "";
-    background-image: url("../images");
+    background-image: url("../images/photo1.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top right;
     top: 0;
     right: 0;
-    width: 47.375rem;
+    width: 35rem;
     height: 31.5625rem;
-    max-height: calc(100% - 1.875rem)
+    max-height: calc(100% - 1.875rem);
+    /*border-top-left-radius: 10%;*/
+    border-bottom-left-radius:500%;
 }
 
 @media screen and (max-width: 1440px) {
     .home__content::before {
-        background-image: url("../images")
+        background-image: url("../images/photo1.jpg")
     }
 }
 
@@ -6182,7 +6184,7 @@ section {
     -ms-flex-pack: center;
     justify-content: center;
     text-align: center;
-    background-color: #c8f69a;
+    background-color: #587abc;
     padding: .3125rem .625rem;
     font-family: "Montserrat-Semibold", sans-serif;
     font-weight: 600;
