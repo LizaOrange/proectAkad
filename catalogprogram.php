@@ -19,11 +19,11 @@
         <div class="catalog__DPO">
             <h4 class="catalog__courses-title">Не подходит программа? У нас есть другие:</h4>
             <div class="catalog__tiles">
-                <div class="tile" style="background-color: #587abc">
-                    <div class="tile__oval" style="background-color: #25408f"></div>
+                <div class="tile">
+                    <div class="tile__oval"></div>
                     <div class="tile__head">
                         <div class="tile__info desk">
-                            <img src="images/" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                            <img src="images/icon14.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
                         </div>
 <!--                        <div class="tile__head-block">-->
 <!--                            <p class="tile__head-block__cost">Подходит для других категорий</p>-->
@@ -46,21 +46,21 @@
                         <p>7 недель</p>
                         <p>з/п от 100 тыс. руб</p>
                         <div class="tile__info mob">
-                            <img src="images/environmental-safety.png" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                            <img src="images/icon14.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
                         </div>
                     </div>
                     <div class="tile__open">
-                        <a href="/program/environmental-safety" class="tile__open-btn">
+                        <a href="/program/" class="tile__open-btn">
                             <img src="images/open.svg" alt="Открыть программу">
                             <span>Открыть программу</span>
                         </a>
                     </div>
                 </div>
-                <div class="tile" style="background-color: #587abc">
-                    <div class="tile__oval" style="background-color: #25408f"></div>
+                <div class="tile">
+                    <div class="tile__oval"></div>
                     <div class="tile__head">
                         <div class="tile__info desk">
-                            <img src="images/analystforbusiness.png" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                            <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
                         </div>
                     </div>
                     <div class="tile__body">
@@ -69,19 +69,43 @@
                         <p>12 недель</p>
                         <p>з/п от 80 тыс. руб</p>
                         <div class="tile__info mob">
-                            <img src="images/analystforbusiness.png" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                            <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
                         </div>
                     </div>
                     <div class="tile__open">
-                        <a href="/program/analystforbusiness" class="tile__open-btn">
+                        <a href="/program/" class="tile__open-btn">
+                            <img src="images/open.svg" alt="Открыть программу">
+                            <span>Открыть программу</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__oval"></div>
+                    <div class="tile__head">
+                        <div class="tile__info desk">
+                            <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                        </div>
+                    </div>
+                    <div class="tile__body">
+                        <h3>Администратор Гостиницы</h3>
+                        <p>144 часа</p>
+                        <p>12 недель</p>
+                        <p>з/п от 65 тыс. руб</p>
+                        <div class="tile__info mob">
+                            <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                        </div>
+                    </div>
+                    <div class="tile__open">
+                        <a href="/program/" class="tile__open-btn">
                             <img src="images/open.svg" alt="Открыть программу">
                             <span>Открыть программу</span>
                         </a>
                     </div>
                 </div>
 
-
-
+            </div>
+        </div>
+    </div>
 
 </main>
 

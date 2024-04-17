@@ -3,21 +3,23 @@
 <main>
     <section class="home home--admin">
         <div class="container">
-            <div>
-                <div class="home__content">
-                    <h1 class="home__title">«Администратор гостиницы»</h1>
-                    <p class="home__description">Бесплатно обучитесь искусству гостеприимства от лидера гостиничной отрасли Cosmos Hotel Group</p>
-                    <p class="home__description">И получите помощь с трудоустройством от государства с зарплатой от 65 000 рублей</p>
-                    <p class="home__description_p2">*по данным hh.ru</p>
-                    <button type="button" class="btn">Начать обучение</button> <!-- data-modal-id="modal-main-form" data-modal-open=""-->
+            <div class="home__content">
+                <div class="img-admin">
+                    <img src="images/photo1.jpg" loading="eager" alt="Администратор гостиницы">
                 </div>
+                <h1 class="home__title">«Администратор гостиницы»</h1>
+                <p class="home__description">Бесплатно обучитесь искусству гостеприимства от лидера гостиничной отрасли Cosmos Hotel Group</p>
+                <p class="home__description">И получите помощь с трудоустройством от государства с зарплатой от 65 000 рублей</p>
+                <p class="home__description_p2">*по данным hh.ru</p>
+                <button type="button" class="btn"><a href="#form">Начать обучение</a></button>
+                <!--                     data-modal-id="modal-main-form" data-modal-open=""-->
             </div>
         </div>
     </section>
     <section class="resolution">
         <div class="container">
             <div class="federation__content">
-                <h2>О федеральном проекте</h2>
+                <h2 id="federation-project">О федеральном проекте</h2>
                 <div class="about__project">
                     <div class="federation__content">
                         <p class="federation__description">Федеральный проект “Содействие занятости” призван дать возможность ученикам открыть для себя новые профессии или повысить квалификацию в текущей.</p>
@@ -384,7 +386,7 @@
 
     <section class="features">
         <div class="container">
-            <h2>Вы научитесь</h2>
+            <h2 id="features-content">Вы научитесь</h2>
             <ul class="features__items">
                 <li class="features__item">осуществлять регистрацию гостей отеля</li>
                 <li class="features__item">обрабатывать информацию о гостях с помощью современных информационных систем</li>

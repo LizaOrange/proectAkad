@@ -28,10 +28,10 @@
 <!--                        <a href="/"><img src="images" loading="eager" alt=""></a>-->
 <!--                    </div>-->
                     <div class="header__links">
-                        <a class="header__link" href="#">О проекте</a>
-                        <a class="header__link" href="#">Чему научитесь</a>
-                        <a class="header__link header__link--catalog" href="#">Начать обучение</a>
-                        <a class="header__link header__link--catalog" href="#">Другие программы</a>
+                        <a class="header__link" href="/index.php#federation-project">О проекте</a>
+                        <a class="header__link" href="/index.php#features-content">Чему научитесь</a>
+                        <a class="header__link header__link--catalog" href="/index.php#form">Начать обучение</a>
+                        <a class="header__link header__link--catalog" href="/catalogprogram.php">Другие программы</a>
                     </div>
                 </div>
             </div>
