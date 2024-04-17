@@ -25,7 +25,15 @@
 
                     </div>
                     <div class="about__project__logo">
-                        <img src="images/3.svg" loading="eager" alt="">
+                        <div class="about__project__logo_upd">
+                            <img class="logo1" src="images/cosmosacademy.png" loading="eager" alt="Космос академия">
+                            <img class="logo2" src="images/Logo2.png" loading="eager" alt="Министерство труда">
+                        </div>
+                        <img class="photo2" src="images/photo2.jpg" loading="eager" alt="Фото о проекте">
+                        <div class="about__project__logo_upd">
+                            <img class="logo3" src="images/Logo3.png" loading="eager" alt="Томский Государственный Университет">
+                            <img class="logo4" src="images/Logo4.png" loading="eager" alt="Национальные проекты России">
+                        </div>
                     </div>
                 </div>
                 <div class="resolution__block">
@@ -49,11 +57,11 @@
                 </li>
                 <li class="about__item">
                     <h4>150</h4>
-                    <p>экспертов</p>
+                    <p><strong>экспертов</strong></p>
                 </li>
                 <li class="about__item">
                     <h4>20+</h4>
-                    <p>лет опыта</p>
+                    <p><strong>лет опыта</strong></p>
                 </li>
             </ul>
         </div>
@@ -64,7 +72,7 @@
 
         <div class="container">
             <div class="participation__header">
-                <h2>Кто может участвовать и какие документы потребуются?</h2>
+                <h2>Обучение бесплатно, если вы:</h2>
                 <div class="participation__navigation slider-navigation">
                     <button class="slider-navigation__button slider-navigation__button--prev" type="button"></button>
                     <div class="swiper-pagination"></div>
@@ -80,15 +88,64 @@
                 <li class="participation__slide swiper-slide">
 
                     <div class="participation__slide-image">
-                        <img src="images/10.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">
+                        <img src="images/photo3.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">
                         <div class="swiper-lazy-preloader"></div>
                     </div>
                     <div class="participation__slide-content">
-                        <p>Я трудоустроен или ищу работу</p>
+                        <p>Трудоустроены или ищите работу</p>
                         <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
                     </div>
                     <div class="participation__slide-info">
-                        <p>Я трудоустроен или ищу работу</p>
+                        <p>Как принять участие?</p>
+                        <ol class="participation__slide-rules">
+                            <li>1. Подайте заявку, выбрав категорию "Граждане, ищущие работу (или трудоустроенные)".</li>
+                            <li>2. Зарегистрируйтесь на портале "Работа России" и авторизуйтесь через портал "Госуслуги", имея подтвержденную учетную запись на "Госуслугах".
+                                Информацию о том, как получить этот статус, вы можете найти по указанной <a href="https://www.gosuslugi.ru/help/faq/login/2">ссылке</a>.</li>
+                            <li><strong>Обратите внимание если вы официально трудоустроены, что работодатель также должен быть зарегистрирован на портале "Работа России".</strong></strong></li>
+                        </ol>
+                        <ol class="participation__slide-documents">
+                            <li>Паспорт гражданина РФ или документ, его заменяющий.</li>
+                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>
+                        </ol>
+                    </div>
+
+                </li>
+                <li class="participation__slide swiper-slide">
+
+                    <div class="participation__slide-image">
+                        <img src="images/photo4.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
+                        <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="participation__slide-content">
+                        <p>Под риском увольнения</p>
+                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
+                    </div>
+                    <div class="participation__slide-info">
+                        <p>Как принять участие?</p>
+                        <ol class="participation__slide-rules">
+                            <li>Подтвердите заявку на портале « hабота в оссии».</li>
+                            <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>
+                        </ol>
+                        <ol class="participation__slide-documents">
+                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>
+                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>
+                        </ol>
+                    </div>
+
+                </li>
+
+                <li class="participation__slide swiper-slide">
+
+                    <div class="participation__slide-image">
+                        <img src="images/photo5.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">
+                        <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="participation__slide-content">
+                        <p>Находитесь в декрете</p>
+                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
+                    </div>
+                    <div class="participation__slide-info">
+                        <p>Как принять участие?</p>
                         <ol class="participation__slide-rules">
                             <li>Предоставьте документы, подтверждающие категорию участника <b>в Центр занятости населения</b> (ЦЗН).</li>
                         </ol>
@@ -102,15 +159,15 @@
                 <li class="participation__slide swiper-slide">
 
                     <div class="participation__slide-image">
-                        <img src="images/11.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
+                        <img src="images/photo6.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
                         <div class="swiper-lazy-preloader"></div>
                     </div>
                     <div class="participation__slide-content">
-                        <p>Я работник, находящийся под риском увольнения</p>
+                        <p>Старше 50 лет</p>
                         <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
                     </div>
                     <div class="participation__slide-info">
-                        <p>Я работник, находящийся под риском увольнения</p>
+                        <p>Как принять участие?</p>
                         <ol class="participation__slide-rules">
                             <li>Подтвердите заявку на портале « абота в оссии».</li>
                             <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>
@@ -126,15 +183,15 @@
                 <li class="participation__slide swiper-slide">
 
                     <div class="participation__slide-image">
-                        <img src="images/10.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">
+                        <img src="images/photo7.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">
                         <div class="swiper-lazy-preloader"></div>
                     </div>
                     <div class="participation__slide-content">
-                        <p>Я трудоустроен или ищу работу</p>
+                        <p>Предпенсионер</p>
                         <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
                     </div>
                     <div class="participation__slide-info">
-                        <p>Я трудоустроен или ищу работу</p>
+                        <p>Как принять участие?</p>
                         <ol class="participation__slide-rules">
                             <li>Предоставьте документы, подтверждающие категорию участника <b>в Центр занятости населения</b> (ЦЗН).</li>
                         </ol>
@@ -148,15 +205,15 @@
                 <li class="participation__slide swiper-slide">
 
                     <div class="participation__slide-image">
-                        <img src="images/11.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
+                        <img src="images/photo8.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
                         <div class="swiper-lazy-preloader"></div>
                     </div>
                     <div class="participation__slide-content">
-                        <p>Я работник, находящийся под риском увольнения</p>
+                        <p>Зарегистрированы как безработный</p>
                         <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
                     </div>
                     <div class="participation__slide-info">
-                        <p>Я работник, находящийся под риском увольнения</p>
+                        <p>Как принять участие?</p>
                         <ol class="participation__slide-rules">
                             <li>Подтвердите заявку на портале « абота в оссии».</li>
                             <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>
@@ -168,21 +225,21 @@
                     </div>
 
                 </li>
-
                 <li class="participation__slide swiper-slide">
 
                     <div class="participation__slide-image">
-                        <img src="images/10.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">
+                        <img src="images/photo9.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
                         <div class="swiper-lazy-preloader"></div>
                     </div>
                     <div class="participation__slide-content">
-                        <p>Я трудоустроен или ищу работу</p>
+                        <p>В поиске работы более 4 месяцев после обучения</p>
                         <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
                     </div>
                     <div class="participation__slide-info">
-                        <p>Я трудоустроен или ищу работу</p>
+                        <p>Как принять участие?</p>
                         <ol class="participation__slide-rules">
-                            <li>Предоставьте документы, подтверждающие категорию участника <b>в Центр занятости населения</b> (ЦЗН).</li>
+                            <li>Подтвердите заявку на портале « абота в оссии».</li>
+                            <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>
                         </ol>
                         <ol class="participation__slide-documents">
                             <li>Паспорт гражданина Ф или документ, его заменяющий.</li>
@@ -194,15 +251,38 @@
                 <li class="participation__slide swiper-slide">
 
                     <div class="participation__slide-image">
-                        <img src="images/11.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
+                        <img src="images/photo10.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
                         <div class="swiper-lazy-preloader"></div>
                     </div>
                     <div class="participation__slide-content">
-                        <p>Я работник, находящийся под риском увольнения</p>
+                        <p>Прошли военную службу и в поиске работы более 4 месяцев</p>
                         <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
                     </div>
                     <div class="participation__slide-info">
-                        <p>Я работник, находящийся под риском увольнения</p>
+                        <p>Как принять участие?</p>
+                        <ol class="participation__slide-rules">
+                            <li>Подтвердите заявку на портале « абота в оссии».</li>
+                            <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>
+                        </ol>
+                        <ol class="participation__slide-documents">
+                            <li>Паспорт гражданина Ф или документ, его заменяющий.</li>
+                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>
+                        </ol>
+                    </div>
+
+                </li>
+                <li class="participation__slide swiper-slide">
+
+                    <div class="participation__slide-image">
+                        <img src="images/photo11.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
+                        <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="participation__slide-content">
+                        <p>Мама ребенка до 7 лет и в поиске работы</p>
+                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
+                    </div>
+                    <div class="participation__slide-info">
+                        <p>Как принять участие?</p>
                         <ol class="participation__slide-rules">
                             <li>Подтвердите заявку на портале « абота в оссии».</li>
                             <li>Предоставьте документы, подтверждающие категорию участника в Центр занятости населения (ЦЗН).</li>
@@ -256,32 +336,32 @@
             <h2>Почему нужно начать обучение сейчас?</h2>
             <div class="causes__items">
                 <div class="causes__item">
-                    <img src="images/1.png" loading="lazy" alt="">
+                    <img src="images/icon1.svg" loading="lazy" alt="">
                     <h5>Бесплатное обучение</h5>
                     <p>Государство платит за Ваше обучение, которое стоит <br> более 70 000 рублей</p>
                 </div>
                 <div class="causes__item">
-                    <img src="images/2_1.png" loading="lazy" alt="">
+                    <img src="images/icon2.svg" loading="lazy" alt="">
                     <h5>Онлайн-обучение</h5>
                     <p>Нужен лишь компьютер и доступ в интернет</p>
                 </div>
                 <div class="causes__item">
-                    <img src="images/3_1.png" loading="lazy" alt="">
+                    <img src="images/icon3.svg" loading="lazy" alt="">
                     <h5>Опытные преподаватели</h5>
                     <p>Многолетний стаж в Академии и вузах РФ</p>
                 </div>
                 <div class="causes__item">
-                    <img src="images/4_1.png" loading="lazy" alt="">
+                    <img src="images/icon4.svg" loading="lazy" alt="">
                     <h5>Высокая востребованность</h5>
-                    <p>Более 3000 вакансий на <a href="https://hh.ru/">hh.ru</a></p>
+                    <p>Более 3000 вакансий на <a href="https://hh.ru/" target="_blank">hh.ru</a></p>
                 </div>
                 <div class="causes__item">
-                    <img src="images/5_1.png" loading="lazy" alt="">
+                    <img src="images/icon5.svg" loading="lazy" alt="">
                     <h5>Документ об образовании</h5>
                     <p>Официальное подтверждение вашей квалификации</p>
                 </div>
                 <div class="causes__item">
-                    <img src="images/6_1.png" loading="lazy" alt="">
+                    <img src="images/icon6.svg" loading="lazy" alt="">
                     <h5>Легко совмещать</h5>
                     <p>Не более 2 часов в день занимает обучение</p>
                 </div>
@@ -344,23 +424,18 @@
             <ol class="program__modules" data-accordion="parent" data-single="">
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">1Администратор гостиницы</h3>
+                    <h3 class="program__module-title">Раздел 1. Введение в программу</h3>
                     <ul class="program__module-content" data-accordion="content">
-                        <li>• Приветствие. Введение в проект</li>
-                        <li>• Нормативно-правовые аспекты самозанятости</li>
+                        <li>•1.1 Построение карьерной траектории с помощью аналитики рынка труда</li>
+                        <li>•1.2 Профессиональная адаптация на новом рабочем месте</li>
                         <li>• Тайм-менеджмент. Гибкий подход к управлению своим временем</li>
                         <li>• Управление эмоциями и стрессом. Эмоциональный интеллект</li>
-                        <li>• Введение в профессию. Профессиональная этика в работе психолога. Профессионально важные качества личности психолога</li>
-                        <li>• Психолог-консультант. Профессия и личность специалиста. Формирование профессиональной идентичности</li>
-                        <li>• Этапы профессионального развития. Профилактика выгорания</li>
-                        <li>• Понятие личности в психологии. Структура личности</li>
-                        <li>• Принципы и закономерности изменения личности</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label="показать/закрыть содержание модуля"></button>
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">2Психологическая диагностика</h3>
+                    <h3 class="program__module-title">Раздел 2</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Методы психодиагностики в психологическом консультировании</li>
                         <li>• Тестовые методики: область применения и анализ</li>
@@ -370,7 +445,7 @@
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">3Психологическая диагностика</h3>
+                    <h3 class="program__module-title">Раздел 3</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Методы психодиагностики в психологическом консультировании</li>
                         <li>• Тестовые методики: область применения и анализ</li>
@@ -380,7 +455,7 @@
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">4Психологическая диагностика</h3>
+                    <h3 class="program__module-title">Раздел 4</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Методы психодиагностики в психологическом консультировании</li>
                         <li>• Тестовые методики: область применения и анализ</li>
@@ -390,7 +465,7 @@
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">5Психологическая диагностика</h3>
+                    <h3 class="program__module-title">Раздел 5</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Методы психодиагностики в психологическом консультировании</li>
                         <li>• Тестовые методики: область применения и анализ</li>
@@ -398,106 +473,106 @@
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
                 </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">6Психологическая диагностика</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Методы психодиагностики в психологическом консультировании</li>
-                        <li>• Тестовые методики: область применения и анализ</li>
-                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">7Психологическая диагностика</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Методы психодиагностики в психологическом консультировании</li>
-                        <li>• Тестовые методики: область применения и анализ</li>
-                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">8Психологическая диагностика</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Методы психодиагностики в психологическом консультировании</li>
-                        <li>• Тестовые методики: область применения и анализ</li>
-                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">9Психологическая диагностика</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Методы психодиагностики в психологическом консультировании</li>
-                        <li>• Тестовые методики: область применения и анализ</li>
-                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">10Психологическая диагностика</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Методы психодиагностики в психологическом консультировании</li>
-                        <li>• Тестовые методики: область применения и анализ</li>
-                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">11Психологическая диагностика</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Методы психодиагностики в психологическом консультировании</li>
-                        <li>• Тестовые методики: область применения и анализ</li>
-                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">12Психологическая диагностика</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Методы психодиагностики в психологическом консультировании</li>
-                        <li>• Тестовые методики: область применения и анализ</li>
-                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">13Психологическая диагностика</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Методы психодиагностики в психологическом консультировании</li>
-                        <li>• Тестовые методики: область применения и анализ</li>
-                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">14Психологическая диагностика</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Методы психодиагностики в психологическом консультировании</li>
-                        <li>• Тестовые методики: область применения и анализ</li>
-                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">15Психологическая диагностика</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Методы психодиагностики в психологическом консультировании</li>
-                        <li>• Тестовые методики: область применения и анализ</li>
-                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">6Психологическая диагностика</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
+<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
+<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">7Психологическая диагностика</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
+<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
+<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">8Психологическая диагностика</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
+<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
+<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">9Психологическая диагностика</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
+<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
+<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">10Психологическая диагностика</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
+<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
+<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">11Психологическая диагностика</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
+<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
+<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">12Психологическая диагностика</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
+<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
+<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">13Психологическая диагностика</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
+<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
+<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">14Психологическая диагностика</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
+<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
+<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">15Психологическая диагностика</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
+<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
+<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
 
             </ol>
             <button class="show-button" type="button" data-show-button="">Показать еще</button>
@@ -696,7 +771,7 @@
                         </div>
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
-                                <img src="images/9.webp" loading="lazy" alt="Алиса Кнатько">
+                                <img src="images/9.webp" loading="lazy" alt="Алла">
                                 <div class="cases__slide-info">
                                     <h4>Алла, 22 года</h4>
 <!--                                    <p>Выпускница программы</p>-->
@@ -738,9 +813,9 @@
                         </div>
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
-                                <img src="images/4.webp" loading="lazy" alt="Анонимно">
+                                <img src="images/4.webp" loading="lazy" alt="Игорь">
                                 <div class="cases__slide-info">
-                                    <h4>Анонимно</h4>
+                                    <h4>Игорь</h4>
 <!--                                    <p>Выпускница программы</p>-->
 <!--                                    <p><span>«Педагог дополнительного образования»</span></p>-->
                                 </div>
@@ -827,14 +902,14 @@
             <h2>Не подходит программа? У нас есть другие:</h2>
             <div class="other__items">
                 <div class="other__item">
-                    <img src="images/1.png" loading="lazy" alt="">
+                    <img src="images/icon13.svg" loading="lazy" alt="">
                     <h5>Супервайзер службы приема и размещения</h5>
                     <p>144 часа</p>
                     <p>7 недель</p>
                     <p>з/п от 100 тыс. руб</p>
                 </div>
                 <div class="other__item">
-                    <img src="images/2_1.png" loading="lazy" alt="">
+                    <img src="images/icon14.svg" loading="lazy" alt="">
                     <h5>Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере</h5>
                     <p>256 часов</p>
                     <p>12 недель</p>
