@@ -5,23 +5,23 @@ const swiper = new Swiper('.participation__slider', {
     loop: true,
 
     // Default parameters
-    slidesPerView: 5,
-    spaceBetween: 30,
+    // slidesPerView: 5,
+    // spaceBetween: 30,
 
     // Responsive breakpoints
     breakpoints: {
-        // when window width is >= 320px
-        320: {
-            slidesPerView: 2,
+        // when window width is >= 375
+        375: {
+            slidesPerView: 1,
             spaceBetween: 20
         },
-        // when window width is >= 480px
-        480: {
+        // when window width is >= 768
+        768: {
             slidesPerView: 3,
             spaceBetween: 30
         },
-        // when window width is >= 640px
-        640: {
+        // when window width is >= 1170
+        1170: {
             slidesPerView: 5,
             spaceBetween: 30
         }

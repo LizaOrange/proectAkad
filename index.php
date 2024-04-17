@@ -9,8 +9,8 @@
                 </div>
                 <h1 class="home__title">«Администратор гостиницы»</h1>
                 <p class="home__description">Бесплатно обучитесь искусству гостеприимства от лидера гостиничной отрасли Cosmos Hotel Group</p>
-                <p class="home__description">И получите помощь с трудоустройством от государства с зарплатой от 65 000 рублей</p>
-                <p class="home__description_p2">*по данным hh.ru</p>
+                <p class="home__description">И получите помощь с трудоустройством от государства <strong>с зарплатой от 65 000 рублей</strong></p>
+                <p class="home__description_p2">*по данным <a href="https://hh.ru/" target="_blank">hh.ru</a></p>
                 <button type="button" class="btn"><a href="#form">Начать обучение</a></button>
                 <!--                     data-modal-id="modal-main-form" data-modal-open=""-->
             </div>
@@ -23,19 +23,17 @@
                 <div class="about__project">
                     <div class="federation__content">
                         <p class="federation__description">Федеральный проект “Содействие занятости” призван дать возможность ученикам открыть для себя новые профессии или повысить квалификацию в текущей.</p>
-                        <p class="federation__description">Используя наш опыт обучения тысяч студентов в Академии и управления десятками отелей, мы составили программы для обучения в рамках Содействия Занятости, которые подойдут даже новичкам в индустрии.</p>
+                        <p class="federation__description">Используя наш опыт обучения более тысяч студентов в Академии и управления десятками отелей, мы составили программы для обучения в рамках Содействия Занятости, которые подойдут даже новичкам в индустрии.</p>
 
                     </div>
                     <div class="about__project__logo">
                         <div class="about__project__logo_upd">
                             <img class="logo1" src="images/cosmosacademy.png" loading="eager" alt="Космос академия">
                             <img class="logo2" src="images/Logo2.png" loading="eager" alt="Министерство труда">
-                        </div>
-                        <img class="photo2" src="images/photo2.jpg" loading="eager" alt="Фото о проекте">
-                        <div class="about__project__logo_upd">
                             <img class="logo3" src="images/Logo3.png" loading="eager" alt="Томский Государственный Университет">
                             <img class="logo4" src="images/Logo4.png" loading="eager" alt="Национальные проекты России">
                         </div>
+                        <img class="photo2" src="images/photo2.jpg" loading="eager" alt="Фото о проекте">
                     </div>
                 </div>
                 <div class="resolution__block">
