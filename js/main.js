@@ -102,6 +102,160 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+// подробнее слайдер
+document.addEventListener('DOMContentLoaded', function() {
+    // Обработчик для модального окна
+    let modalManager = new ModalManager();
+    modalManager.createModal();
+    // Находим все кнопки "Подробнее"
+    var buttons = document.querySelectorAll('[data-modal-id="participation-modal"][data-modal-open=""]');
+
+    // Находим элемент модального окна
+    var modal = document.getElementById('participation-modal');
+
+    // Проходимся по каждой кнопке и добавляем обработчик события клика
+    buttons.forEach(function(button) {
+        button.addEventListener('click', function() {
+
+            // Находим родительский элемент кнопки, который содержит модальное окно
+            var parentSlide = button.closest('.participation__slide');
+            var rulesList = parentSlide.querySelector('.participation__slide-rules');
+            var documentsList = parentSlide.querySelector('.participation__slide-documents');
+
+            if (rulesList && documentsList) {
+                // Находим элементы, в которые будем вставлять данные в модальном окне
+                var rulesListContainer = modal.querySelector('.participation__rules-list--participate');
+                var documentsListContainer = modal.querySelector('.participation__rules-list--documents');
+
+                if (rulesListContainer && documentsListContainer) {
+
+
+                    // Очищаем контейнеры перед вставкой новых данных
+                    rulesListContainer.innerHTML = '';
+                    documentsListContainer.innerHTML = '';
+
+                    // Копируем элементы из текущего блока в модальное окно
+                    rulesList.querySelectorAll('li').forEach(function(rule) {
+                        rulesListContainer.appendChild(rule.cloneNode(true));
+                    });
+                    documentsList.querySelectorAll('li').forEach(function(document) {
+                        documentsListContainer.appendChild(document.cloneNode(true));
+                    });
+
+                    // Вставляем текст из <p> в <h2> модального окна
+                    let slideContentText = parentSlide.querySelector('.participation__slide-content p').textContent;
+                    let modalTitle = modal.querySelector('h2');
+                    modalTitle.textContent = slideContentText;
+
+                    // Показываем модальное окно
+                    modal.classList.remove('custom-modal__hidden');
+                }
+            }
+
+        });
+    });
+
+});
+
+document.addEventListener('click', function(event) {
+    // var modalManager = new ModalManager();
+    var modal = document.querySelector('.custom-modal.active');
+    var overlay = event.target.closest('.custom-modal__overlay[data-modal-close]');
+
+    if (modal && overlay) {
+        modalManager.closeModal();
+    }
+});
+
+
+
+var ModalManager = function () {
+    function ModalManager() {
+        if (!(this instanceof ModalManager)) {
+            throw new TypeError("Cannot call a class as a function");
+        }
+
+        this.modal = null;
+        this.modalInset = null;
+        this.modalContent = null;
+        this.documentClickHandler = this.documentClickHandler.bind(this);
+        this.body = document.body;
+        this.init();
+    }
+
+    ModalManager.prototype.init = function () {
+        this.createModal();
+        document.addEventListener("click", this.documentClickHandler);
+    };
+
+    ModalManager.prototype.documentClickHandler = function (event) {
+        var target = event.target;
+
+        if (target.closest("[data-modal-close]") && target.closest("[data-modal-open]")) {
+            this.closeModal();
+            var self = this;
+            setTimeout(function () {
+                self.modalInset.innerHTML = "";
+                self.openModal(target);
+            }, 50);
+        } else if (target.closest("[data-modal-close]")) {
+            this.closeModal();
+        } else if (target.closest("[data-modal-open]")) {
+            event.preventDefault();
+            var self = this;
+            setTimeout(function () {
+                self.modalInset.innerHTML = "";
+                self.openModal(target);
+            }, 50);
+        }
+    };
+
+    ModalManager.prototype.openModal = function (trigger) {
+        let modalId = trigger.closest("[data-modal-open]").getAttribute("data-modal-id");
+        console.log(trigger)
+        this.modalContent = document.getElementById(modalId);
+        this.modalInset.append(this.modalContent);
+        this.modal.classList.add("active");
+        this.body.classList.add("scroll-lock");
+    };
+
+    ModalManager.prototype.closeModal = function () {
+        if (this.modal) {
+            this.modal.classList.remove("active");
+            let hiddenSection = document.createElement('section');
+            hiddenSection.classList.add('d-none');
+            this.modalContent.classList.add("custom-modal__hidden");
+            hiddenSection.appendChild(this.modalContent);
+            this.body.append(hiddenSection);
+        }
+        this.body.classList.remove("scroll-lock");
+    };
+
+
+    ModalManager.prototype.createModal = function () {
+        if (!this.modal) {
+            this.body.classList.add("scroll-lock");
+            this.modal = document.createElement("div");
+            this.modal.classList.add("custom-modal");
+            document.body.append(this.modal);
+            this.modal.innerHTML = '\
+                <div class="custom-modal__wrapper">\
+                    <div class="custom-modal__overlay" data-modal-close></div>\
+                        <div class="custom-modal__content">\
+                            <div class="custom-modal__inset"></div>\
+                            <button type="button" class="custom-modal-close" data-modal-close></button>\
+                        </div>\
+                </div>\
+            ';
+            this.modalInset = document.querySelector(".custom-modal__inset");
+        }
+    };
+
+    return ModalManager;
+}();
+
+
+
 
 
 

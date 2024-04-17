@@ -110,7 +110,6 @@
                             <li>Документ, подтверждающий текущий уровень образования гражданина.</li>
                         </ol>
                     </div>
-
                 </li>
                 <li class="participation__slide swiper-slide">
 
@@ -283,6 +282,7 @@
                         <p>Мама ребенка до 7 лет и в поиске работы</p>
                         <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
                     </div>
+
                     <div class="participation__slide-info">
                         <p>Как принять участие?</p>
                         <ol class="participation__slide-rules">
@@ -332,6 +332,8 @@
             <p class="participation__note">Заполните анкету, чтобы узнать больше о проекте и принять участие</p>
         </div>
     </section>
+
+
 
     <section class="causes">
         <div class="container">
