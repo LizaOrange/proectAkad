@@ -348,9 +348,9 @@ section {
 .header__link {
     flex-grow: 1;
     font-size: 1rem;
-    line-height: 3;
+    line-height: normal;
     padding: .15rem;
-    border: .0625rem solid #000;
+    border: .15rem solid #000;
     border-radius: 6.25rem;
     -webkit-transition: color .3s, background-color .3s;
     transition: color .3s, background-color .3s
@@ -4339,7 +4339,7 @@ section {
 
 .form {
     padding: 6.25rem 0;
-    background-color: #1f1f1f;
+    background-color: #000000;
     margin-bottom: 0
 }
 
@@ -4543,13 +4543,13 @@ section {
 }
 
 .form__info-options div.green {
-    background-color: #c8f69a;
+    background-color: #587abc;
     color: #1f1f1f
 }
 
 .form__panel {
     position: relative;
-    background-color: #fff;
+    background-color: #25408f;
     padding: 1.875rem 2.8125rem 3.75rem;
     border-radius: 20px;
     overflow: hidden
@@ -4590,19 +4590,41 @@ section {
     font-weight: 600;
     font-size: 1.125rem;
     line-height: 1.5rem;
-    color: #25408f;
+    background-color: #25408f;
+    color: #ffffff;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    gap: .625rem;
+    /*display: flex;*/
+    /*-webkit-box-align: start;*/
+    /*-ms-flex-align: start;*/
+    /*gap: .625rem;*/
     padding: 1.25rem;
     border-radius: .625rem;
     border: .0625rem solid #25408f;
-    margin-bottom: 2.1875rem;
-    text-align: left
+    /*margin-bottom: 2.1875rem;*/
+    text-align: center;
+}
+
+/*.position-center {*/
+/*    position: absolute;*/
+/*    top: calc(2/3 * 100%); !* Положение относительно верхней границы родителя *!*/
+/*    left: 50%; !* Положение по центру по горизонтали *!*/
+/*    transform: translateX(-50%); !* Сдвигаем элемент влево на 50% его собственной ширины *!*/
+/*}*/
+@media (min-width: 1171px) {
+    .position-center {
+        position: absolute;
+        top: calc(2/3 * 100%); /* Положение относительно верхней границы родителя */
+        left: 50%; /* Положение по центру по горизонтали */
+        transform: translateX(-50%); /* Сдвигаем элемент влево на 50% его собственной ширины */
+    }
+}
+@media (max-width: 1170px) {
+    .position-center {
+        position: relative;
+        /*left: 50%; !* Положение по центру по горизонтали *!*/
+        /*transform: translateX(-50%); !* Сдвигаем элемент влево на 50% его собственной ширины *!*/
+    }
 }
 
 @media (max-width: 767px) {
@@ -5050,7 +5072,8 @@ section {
 .form__mandatory {
     font-size: 1.25rem;
     line-height: 1.625rem;
-    margin-bottom: 1.25rem
+    margin-bottom: 1.25rem;
+    color: #ffffff;
 }
 
 @media (max-width: 767px) {
@@ -5083,7 +5106,7 @@ section {
     width: 1.25rem;
     height: 1.25rem;
     margin-right: .6875rem;
-    border: 1px solid #25408f;
+    border: 1px solid #ffffff;
     border-radius: 3px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -5105,7 +5128,7 @@ section {
     content: "";
     width: .625rem;
     height: .625rem;
-    background: #25408f;
+    background: #000000;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -5127,7 +5150,8 @@ section {
     font-size: 1.25rem;
     line-height: 1.625rem;
     margin-bottom: 2.25rem;
-    cursor: pointer
+    cursor: pointer;
+    color: #ffffff;
 }
 
 @media (max-width: 767px) {
@@ -5142,7 +5166,7 @@ section {
 .form__checkbox label a {
     -webkit-text-decoration: underline;
     text-decoration: underline;
-    color: #25408f
+    color: #ffffff;
 }
 
 .form__btn {
