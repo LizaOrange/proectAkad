@@ -12,7 +12,7 @@ const swiper = new Swiper('.participation__slider', {
     breakpoints: {
         // when window width is >= 375
         375: {
-            slidesPerView: 1,
+            slidesPerView: 2,
             spaceBetween: 20
         },
         // when window width is >= 768

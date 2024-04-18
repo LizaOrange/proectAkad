@@ -234,7 +234,7 @@ var ModalManager = function () {
 
     ModalManager.prototype.createModal = function () {
         if (!this.modal) {
-            this.body.classList.add("scroll-lock");
+            // this.body.classList.add("scroll-lock");
             this.modal = document.createElement("div");
             this.modal.classList.add("custom-modal");
             document.body.append(this.modal);

@@ -5,16 +5,16 @@
         <div class="header-wrap">
 
             <div class="header-social">
-                <a class="header-social__logo" href="#" target="_blank">
+                <a class="header-social__logo logo-main" href="#" target="_blank">
                     <img src="images/cosmosacademy.png" loading="eager" alt="Космос Академия">
                 </a>
-                <a class="header-social__link" href="#" target="_blank">
+                <a class="header-social__logo logo-trud" href="#" target="_blank">
                     <img src="images/Logo2.png" loading="eager" alt="Минтруд РФ">
                 </a>
-                <a class="header-social__link" href="#" target="_blank">
+                <a class="header-social__logo logo-tgu" href="#" target="_blank">
                     <img src="images/Logo3.png" loading="eager" alt="Томский Государственный Университет">
                 </a>
-                <a class="header-social__link" href="#" target="_blank">
+                <a class="header-social__logo logo-npr" href="#" target="_blank">
                     <img src="images/Logo4.png" loading="eager" alt="Национальные проекты России">
                 </a>
             </div>
