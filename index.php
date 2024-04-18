@@ -85,7 +85,7 @@
 
             <ul class="participation__slides swiper-wrapper">
 
-                <li class="participation__slide swiper-slide">
+                <li class="participation__slide swiper-slide swiper-slider">
 
                     <div class="participation__slide-image">
                         <img src="images/photo3.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">
@@ -114,7 +114,7 @@
                         </ol>
                     </div>
                 </li>
-                <li class="participation__slide swiper-slide">
+                <li class="participation__slide swiper-slide swiper-slider">
 
                     <div class="participation__slide-image">
                         <img src="images/photo4.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
@@ -142,7 +142,7 @@
 
                 </li>
 
-                <li class="participation__slide swiper-slide">
+                <li class="participation__slide swiper-slide swiper-slider">
 
                     <div class="participation__slide-image">
                         <img src="images/photo5.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">
@@ -170,7 +170,7 @@
                     </div>
 
                 </li>
-                <li class="participation__slide swiper-slide">
+                <li class="participation__slide swiper-slide swiper-slider">
 
                     <div class="participation__slide-image">
                         <img src="images/photo6.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
@@ -197,7 +197,7 @@
 
                 </li>
 
-                <li class="participation__slide swiper-slide">
+                <li class="participation__slide swiper-slide swiper-slider">
 
                     <div class="participation__slide-image">
                         <img src="images/photo7.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">
@@ -224,7 +224,7 @@
                     </div>
 
                 </li>
-                <li class="participation__slide swiper-slide">
+                <li class="participation__slide swiper-slide swiper-slider">
 
                     <div class="participation__slide-image">
                         <img src="images/photo8.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
@@ -251,7 +251,7 @@
                     </div>
 
                 </li>
-                <li class="participation__slide swiper-slide">
+                <li class="participation__slide swiper-slide swiper-slider">
 
                     <div class="participation__slide-image">
                         <img src="images/photo9.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
@@ -281,7 +281,7 @@
                     </div>
 
                 </li>
-                <li class="participation__slide swiper-slide">
+                <li class="participation__slide swiper-slide swiper-slider">
 
                     <div class="participation__slide-image">
                         <img src="images/photo10.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
@@ -311,7 +311,7 @@
                     </div>
 
                 </li>
-                <li class="participation__slide swiper-slide">
+                <li class="participation__slide swiper-slide swiper-slider">
 
                     <div class="participation__slide-image">
                         <img src="images/photo11.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография">
@@ -971,7 +971,7 @@
         <div class="form__container">
             <div class="form__info">
                 <h2>Приступим к обучению?</h2>
-                <p>1. Заполните заявку справа</p>
+                <p>1. Заполните заявку</p>
                 <p>2. Подтвердите заявку на портале "Работа России"</p>
                 <p class="form__lead"><strong>Окончание набора: 29 апреля 23:59 Количество мест: 31</strong></p>
 
