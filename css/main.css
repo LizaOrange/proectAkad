@@ -1179,7 +1179,11 @@ section {
         justify-content: space-between;
         align-items: center;
     }
-
+}
+@media (max-width: 375px) {
+    .about__project__logo_upd{
+        justify-content: space-around;
+    }
 }
 .logo1{
     height: 4rem;
