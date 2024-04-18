@@ -196,7 +196,7 @@ section {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .container {
         width: 100%;
         padding: 0 15px
@@ -729,7 +729,7 @@ section {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .container {
         width: 100%;
         padding: 0 15px
@@ -858,7 +858,7 @@ section {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .home__title {
         font-size: 24px;
         line-height: 34px
@@ -1180,7 +1180,7 @@ section {
         align-items: center;
     }
 }
-@media (max-width: 375px) {
+@media (max-width: 420px) {
     .about__project__logo_upd{
         justify-content: space-around;
     }
@@ -1255,7 +1255,7 @@ section {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
     .resolution__block {
         display: block;
         text-align: center; /* Выравниваем текст по центру */
@@ -1690,7 +1690,7 @@ section {
         padding: 0 10px 10px;
     }
 }
-/*@media (max-width: 375px) {*/
+/*@media (max-width: 420px) {*/
 /*    .participation__slide-content {*/
 /*        align-self: flex-end;*/
 /*    }*/
@@ -1713,7 +1713,7 @@ section {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .participation__slide-content p {
         font-size: 12px;
         line-height: 15px
@@ -1948,7 +1948,7 @@ section {
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 420px) {
     .participation__button {
         font-size: 13px
     }
@@ -2309,7 +2309,7 @@ section {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .causes__item p {
         font-size: 15px
     }
@@ -2435,7 +2435,7 @@ section {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
     .demand__wrapper::before {
         position: relative;
         top: -31px;
@@ -2486,7 +2486,7 @@ section {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .demand__item {
         font-size: 14px;
         line-height: 17px
@@ -4343,7 +4343,7 @@ section {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .other__item p {
         font-size: 15px
     }
@@ -4562,7 +4562,7 @@ section {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .form__info-options div {
         font-size: 11px
     }
@@ -4587,7 +4587,7 @@ section {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .form__panel {
         padding-left: 20px;
         padding-right: 20px
@@ -5204,7 +5204,7 @@ section {
     justify-content: center
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .form__btn .btn {
         font-size: 16px
     }
@@ -5562,7 +5562,7 @@ section {
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 420px) {
     .footer__logo {
         display: block;
         margin: 0 auto; /* Центрируем логотип по горизонтали */
@@ -5856,24 +5856,24 @@ section {
     transform: scale(1.1); /* Увеличиваем размер кнопки при наведении */
 }
 
-@media (max-width: 767px) {
-    .scroll-to-top__button {
-        margin-bottom: 50px;
-        width: 48px;
-        height: 48px;
-        background-size: 14px 15px;
-        border: 6px solid #c0bcf8
-    }
-}
+/*@media (max-width: 767px) {*/
+/*    .scroll-to-top__button {*/
+/*        margin-bottom: 50px;*/
+/*        width: 48px;*/
+/*        height: 48px;*/
+/*        background-size: 14px 15px;*/
+/*        border: 6px solid #c0bcf8*/
+/*    }*/
+/*}*/
 
-.scroll-to-top__button.is-visible {
-    opacity: 1;
-    pointer-events: auto;
-    -webkit-transition: opacity .5s, -webkit-transform .8s;
-    transition: opacity .5s, -webkit-transform .8s;
-    transition: transform .8s, opacity .5s;
-    transition: transform .8s, opacity .5s, -webkit-transform .8s
-}
+/*.scroll-to-top__button.is-visible {*/
+/*    opacity: 1;*/
+/*    pointer-events: auto;*/
+/*    -webkit-transition: opacity .5s, -webkit-transform .8s;*/
+/*    transition: opacity .5s, -webkit-transform .8s;*/
+/*    transition: transform .8s, opacity .5s;*/
+/*    transition: transform .8s, opacity .5s, -webkit-transform .8s*/
+/*}*/
 
 @media (max-width: 1170px) {
     .activeScroll {
@@ -5933,7 +5933,7 @@ section {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .appearing-modal h2 {
         font-size: 20px;
         max-width: 200px
@@ -6370,7 +6370,7 @@ section {
     border-radius: 50%
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .tile__oval {
         width: 15rem;
         height: 15rem
@@ -6431,7 +6431,7 @@ section {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .tile__head-logo {
         width: 6rem;
         min-width: 6rem
@@ -6485,7 +6485,7 @@ section {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 420px) {
     .tile__head-block__cost {
         padding: 5px;
         font-size: 8px;
@@ -6555,7 +6555,7 @@ section {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 420px) {
     .tile__info-date {
         padding: 5px;
         font-size: 8px;
@@ -6724,7 +6724,7 @@ section {
     }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 420px) {
     .tile__body p {
         font-size: 15px
     }
