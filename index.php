@@ -804,7 +804,7 @@
                     <div class="cases__slides swiper-wrapper">
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
-                                <img src="images/8.webp" loading="lazy" alt="Отзыв Ирины">
+                                <img src="images/photo13.png" loading="lazy" alt="Отзыв Ирины">
                                 <div class="cases__slide-info">
                                     <h4>Ирина, 34 года</h4>
 <!--                                    <p>Выпускница программы</p>-->
@@ -818,7 +818,7 @@
                         </div>
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
-                                <img src="images/9.webp" loading="lazy" alt="Алла">
+                                <img src="images/photo14.jpg" loading="lazy" alt="Алла">
                                 <div class="cases__slide-info">
                                     <h4>Алла, 22 года</h4>
 <!--                                    <p>Выпускница программы</p>-->
@@ -832,7 +832,7 @@
                         </div>
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
-                                <img src="images/6.webp" loading="lazy" alt="Сергей">
+                                <img src="images/photo15.png" loading="lazy" alt="Сергей">
                                 <div class="cases__slide-info">
                                     <h4>Сергей, 39 лет</h4>
 <!--                                    <p>Выпускник программы</p>-->
@@ -846,7 +846,7 @@
                         </div>
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
-                                <img src="images/7.webp" loading="lazy" alt="Илона">
+                                <img src="images/photo16.png" loading="lazy" alt="Илона">
                                 <div class="cases__slide-info">
                                     <h4>Илона, 40 лет</h4>
 <!--                                    <p>Выпускница программы</p>-->
@@ -860,7 +860,7 @@
                         </div>
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
-                                <img src="images/4.webp" loading="lazy" alt="Игорь">
+                                <img src="images/photo17.jpg" loading="lazy" alt="Игорь">
                                 <div class="cases__slide-info">
                                     <h4>Игорь</h4>
 <!--                                    <p>Выпускница программы</p>-->
@@ -874,7 +874,7 @@
                         </div>
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
-                                <img src="images/1.webp" loading="lazy" alt="отзыв">
+                                <img src="images/photo18.jpg" loading="lazy" alt="отзыв">
                                 <div class="cases__slide-info">
                                     <h4>отзыв</h4>
 <!--                                    <p>Выпускница программы</p>-->
@@ -920,7 +920,7 @@
         </div>
     </section>
 
-    <section class="join join--program">
+    <section class="join join--program" style="display: none">
         <div class="container">
             <h2>Наши партнеры (пока можно скрыть)</h2>
             <div class="join__items">

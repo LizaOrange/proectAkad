@@ -1449,7 +1449,7 @@ section {
 
 .slider-navigation__button {
     padding: 0;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #25408f;
     border-radius: 50%;
     border: .125rem solid #ffffff;
     width: 2.625rem;
@@ -3785,7 +3785,7 @@ section {
 .cases__slide::before {
     position: absolute;
     content: "";
-    background: url("../images/herb.svg") no-repeat center;
+    background: url("../images/") no-repeat center;
     background-size: contain;
     width: 16.6875rem;
     height: 15rem;
@@ -3806,14 +3806,17 @@ section {
 }
 
 .cases__slide img {
-    width: 8.75rem
+    border-radius: 50%;
+    width: 4rem;
+    max-height: 4rem;
+    object-fit: contain;
 }
 
-@media (max-width: 767px) {
-    .cases__slide img {
-        width: 120px
-    }
-}
+/*@media (max-width: 767px) {*/
+/*    .cases__slide img {*/
+/*        width: 120px*/
+/*    }*/
+/*}*/
 
 .cases__slide-info {
     margin: 1.25rem 0 1rem
