@@ -1,14 +1,49 @@
 // меняет бургер на кретстик
-t = document.querySelector(".header-btn"),
-    n = document.querySelector(".popup-menu"),
-    r = document.querySelector(".popup-mob"),
-    i = document.querySelector(".header"),
-    o = document.body, t && (t.addEventListener("click", (function () {
-    t.classList.contains("active") ? (t.classList.remove("active"),
-        innerWidth < 767 ? (r.classList.remove("active"),
-    o.style.overflow = "visible", i.style.zIndex = "unset") : n.classList.remove("active")) : (t.classList.add("active"),
-        innerWidth < 767 ? (r.classList.add("active"), o.style.overflow = "hidden", i.style.zIndex = "100000") : n.classList.add("active"))
-})));
+// t = document.querySelector(".header-btn"),
+//     n = document.querySelector(".popup-menu"),
+//     r = document.querySelector(".popup-mob"),
+//     i = document.querySelector(".header"),
+//     o = document.body, t && (t.addEventListener("click", (function () {
+//     t.classList.contains("active") ? (t.classList.remove("active"),
+//         innerWidth < 767 ? (r.classList.remove("active"),
+//     o.style.overflow = "visible", i.style.zIndex = "unset") : n.classList.remove("active")) : (t.classList.add("active"),
+//         innerWidth < 767 ? (r.classList.add("active"), o.style.overflow = "hidden", i.style.zIndex = "100000") : n.classList.add("active"))
+// })));
+
+document.addEventListener("DOMContentLoaded", function() {
+
+    const toggleButton = document.querySelector(".header-btn");
+    const popupMenu = document.querySelector(".popup-menu");
+    const popupMob = document.querySelector(".popup-mob");
+    const header = document.querySelector(".header");
+    const body = document.body;
+
+    if (toggleButton) {
+        toggleButton.addEventListener("click", function () {
+            if (toggleButton.classList.contains("active")) {
+                toggleButton.classList.remove("active");
+                if (innerWidth < 767) {
+                    popupMob.classList.remove("active");
+                    body.style.overflow = "visible";
+                    header.style.zIndex = "unset";
+                } else {
+                    popupMenu.classList.remove("active");
+                }
+            } else {
+                toggleButton.classList.add("active");
+                if (innerWidth < 767) {
+                    popupMob.classList.add("active");
+                    body.style.overflow = "hidden";
+                    header.style.zIndex = "100000";
+                } else {
+                    popupMenu.classList.add("active");
+                }
+            }
+        });
+    }
+
+});
+
 
 
 //выпадающий список
