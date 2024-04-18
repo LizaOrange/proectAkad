@@ -5823,12 +5823,12 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 100;
     -webkit-transition: -webkit-transform .8s;
     transition: -webkit-transform .8s;
     transition: transform .8s;
     transition: transform .8s, -webkit-transform .8s;
-    pointer-events: none
+    /*pointer-events: none*/
 }
 
 .scroll-to-top .container {
@@ -5843,20 +5843,17 @@ section {
     margin-bottom: 6.25rem;
     width: 5rem;
     height: 5rem;
-    background-color: #5a57ff;
-    background-image: url("../images/scroll-to-top.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    border: .625rem solid #c0bcf8;
+    background: url("../images/Telegram_logo.png") center/cover; /* Установка фона с изображением */
+    border: .2rem solid #25408f;
     -webkit-filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.2));
     filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.2));
     border-radius: 50%;
-    -webkit-transition: opacity .5s, -webkit-transform .8s;
-    transition: opacity .5s, -webkit-transform .8s;
-    transition: transform .8s, opacity .5s;
-    transition: transform .8s, opacity .5s, -webkit-transform .8s;
-    opacity: 0;
-    pointer-events: none
+    transition: transform .8s; /* Убрано свойство opacity и свойства, касающиеся затухания */
+    opacity: 1;
+}
+
+.scroll-to-top__button:hover {
+    transform: scale(1.1); /* Увеличиваем размер кнопки при наведении */
 }
 
 @media (max-width: 767px) {
@@ -5876,10 +5873,6 @@ section {
     transition: opacity .5s, -webkit-transform .8s;
     transition: transform .8s, opacity .5s;
     transition: transform .8s, opacity .5s, -webkit-transform .8s
-}
-
-.scroll-to-top__button:hover {
-    opacity: .7
 }
 
 @media (max-width: 1170px) {
