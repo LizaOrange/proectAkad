@@ -2455,7 +2455,8 @@ section {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    gap: 1.875rem
+    gap: 1.875rem;
+    margin-right: 2rem;
 }
 
 @media (max-width: 767px) {
