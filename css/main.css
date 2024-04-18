@@ -4600,9 +4600,27 @@ section {
     /*margin-bottom: 2.1875rem;*/
     text-align: center;
 }
-.position-center{
-    display: flex;
-    justify-content: center;
+
+/*.position-center {*/
+/*    position: absolute;*/
+/*    top: calc(2/3 * 100%); !* Положение относительно верхней границы родителя *!*/
+/*    left: 50%; !* Положение по центру по горизонтали *!*/
+/*    transform: translateX(-50%); !* Сдвигаем элемент влево на 50% его собственной ширины *!*/
+/*}*/
+@media (min-width: 1171px) {
+    .position-center {
+        position: absolute;
+        top: calc(2/3 * 100%); /* Положение относительно верхней границы родителя */
+        left: 50%; /* Положение по центру по горизонтали */
+        transform: translateX(-50%); /* Сдвигаем элемент влево на 50% его собственной ширины */
+    }
+}
+@media (max-width: 1170px) {
+    .position-center {
+        position: relative;
+        /*left: 50%; !* Положение по центру по горизонтали *!*/
+        /*transform: translateX(-50%); !* Сдвигаем элемент влево на 50% его собственной ширины *!*/
+    }
 }
 
 @media (max-width: 767px) {
