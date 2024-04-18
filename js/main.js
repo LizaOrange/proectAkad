@@ -107,28 +107,31 @@ document.addEventListener('DOMContentLoaded', function() {
     // Обработчик для модального окна
     let modalManager = new ModalManager();
     modalManager.createModal();
-    // Находим все кнопки "Подробнее"
-    var buttons = document.querySelectorAll('[data-modal-id="participation-modal"][data-modal-open=""]');
 
+    // Находим все кнопки "Подробнее"
+    let buttons = document.querySelectorAll('[data-modal-id="participation-modal"][data-modal-open=""]');
     // Находим элемент модального окна
-    var modal = document.getElementById('participation-modal');
+    let modal = document.getElementById('participation-modal');
+
+    // Находим все кнопки "Подробнее" во втором блоке
+    let secondDetailButtons = document.querySelectorAll('.steps__item-buttons button[data-modal-id="steps-modal"][data-modal-open=""]');
 
     // Проходимся по каждой кнопке и добавляем обработчик события клика
     buttons.forEach(function(button) {
         button.addEventListener('click', function() {
 
             // Находим родительский элемент кнопки, который содержит модальное окно
-            var parentSlide = button.closest('.participation__slide');
-            var rulesList = parentSlide.querySelector('.participation__slide-rules');
-            var documentsList = parentSlide.querySelector('.participation__slide-documents');
+            let parentSlide = button.closest('.participation__slide');
+            let rulesList = parentSlide.querySelector('.participation__slide-rules');
+            let documentsList = parentSlide.querySelector('.participation__slide-documents');
+
 
             if (rulesList && documentsList) {
                 // Находим элементы, в которые будем вставлять данные в модальном окне
-                var rulesListContainer = modal.querySelector('.participation__rules-list--participate');
-                var documentsListContainer = modal.querySelector('.participation__rules-list--documents');
+                let rulesListContainer = modal.querySelector('.participation__rules-list--participate');
+                let documentsListContainer = modal.querySelector('.participation__rules-list--documents');
 
                 if (rulesListContainer && documentsListContainer) {
-
 
                     // Очищаем контейнеры перед вставкой новых данных
                     rulesListContainer.innerHTML = '';
@@ -152,6 +155,36 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }
 
+        });
+    });
+
+    secondDetailButtons.forEach(function(button) {
+        button.addEventListener('click', function() {
+
+            // Находим родительский элемент кнопки, который содержит скрытый блок с подробностями
+            let parentItem = button.closest('.steps__item');
+            let hiddenBlock = parentItem.querySelector('.steps__item-hidden');
+
+            if (hiddenBlock) {
+
+                // Находим элемент, в который будем вставлять данные в модальном окне
+                let hiddenBlockContainer = document.getElementById('steps-modal');
+
+                if (hiddenBlockContainer) {
+                    // Очищаем контейнер перед вставкой новых данных
+                    hiddenBlockContainer.innerHTML = '';
+
+                    //Копируем элемент из скрытого блока в модальное окно
+                    hiddenBlockContainer.appendChild(hiddenBlock.cloneNode(true));
+
+                    // Показываем модальное окно
+                    let childHiddenElement = hiddenBlockContainer.querySelector('.steps__item-hidden');
+                    if (childHiddenElement) {
+                        childHiddenElement.classList.remove('steps__item-hidden');
+                    }
+
+                }
+            }
         });
     });
 
@@ -212,7 +245,7 @@ var ModalManager = function () {
 
     ModalManager.prototype.openModal = function (trigger) {
         let modalId = trigger.closest("[data-modal-open]").getAttribute("data-modal-id");
-        console.log(trigger)
+        // console.log(trigger)
         this.modalContent = document.getElementById(modalId);
         this.modalInset.append(this.modalContent);
         this.modal.classList.add("active");

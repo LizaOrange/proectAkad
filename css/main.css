@@ -3561,7 +3561,7 @@ section {
 
 .steps__item-links .steps__item-link:last-child {
     border: 2px solid #25408f;
-    color: #25408f
+    color: #fff
 }
 .formModal__modal-steps {
     display: -webkit-box;
