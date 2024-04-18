@@ -1255,6 +1255,25 @@ section {
     }
 }
 
+@media (max-width: 375px) {
+    .resolution__block {
+        display: block;
+        text-align: center; /* Выравниваем текст по центру */
+        width: 100%;
+    }
+
+    .resolution__block p {
+        width: 100%; /* Параграф занимает всю доступную ширину */
+        margin: 0; /* Убираем отступы */
+    }
+
+    .resolution__block a {
+        display: block; /* Делаем ссылку блочным элементом */
+        margin: 10px auto 0; /* Выравниваем по центру и добавляем отступы сверху и снизу */
+        max-width: 200px; /* Максимальная ширина ссылки */
+    }
+}
+
 /*.resolution__block::before {*/
 /*    position: absolute;*/
 /*    content: "";*/
@@ -5540,6 +5559,24 @@ section {
     .footer__logo {
         width: 256px;
         margin-bottom: 40px
+    }
+}
+
+@media (max-width: 375px) {
+    .footer__logo {
+        display: block;
+        margin: 0 auto; /* Центрируем логотип по горизонтали */
+    }
+
+    .footer__contain {
+        display: block;
+        text-align: center; /* Выравниваем текст по центру */
+        width: 100%;
+    }
+
+    .footer__connect {
+        width: 100%; /* Параграф занимает всю доступную ширину */
+        margin: 0; /* Убираем отступы */
     }
 }
 
