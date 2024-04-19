@@ -967,7 +967,7 @@
         </div>
     </section>
 
-    <section class="form" id="form">
+    <section class="form" id="request-form">
         <div class="form__container">
             <div class="form__info">
                 <h2>Приступим к обучению?</h2>
@@ -996,14 +996,13 @@
                             <span class="form-required">*</span>
                         </div>
                         <div class="form__field">
-                            <input class="form__input" type="tel" name="Phone" id="phone" placeholder="+7 (___) ___-__-__">
+                            <input class="form__input" type="tel" name="Phone" id="phone" placeholder="+7 (___) ___-__-__" size="18">
                             <span class="form-required">*</span>
                         </div>
                         <div class="form__field">
                             <input type="email" name="Email" class="form__input" id="email" placeholder="Email">
                             <span class="form-required">*</span>
                         </div>
-                        <input type="hidden" name="LastName" value="-">
                         <div class="form__field form-tooltip">
                             <select class="form__select" id="Category" name="category">
                                 <option value="12">Ваша категория</option>
@@ -1062,7 +1061,7 @@
                             </div>
                         </div>
                         <div class="form__btn">
-                            <button class="btn" id="form-btn" type="submit">Учиться бесплатно</button>
+                            <button class="btn" id="form-btn" type="button">Учиться бесплатно</button>
                         </div>
                     </div>
                 </form>
@@ -1070,9 +1069,33 @@
         </div>
     </section>
 
+    <div class="modal" id="success-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <p>Заявка отправлена</p>
+        </div>
+    </div>
+
 
 </main>
 
+<!--<script>-->
+<!--    jQuery('#request-form').on('submit', function (e) {-->
+<!--        if (!e.isDefaultPrevented()) {-->
+<!--            let url = "mail.php";-->
+<!--            $.ajax({-->
+<!--                type: "POST",-->
+<!--                url: url,-->
+<!--                data: $(this).serialize(),-->
+<!--                success: function (data)-->
+<!--                {-->
+<!--                    jQuery('.thanks_form').show();-->
+<!--                }-->
+<!--            });-->
+<!--            return false;-->
+<!--        }-->
+<!--    });-->
+<!--</script>-->
 
 
 <?php include 'footer.php'; ?>

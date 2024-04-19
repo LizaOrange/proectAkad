@@ -323,6 +323,194 @@ var ModalManager = function () {
 }();
 
 
+// form
+// var s = {
+//     required: function (value, messageContainer) {
+//         if (!value || value.trim() === '') {
+//             messageContainer.textContent = "Это поле обязательно";
+//             return false;
+//         }
+//         return true;
+//     },
+//     phone: function (value, messageContainer) {
+//         if (value.length !== 18) {
+//             messageContainer.textContent = "Некорректный номер";
+//             return false;
+//         }
+//         return true;
+//     },
+//     email: function (value, messageContainer) {
+//         if (!/.+@.+\..+/.test(value)) {
+//             messageContainer.textContent = "Некорректный email";
+//             return false;
+//         }
+//         return true;
+//     },
+//     birthday: function (value, messageContainer) {
+//         var parts = value.split(".");
+//         if (parts.length !== 3 || parts[0].length !== 2 || parts[1].length !== 2 || parts[2].length !== 4) {
+//             messageContainer.textContent = "Некорректная дата рождения";
+//             return false;
+//         }
+//         return true;
+//     }
+// };
+
+document.getElementById('form-app').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    var form = event.target;
+    var fields = form.querySelectorAll('.form__input');
+    var isValid = true;
+
+    fields.forEach(function(field) {
+        var fieldName = field.getAttribute('name');
+        var fieldValue = field.value;
+        var fieldType = field.getAttribute('type');
+        var messageContainer = field.nextElementSibling;
+
+        if (fieldType !== 'submit' && fieldType !== 'hidden') {
+            if (fieldName in s) {
+                isValid = s[fieldName](fieldValue, messageContainer) && isValid;
+            }
+        }
+    });
+
+    if (isValid) {
+        console.log(12221212)
+        // Отправка формы
+        form.submit();
+    } else {
+        // Форма недействительна, не отправлять
+        return false;
+    }
+});
+
+// ajax start
+document.getElementById('form-btn').addEventListener('click', function(e) {
+    e.preventDefault(); // Предотвращаем стандартное поведение формы
+
+    let firstName = document.querySelector('input[name="FirstName"]').value;
+    let phone = document.querySelector('input[name="Phone"]').value;
+    let email = document.querySelector('input[name="Email"]').value;
+
+    // Проверяем валидность телефона
+    if (!validatePhone(phone)) {
+        alert('Некорректный номер телефона');
+        return;
+    }
+
+    // Проверяем валидность email
+    if (!validateEmail(email)) {
+        alert('Некорректный email');
+        return;
+    }
+
+    // Проверяем длину имени
+    if (firstName.length < 2) {
+        alert('Имя должно содержать не менее 2 символов');
+        return;
+    }
+
+    let url = "mail.php";
+    let formData = new FormData(document.getElementById('form-app'));
+
+    fetch(url, {
+        method: 'POST',
+        body: formData
+    })
+        .then(response => {
+            if (response.ok) {
+                console.log('ok');
+                // Если запрос успешный, показываем благодарность
+                document.getElementById('success-modal').style.display = 'block';
+            }
+        })
+        .catch(error => console.error('Ошибка отправки данных:', error));
+});
+// ajax end
+
+
+document.getElementById("phone").addEventListener("input", function(event) {
+    // Получаем значение поля ввода
+    let inputValue = event.target.value;
+
+    // Очищаем значение от всех символов, кроме цифр
+    let cleanedValue = inputValue.replace(/\D/g, "");
+
+    // Определяем, начинается ли номер с кода страны +7, 7 или 8
+    if (/^(7|8|\+7)/.test(cleanedValue)) {
+        // Если да, добавляем код страны и форматируем номер
+        let formattedValue = "+7 (" + cleanedValue.slice(1, 4) + ") " + cleanedValue.slice(4, 7) + "-" + cleanedValue.slice(7, 9) + "-" + cleanedValue.slice(9, 11);
+        // Устанавливаем отформатированное значение обратно в поле ввода
+        event.target.value = formattedValue;
+    } else if (/^(1|2|3|4|5|6|9)/.test(cleanedValue)) {
+        // Если да, добавляем код страны +7 перед этой цифрой
+        let formattedValue = "+7 (9" + cleanedValue.slice(1, 4) + ") " + cleanedValue.slice(4, 7) + "-" + cleanedValue.slice(7, 9) + "-" + cleanedValue.slice(9, 11);
+        // Устанавливаем отформатированное значение обратно в поле ввода
+        event.target.value = formattedValue;
+    }
+    else {
+        // Если нет, выводим только введенные цифры без форматирования
+        event.target.value = cleanedValue;
+    }
+});
+
+
+
+
+// закрывать окошко
+document.addEventListener('DOMContentLoaded', function() {
+// Получаем элемент модального окна
+    let modal = document.getElementById('success-modal');
+
+    // Получаем элемент крестика для закрытия модального окна
+    let closeModalBtn = modal.querySelector('.close-modal');
+
+    // При клике на крестик закрываем модальное окно
+    closeModalBtn.addEventListener('click', function() {
+        modal.style.display = 'none';
+    });
+
+});
+
+// При клике вне модального окна также закрываем его
+window.addEventListener('click', function(event) {
+    if (event.target == modal) {
+        modal.style.display = 'none';
+    }
+});
+
+
+// Функция для проверки телефона
+function validatePhone(phone) {
+    var phoneRegex = /^\+7 \(\d{3}\) \d{3}-\d{2}-\d{2}$/;
+    return phoneRegex.test(phone);
+}
+
+// Функция для проверки email
+function validateEmail(email) {
+    var emailRegex = /.+@.+\..+/;
+    return emailRegex.test(email);
+}
+
+// регионы
+// Загрузка данных из файла region.json
+fetch('region.json')
+    .then(response => response.json())
+    .then(data => {
+        const selectElement = document.getElementById('Regions');
+
+        // Создание элементов <option> для каждого объекта в данных
+        data.forEach(item => {
+            const option = document.createElement('option');
+            option.value = item.link; // Значение равно ссылке
+            option.textContent = item.region; // Текстовое содержимое равно названию региона
+            selectElement.appendChild(option); // Добавляем <option> в <select>
+        });
+    })
+    .catch(error => console.error('Ошибка загрузки данных:', error));
+
 
 
 
