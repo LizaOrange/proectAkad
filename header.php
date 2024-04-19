@@ -28,10 +28,10 @@
 <!--                        <a href="/"><img src="images" loading="eager" alt=""></a>-->
 <!--                    </div>-->
                     <div class="header__links">
-                        <a class="header__link header__link--catalog" href="/index.php#federation-project">О проекте</a>
-                        <a class="header__link header__link--catalog" href="/index.php#features-content">Чему научитесь</a>
-                        <a class="header__link header__link--catalog" href="/index.php#form">Начать обучение</a>
-                        <a class="header__link header__link--catalog" href="/catalogprogram.php">Другие программы</a>
+                        <a class="header__link" href="/index.php#federation-project">О проекте</a>
+                        <a class="header__link" href="/index.php#features-content">Чему научитесь</a>
+                        <a class="header__link" href="/index.php#form">Начать обучение</a>
+                        <a class="header__link" href="/catalogprogram.php">Другие программы</a>
                     </div>
                 </div>
             </div>
@@ -41,10 +41,10 @@
     <div class="popup-mob">
         <div class="popup-mob__container">
             <ul class="popup-mob__list">
-                <li><a href="#" class="">О проекте</a></li>
-                <li><a href="#" class="">Чему научитесь</a></li>
-                <li><a href="#" class="">Начать обучение</a></li>
-                <li><a href="#" class="">Другие программы</a></li>
+                <li><a href="/index.php#federation-project" class="">О проекте</a></li>
+                <li><a href="/index.php#features-content" class="">Чему научитесь</a></li>
+                <li><a href="/index.php#form" class="">Начать обучение</a></li>
+                <li><a href="/catalogprogram.php" class="">Другие программы</a></li>
             </ul>
         </div>
     </div>
