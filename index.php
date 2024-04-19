@@ -804,13 +804,15 @@
                     <div class="cases__slides swiper-wrapper">
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
-                                <img src="images/photo13.png" loading="lazy" alt="Отзыв Ирины">
                                 <div class="cases__slide-info">
+                                    <img src="images/photo13.png" loading="lazy" alt="Отзыв Ирины">
                                     <h4>Ирина, 34 года</h4>
 <!--                                    <p>Выпускница программы</p>-->
 <!--                                    <p><span>«Аналитик данных — с нуля до разработки прикладных решений для бизнеса»</span></p>-->
                                 </div>
-                                <div class="cases__slide-text">То, что такой качественный курс может быть бесплатным - стало для меня настоящим открытием! Я давно хотела перепрофилироваться из оператора колл-центра в более живую работу, и сейчас полна решимости в самореализации!</div>
+                                <div class="cases__slide-text">
+                                    <p>То, что такой качественный курс может быть бесплатным - стало для меня настоящим открытием! Я давно хотела перепрофилироваться из оператора колл-центра в более живую работу, и сейчас полна решимости в самореализации!</p>
+                                </div>
 <!--                                <div class="cases__slide-btn">-->
 <!--                                    <button type="button" data-modal-id="cases-modal--8" data-modal-open=""> азвернуть кейс</button>-->
 <!--                                </div>-->
@@ -818,13 +820,15 @@
                         </div>
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
-                                <img src="images/photo14.jpg" loading="lazy" alt="Алла">
                                 <div class="cases__slide-info">
+                                    <img src="images/photo14.jpg" loading="lazy" alt="Алла">
                                     <h4>Алла, 22 года</h4>
 <!--                                    <p>Выпускница программы</p>-->
 <!--                                    <p><span>«Графический дизайнер: старт карьеры»</span></p>-->
                                 </div>
-                                <div class="cases__slide-text">Это именно то, что мне было нужно для профессионального роста. Отдельное спасибо Александру, все подробно объяснял и всегда был в ресурсе.</div>
+                                <div class="cases__slide-text">
+                                    <p>Это именно то, что мне было нужно для профессионального роста. Отдельное спасибо Александру, все подробно объяснял и всегда был в ресурсе.</p>
+                                </div>
 <!--                                <div class="cases__slide-btn">-->
 <!--                                    <button type="button" data-modal-id="cases-modal--9" data-modal-open=""> азвернуть кейс</button>-->
 <!--                                </div>-->
@@ -832,13 +836,15 @@
                         </div>
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
-                                <img src="images/photo15.png" loading="lazy" alt="Сергей">
                                 <div class="cases__slide-info">
+                                    <img src="images/photo15.png" loading="lazy" alt="Сергей">
                                     <h4>Сергей, 39 лет</h4>
 <!--                                    <p>Выпускник программы</p>-->
 <!--                                    <p><span>«Программист 1С»</span></p>-->
                                 </div>
-                                <div class="cases__slide-text">Иногда мне не хватало ориганизации, но мне сразу сказали, что наш поток первый, и для первого потока все было великолепно! Надеюсь моя обратная связь поможет вам еще эффективнее обучать ребят</div>
+                                <div class="cases__slide-text">
+                                    <p>Иногда мне не хватало ориганизации, но мне сразу сказали, что наш поток первый, и для первого потока все было великолепно! Надеюсь моя обратная связь поможет вам еще эффективнее обучать ребят</p>
+                                </div>
 <!--                                <div class="cases__slide-btn">-->
 <!--                                    <button type="button" data-modal-id="cases-modal--6" data-modal-open=""> азвернуть кейс</button>-->
 <!--                                </div>-->
@@ -846,13 +852,15 @@
                         </div>
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
-                                <img src="images/photo16.png" loading="lazy" alt="Илона">
                                 <div class="cases__slide-info">
+                                    <img src="images/photo16.png" loading="lazy" alt="Илона">
                                     <h4>Илона, 40 лет</h4>
 <!--                                    <p>Выпускница программы</p>-->
 <!--                                    <p><span>«HR-специалист»</span></p>-->
                                 </div>
-                                <div class="cases__slide-text">Спасибо команде академии Космос за основательное и при этом бесплатное обучение!</div>
+                                <div class="cases__slide-text">
+                                    <p>Спасибо команде академии Космос за основательное и при этом бесплатное обучение!</p>
+                                </div>
 <!--                                <div class="cases__slide-btn">-->
 <!--                                    <button type="button" data-modal-id="cases-modal--7" data-modal-open=""> азвернуть кейс</button>-->
 <!--                                </div>-->
@@ -866,54 +874,29 @@
 <!--                                    <p>Выпускница программы</p>-->
 <!--                                    <p><span>«Педагог дополнительного образования»</span></p>-->
                                 </div>
-                                <div class="cases__slide-text">Многое слышал про содействие занятости, не самые лестные отзывы, но решил проверить на себе - и не прогадал, спасибо за действительно качественный материал, который явно разрабатывался для коммерческих проектов, и это безусловно чувствуется, очень высокий уровень и материала, и преподавания.</div>
+                                <div class="cases__slide-text">
+                                    <p>Многое слышал про содействие занятости, не самые лестные отзывы, но решил проверить на себе - и не прогадал, спасибо за действительно качественный материал, который явно разрабатывался для коммерческих проектов, и это безусловно чувствуется, очень высокий уровень и материала, и преподавания.</p>
+                                </div>
 <!--                                <div class="cases__slide-btn">-->
 <!--                                    <button type="button" data-modal-id="cases-modal--4" data-modal-open=""> азвернуть кейс</button>-->
 <!--                                </div>-->
                             </div>
                         </div>
-                        <div class="cases__slide swiper-slide">
-                            <div class="cases__slide-content">
-                                <img src="images/photo18.jpg" loading="lazy" alt="отзыв">
-                                <div class="cases__slide-info">
-                                    <h4>отзыв</h4>
+<!--                        <div class="cases__slide swiper-slide">-->
+<!--                            <div class="cases__slide-content">-->
+<!--                                <img src="images/" loading="lazy" alt="отзыв">-->
+<!--                                <div class="cases__slide-info">-->
+<!--                                    <h4>отзыв</h4>-->
 <!--                                    <p>Выпускница программы</p>-->
 <!--                                    <p><span>«Профессия Product Manager в IT»</span></p>-->
-                                </div>
-                                <div class="cases__slide-text">С учётом сложившейся международной обстановки, новая модель организационной деятельности требует от нас анализа кластеризации усилий.</div>
+<!--                                </div>-->
+<!--                                <div class="cases__slide-text">С учётом сложившейся международной обстановки, новая модель организационной деятельности требует от нас анализа кластеризации усилий.</div>-->
 <!--                                <div class="cases__slide-btn">-->
 <!--                                    <button type="button" data-modal-id="cases-modal--1" data-modal-open=""> азвернуть кейс</button>-->
 <!--                                </div>-->
-                            </div>
-                        </div>
-                        <div class="cases__slide swiper-slide">
-                            <div class="cases__slide-content">
-                                <img src="images/2.webp" loading="lazy" alt="отзыв">
-                                <div class="cases__slide-info">
-                                    <h4>отзыв</h4>
-<!--                                    <p>Выпускница программы</p>-->
-<!--                                    <p><span>«IT-рекрутер»</span></p>-->
-                                </div>
-                                <div class="cases__slide-text">В своём стремлении повысить качество жизни, они забывают, что начало повседневной работы по формированию позиции способствует повышению качества позиций, занимаемых участниками в отношении поставленных задач.</div>
-<!--                                <div class="cases__slide-btn">-->
-<!--                                    <button type="button" data-modal-id="cases-modal--2" data-modal-open=""> азвернуть кейс</button>-->
-<!--                                </div>-->
-                            </div>
-                        </div>
-                        <div class="cases__slide swiper-slide">
-                            <div class="cases__slide-content">
-                                <img src="images/3.webp" loading="lazy" alt="отзыв">
-                                <div class="cases__slide-info">
-                                    <h4>Отзыв</h4>
-<!--                                    <p>Выпускница программы</p>-->
-<!--                                    <p><span>«IT-рекрутер»</span></p>-->
-                                </div>
-                                <div class="cases__slide-text">Являясь всего лишь частью общей картины, диаграммы связей представляют собой не что иное, как квинтэссенцию победы маркетинга над разумом и должны быть подвергнуты целой серии независимых исследований.</div>
-<!--                                <div class="cases__slide-btn">-->
-<!--                                    <button type="button" data-modal-id="cases-modal--3" data-modal-open=""> азвернуть кейс</button>-->
-<!--                                </div>-->
-                            </div>
-                        </div>
+<!--                            </div>-->
+<!--                        </div>-->
+
                     </div>
                 </div>
             </div>
@@ -951,16 +934,20 @@
                 <div class="other__item">
                     <img src="images/icon13.svg" loading="lazy" alt="">
                     <h5>Супервайзер службы приема и размещения</h5>
-                    <p>144 часа</p>
-                    <p>7 недель</p>
-                    <p>з/п от 100 тыс. руб</p>
+                    <div class="other__description">
+                        <p class="other__description-item">144 часа</p>
+                        <p class="other__description-item">7 недель</p>
+                        <p class="other__description-item">з/п от 100 тыс. руб</p>
+                    </div>
                 </div>
                 <div class="other__item">
                     <img src="images/icon14.svg" loading="lazy" alt="">
                     <h5>Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере</h5>
-                    <p>256 часов</p>
-                    <p>12 недель</p>
-                    <p>з/п от 80 тыс. руб</p>
+                    <div class="other__description">
+                        <p class="other__description-item">256 часов</p>
+                        <p class="other__description-item">12 недель</p>
+                        <p class="other__description-item">з/п от 80 тыс. руб</p>
+                    </div>
                 </div>
 
             </div>
