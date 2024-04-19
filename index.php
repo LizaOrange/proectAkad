@@ -994,7 +994,7 @@
                         </div>
                         <div class="form__field form-tooltip">
                             <select class="form__select" id="Category" name="category">
-                                <option value="12">Ваша категория</option>
+<!--                                <option value="12">ищущие работу (или трудоустроенные)</option>-->
                                 <option value="4">Трудоустроены или ищите работу</option>
                                 <option value="11">Под риском увольнения</option>
                                 <option value="5">Находитесь в декрете</option>
