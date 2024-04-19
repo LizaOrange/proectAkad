@@ -19,7 +19,7 @@
 
 <div class="scroll-to-top">
     <div class="container">
-        <a class="scroll-to-top__button" href="tg" aria-label="Телеграм"></a>
+        <a class="scroll-to-top__button bottom-right" href="tg" aria-label="Телеграм"></a>
     </div>
 </div>
 
