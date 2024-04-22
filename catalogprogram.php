@@ -22,54 +22,45 @@
                 <div class="tile">
                     <div class="tile__oval"></div>
                     <div class="tile__head">
-                        <div class="tile__info desk">
-                            <img src="images/icon14.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                        <div class="tile__info">
+                            <img src="images/icon13.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
                         </div>
-<!--                        <div class="tile__head-block">-->
-<!--                            <p class="tile__head-block__cost">Подходит для других категорий</p>-->
-<!--                            <div class="tile__info desk">-->
-<!--                                <p class="tile__info-date">До�&nbsp;2�&nbsp;месяцев<span>�&nbsp;/ Востребовано в�&nbsp;2024</span></p>-->
-<!--                                <div class="tile__info-rating">-->
-<!--                                    <p>�&nbsp;ейтинг программы <strong>5</strong> из <strong>5</strong></p>-->
-<!--                                    <div class="tile__info-icons">?-->
-<!--                                    </div>-->
-<!--                                </div>-->
+                        <div class="tile__body">
+                            <h3 style="line-height: 2.5em">Супервайзер службы приема и размещения</h3>
+                            <div class="other__description">
+                                <p class="other__description-item">144 часа</p>
+                                <p class="other__description-item">7 недель</p>
+                                <p class="other__description-item">з/п от 100 тыс. руб</p>
+                            </div>
+<!--                            <div class="tile__info mob">-->
+<!--                                <img src="images/icon14.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">-->
 <!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="tile__info mob">-->
-<!--                            <p class="tile__info-date">До�&nbsp;2�&nbsp;месяцев<span>�&nbsp;/ Востребовано в�&nbsp;2024</span></p>-->
-<!--                        </div>-->
+                        </div>
                     </div>
-                    <div class="tile__body">
-                        <h3>Супервайзер службы приема и размещения</h3>
-                        <p>144 часа</p>
-                        <p>7 недель</p>
-                        <p>з/п от 100 тыс. руб</p>
-                        <div class="tile__info mob">
+
+                    <div class="tile__open">
+                        <a href="/program/" class="tile__open-btn">
+                            <img src="images/open.svg" alt="Открыть программу">
+                            <span>Открыть программу</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="tile">
+                    <div class="tile__oval"></div>
+                    <div class="tile__head">
+                        <div class="tile__info">
                             <img src="images/icon14.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
                         </div>
-                    </div>
-                    <div class="tile__open">
-                        <a href="/program/" class="tile__open-btn">
-                            <img src="images/open.svg" alt="Открыть программу">
-                            <span>Открыть программу</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="tile">
-                    <div class="tile__oval"></div>
-                    <div class="tile__head">
-                        <div class="tile__info desk">
-                            <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
-                        </div>
-                    </div>
-                    <div class="tile__body">
-                        <h3>Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере</h3>
-                        <p>256 часов</p>
-                        <p>12 недель</p>
-                        <p>з/п от 80 тыс. руб</p>
-                        <div class="tile__info mob">
-                            <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                        <div class="tile__body">
+                            <h3>Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере</h3>
+                            <div class="other__description">
+                                <p class="other__description-item">256 часов</p>
+                                <p class="other__description-item">12 недель</p>
+                                <p class="other__description-item">з/п от 80 тыс. руб</p>
+                            </div>
+<!--                            <div class="tile__info mob">-->
+<!--                                <img src="images/icon14.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">-->
+<!--                            </div>-->
                         </div>
                     </div>
                     <div class="tile__open">
@@ -82,21 +73,25 @@
                 <div class="tile">
                     <div class="tile__oval"></div>
                     <div class="tile__head">
-                        <div class="tile__info desk">
-                            <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                        <div class="tile__body">
+                            <div class="tile__info">
+                                <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                            </div>
+
+                            <h3 style="line-height: 2.5em">Администратор Гостиницы</h3>
+                            <div class="other__description">
+                                <p class="other__description-item">144 часа</p>
+                                <p class="other__description-item">12 недель</p>
+                                <p class="other__description-item">з/п от 65 тыс. руб</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="tile__body">
-                        <h3>Администратор Гостиницы</h3>
-                        <p>144 часа</p>
-                        <p>12 недель</p>
-                        <p>з/п от 65 тыс. руб</p>
-                        <div class="tile__info mob">
-                            <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
-                        </div>
+
+<!--                        <div class="tile__info mob">-->
+<!--                            <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">-->
+<!--                        </div>-->
                     </div>
                     <div class="tile__open">
-                        <a href="/program/" class="tile__open-btn">
+                        <a href="/index.php" class="tile__open-btn">
                             <img src="images/open.svg" alt="Открыть программу">
                             <span>Открыть программу</span>
                         </a>
