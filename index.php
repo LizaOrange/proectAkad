@@ -5,11 +5,11 @@
         <div class="container">
             <div class="home__content">
                 <div class="img-admin">
-                    <img src="images/photo1.jpg" loading="eager" alt="Администратор гостиницы">
+                    <img src="images/theHead.jpeg" loading="eager" alt="Администратор гостиницы">
                 </div>
                 <h1 class="home__title">«Администратор гостиницы»</h1>
                 <p class="home__description">Бесплатно обучитесь искусству гостеприимства от лидера гостиничной отрасли <strong>Cosmos Hotel Group</strong></p>
-                <p class="home__description_p2">И получите помощь с <br>трудоустройством от государства</p>
+                <p class="home__description_p2">И получите помощь с трудоустройством от государства</p>
                 <button type="button" class="btn"><a href="#form">Начать обучение</a></button>
                 <!--                     data-modal-id="modal-main-form" data-modal-open=""-->
             </div>
@@ -386,7 +386,7 @@
                 <div class="causes__item">
                     <img src="images/icon1.svg" loading="lazy" alt="">
                     <h5>Бесплатное обучение</h5>
-                    <p>Государство платит за Ваше обучение, которое стоит <br> более 70 000 рублей</p>
+                    <p>Государство платит за Ваше обучение</p>
                 </div>
                 <div class="causes__item">
                     <img src="images/icon2.svg" loading="lazy" alt="">
@@ -406,12 +406,12 @@
                 <div class="causes__item">
                     <img src="images/icon5.svg" loading="lazy" alt="">
                     <h5>Документ об образовании</h5>
-                    <p>Официальное подтверждение вашей квалификации</p>
+                    <p>Удостоверение о повышении Вашей квалификации</p>
                 </div>
                 <div class="causes__item">
                     <img src="images/icon6.svg" loading="lazy" alt="">
                     <h5>Легко совмещать</h5>
-                    <p>Не более 2 часов в день занимает обучение</p>
+                    <p>Лекции всегда можно посмотреть в записи</p>
                 </div>
             </div>
         </div>
@@ -638,7 +638,7 @@
                     </ul>
                 </li>
                 <li class="prospects__item">
-                    <h3>Карьерный план</h3>
+                    <h3>Поддержка  трудоустройства</h3>
                     <ul>
 <!--                        <li>Освоите новую профессию в востребованной и надежной сфере*</li>-->
                         <li>Составите сильное, конкурентное резюме и разработаете пошаговый план действий</li>
@@ -648,7 +648,7 @@
                 <li class="prospects__item">
                     <h3>Документ об образовании</h3>
                     <ul>
-                        <li>Получите удостоверение о повышении квалификации государственного образца</li>
+                        <li>Удостоверение о повышении квалификации установленного образца</li>
 <!--                        <li>Получите доступ к проверенным вакансиям, бирже заказов и HR-консультациям</li>-->
 <!--                        <li>Подготовитесь к поиску работы в новой сфере или в вашей нише, на более высокие позиции</li>-->
                     </ul>
@@ -962,7 +962,7 @@
                 <p>1. Заполните заявку</p>
                 <p>2. Подтвердите заявку на портале "Работа России"</p>
                 <div class="position-center">
-                <p class="form__lead"><strong>Окончание набора: 29 апреля 23:59 Количество мест: 31</strong></p>
+                <p class="form__lead"><strong>Окончание набора:  2 мая 23:59 <br>Количество мест: менее 50</strong></p>
                 </div>
 <!--                <p><strong><span>*Важно:</span></strong> Проверяйте корректность введенных данных для получения инструкций участия и уведомлений, а так же проверяйте папку <b>«Спам»</b></p>-->
 <!--                <div class="form__info-options">-->
@@ -1039,13 +1039,13 @@
 
                         <p class="form__mandatory"><span class="purple">*</span> <strong>— Обязательные поля для заполнения</strong></p>
                         <div class="form__checkboxs">
-                            <div class="form__checkbox">
-                                <input type="checkbox" id="form-check" checked="">
-                                <label for="form-check">Я принимаю <a href="/files/documents/PD_Policy.pdf" target="blank">условия соглашения</a> об обработке персональных данных</label>
-                            </div>
+<!--                            <div class="form__checkbox">-->
+<!--                                <input type="checkbox" id="form-check" checked="">-->
+<!--                                <label for="form-check">Я принимаю <a href="/files/documents/PD_Policy.pdf" target="blank">условия соглашения</a> об обработке персональных данных</label>-->
+<!--                            </div>-->
                             <div class="form__checkbox">
                                 <input type="checkbox" id="form-check--pd" checked="">
-                                <label for="form-check--pd">Я даю <a href="/files/documents/Consent_to_the_processing_of_personal_data.pdf" target="blank">согласие на обработку персональных данных</a></label>
+                                <label for="form-check--pd">Я даю <a href="https://cosmosgroup.ru/ru/policy" target="blank">согласие на обработку персональных данных</a></label>
                             </div>
                         </div>
                         <div class="form__btn">

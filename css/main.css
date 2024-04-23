@@ -714,12 +714,12 @@ section {
 }
 
 /*.home--admin .home__content::before {*/
-/*    background-image: url("../images/photo1.jpg")*/
+/*    background-image: url("../images/theHead.jpg")*/
 /*}*/
 
 /*@media screen and (max-width: 1440px) {*/
 /*    .home--admin .home__content::before {*/
-/*        background-image: url("../images/photo1.jpg")*/
+/*        background-image: url("../images/theHead.jpg")*/
 /*    }*/
 /*}*/
 
@@ -783,49 +783,50 @@ section {
 
 @media screen and (max-width: 1440px) {
     .home__content {
-        padding: 30px 48px 40px 48px;
+        padding: 2rem;
         min-height: 26.9375rem
     }
 }
 
-@media (max-width: 1170px) {
-    .home__content {
-        padding: 0;
-        min-height: initial;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        align-items: center
-    }
-}
+/*@media (max-width: 1170px) {*/
+/*    .home__content {*/
+/*        padding: 0;*/
+/*        min-height: initial;*/
+/*        -webkit-box-align: center;*/
+/*        -ms-flex-align: center;*/
+/*        align-items: center*/
+/*    }*/
+/*}*/
 
 @media (max-width: 767px) {
     .home__content {
         -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center
+        align-items: center;
+        padding: 1rem;
     }
 }
 
 .home__content::before {
     position: absolute;
     content: "";
-    background-image: url("../images/photo1.jpg");
+    background-image: url("../images/theHead.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
     top: 0;
     bottom: 0;
     right: 0;
-    width: 37rem;
+    width: 25rem;
     height: 100%;
     /*max-height: calc(100% - 1.875rem);*/
     /*border-top-left-radius: 10%;*/
-    border-bottom-left-radius:500%;
+    /*border-bottom-left-radius:500%;*/
 }
 
 /*@media screen and (max-width: 1440px) {*/
 /*    .home__content::before {*/
-/*        background-image: url("../images/photo1.jpg")*/
+/*        background-image: url("../images/theHead.jpg")*/
 /*    }*/
 /*}*/
 
@@ -833,7 +834,7 @@ section {
     display: none;
 }
 
-@media (max-width: 1170px) {
+@media (max-width: 767px) {
     .home__content::before {
         display: none;
     }
@@ -856,7 +857,7 @@ section {
 .home__title {
     font-family: "Circe-Bold", sans-serif;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 2.375rem;
     max-width: 31.9375rem;
     margin: 1.25rem 0;
@@ -864,17 +865,17 @@ section {
 
 @media screen and (max-width: 1440px) {
     .home__title {
-        font-size: 29px;
+        /*font-size: 29px;*/
         max-width: 34.375rem;
     }
 }
 
-@media (max-width: 1170px) {
-    .home__title {
-        max-width: 100%;
-        text-align: center
-    }
-}
+/*@media (max-width: 1170px) {*/
+/*    .home__title {*/
+/*        max-width: 100%;*/
+/*        text-align: center*/
+/*    }*/
+/*}*/
 
 @media (max-width: 767px) {
     .home__title {
@@ -910,22 +911,21 @@ section {
 
 @media screen and (max-width: 1440px) {
     .home__description {
-        font-size: 19px
+        font-size: 24px
     }
 }
 
-@media (max-width: 1170px) {
+@media (max-width: 760px) {
     .home__description {
         text-align: center;
-        max-width: 90%
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 420px) {
     .home__description {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 22px;
-        margin: 0 auto 20px
+        margin: 20px
     }
 }
 
@@ -959,9 +959,9 @@ section {
 }**/
 
 .home__description_p2 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: normal;
-    margin-bottom: 1.875rem;
+    margin: 1rem;
 }
 
 .btn {
@@ -5670,11 +5670,11 @@ section {
 /*        margin: 0 auto; !* Центрируем логотип по горизонтали *!*/
 /*    }*/
 
-    .footer__contain {
-        display: block;
-        text-align: center; /* Выравниваем текст по центру */
-        width: 100%;
-    }
+    /*.footer__contain {*/
+    /*    display: block;*/
+    /*    text-align: center; !* Выравниваем текст по центру *!*/
+    /*    width: 100%;*/
+    /*}*/
 
     .footer__connect {
         width: 100%; /* Параграф занимает всю доступную ширину */
