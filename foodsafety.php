@@ -7,7 +7,7 @@
                 <div class="img-admin">
                     <img src="images/theHead.jpeg" loading="eager" alt="Администратор гостиницы">
                 </div>
-                <h1 class="home__title">«Администратор гостиницы»</h1>
+                <h1 class="home__title">«Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере»</h1>
                 <p class="home__description">Бесплатно обучитесь искусству гостеприимства от лидера гостиничной отрасли <strong>Cosmos Hotel Group</strong></p>
                 <p class="home__description_p2">И получите помощь с трудоустройством от государства</p>
                 <button type="button" class="btn"><a href="#form">Начать обучение</a></button>
@@ -420,11 +420,11 @@
     <section class="demand">
         <div class="container">
             <h2>Востребованность на рынке</h2>
-            <div class="demand__wrapper">
+            <div class="demand__wrapper-safety">
                 <ul class="demand__list">
-                    <li class="demand__item"><p>Зарплата подготовленного специалиста начинается от <b>65 000 рублей</b></p></li>
-                    <li class="demand__item"><p>Внутренний туризм динамично развивается, <br>это одна из самых быстрорастущих индустрий в России</p></li>
-                    <li class="demand__item"><p>Стандарты качества постоянно становятся выше, <br>потребность в компетентных администраторах растет</p></li>
+                    <li class="demand__item"><p>Средняя зарплата - <b>70 000 рублей</b></p></li>
+                    <li class="demand__item"><p>Гостиничная и ресторанная индустрии динамично развиваются</p></li>
+                    <li class="demand__item"><p>Стандарты качества постоянно становятся выше, потребность в компетентных специалистах растет</p></li>
                 </ul>
             </div>
         </div>
@@ -434,12 +434,13 @@
         <div class="container">
             <h2 id="features-content">Вы научитесь</h2>
             <ul class="features__items">
-                <li class="features__item">Осуществлять регистрацию гостей отеля</li>
-                <li class="features__item">Обрабатывать информацию о гостях с помощью современных информационных систем</li>
-                <li class="features__item">Понимать индивидуальную психологию каждого гостя и находить общий язык</li>
-                <li class="features__item">Использовать необходимые инструменты для дистанционной работы с клиентами</li>
-                <li class="features__item">Осуществлять расчеты с гостями</li>
-                <li class="features__item">Информировать гостя об услугах на территории отеля</li>
+                <li class="features__item">ориентироваться в санитарном законодательстве</li>
+                <li class="features__item">проводить диагностические аудиты на предприятиях</li>
+                <li class="features__item">знать принципы, разрабатывать и внедрять ХАССП</li>
+                <li class="features__item">проводить обучения сотрудников требованиям пищевой безопасности, правилам личной гигиены, нормам СанПиН</li>
+                <li class="features__item">уметь проводить анализ опасностей и оценку рисков, выявлять ККТ</li>
+                <li class="features__item">разрабатывать программу производственного контроля, основанную на принципах ХАССП</li>
+                <li class="features__item">готовить предприятия к проверкам государственных органов и независимых аудиторов</li>
             </ul>
         </div>
     </section>
@@ -457,11 +458,11 @@
                 </div>
                 <div class="program__description-item">
 <!--                    <dt>длится обучение</dt>-->
-                    <dd>2 месяца</dd>
+                    <dd>4 месяца</dd>
                 </div>
                 <div class="program__description-item">
 <!--                    <dt>продолжительность</dt>-->
-                    <dd>144 часа</dd>
+                    <dd>256 часов</dd>
                 </div>
                 <div class="program__description-item">
 <!--                    <dt>формат</dt>-->
@@ -474,121 +475,125 @@
                 <li class="program__module" data-accordion="element" data-collapse-item="">
                     <h3 class="program__module-title">Раздел 1. Введение в программу</h3>
                     <ul class="program__module-content" data-accordion="content">
-                        <li>• Построение карьерной траектории с помощью аналитики рынка труда</li>
-                        <li>• Профессиональная адаптация на новом рабочем месте</li>
+                        <li>1.1 Построение карьерной траектории с помощью аналитики рынка труда</li>
+                        <li>1.2 Профессиональная адаптация на новом рабочем месте</li>
+                        <li>1.3 Гигиена питания и общая гигиена: основные положения и нормативные документы</li>
+                        <li>1.4 Организация, формы и методы надзора за качеством, безопасностью пищевых продуктов и рационализацией питания</li>
+                        <li>1.5 Организация, формы и методы надзора в области общей гигиены, в том числе отельной</li>
+                        <li>1.6 Предупредительный санитарный надзор за проектированием, реконструкцией и пуском законченных объектов в эксплуатацию</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label="показать/закрыть содержание модуля"></button>
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 2. Нормативные требования для сотрудников службы приема и размещения</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Закон о защите прав потребителей</li>
-                        <li>• Правила предоставления гостиничных услуг в РФ. Предоставление платных и бесплатных услуг</li>
-                        <li>• Регистрация гостей</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 3. Структура отеля и роль службы приема и размещения в деятельности гостиницы</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Структура гостиницы</li>
-                        <li>• Роль службы размещения в операционной деятельности гостиницы</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 4. Системы управления гостиницей</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Основные системы управления гостиницей</li>
-                        <li>• Основные модули управления гостиницей. Отражение основных показателей</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 5. Основы коммуникации и работа с жалобами и обращениями</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Телефонный этикет и навыки деловой переписки</li>
-                        <li>• Основы коммуникации с гостями: приветствие, прощание, непринужденная беседа, обращение к гостю по имени</li>
-                        <li>• Работа с жалобами</li>
-                        <li>• Работа с отзывами</li>
-                        <li>• Метрики удовлетворенности гостей</li>
-                        <li>• Коммуникация после выезда гостей</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 6. Процедура бронирования</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Стандартная операционная процедура бронирования номера в зависимости от типа гостя</li>
-                        <li>• Групповое бронирование</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 7. Процедура заселения</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Стандартная операционная процедура заселения гостя с бронированием</li>
-                        <li>• Стандартная операционная процедура заселения гостя без бронирования</li>
-                        <li>• Стандартная операционная процедура группового заселения </li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 8. Процедура выезда</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Стандартная операционная процедура выезда</li>
-                        <li>• Стандартная операционная процедура группового выезда</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 9. Кассовая дисциплина</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Проведение предоплат и авторизаций</li>
-                        <li>• Проведение возвратов</li>
-                        <li>• Проведение оплат</li>
-                        <li>• Проведение корректировок начислений</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 10. Закрытие бизнес-дня: ночной аудит</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Цели проведения ночного аудита</li>
-                        <li>• Стандартная операционная процедура проведения ночного аудита</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 11. Безопасность гостей и сотрудников</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Конфиденциальность информации о гостях, сотрудниках и гостинице</li>
-                        <li>• Способы идентификации гостя при просьбе выдать ключ или открыть номер</li>
-                        <li>• Запрос информации от органов государственной власти</li>
-                        <li>• Общение со средствами массовой информации</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Итоговая аттестация</h3>
+<!--                    <h3 class="program__module-title">Раздел 2. Нормативные требования для сотрудников службы приема и размещения</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Закон о защите прав потребителей</li>-->
+<!--                        <li>• Правила предоставления гостиничных услуг в РФ. Предоставление платных и бесплатных услуг</li>-->
+<!--                        <li>• Регистрация гостей</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">Раздел 3. Структура отеля и роль службы приема и размещения в деятельности гостиницы</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Структура гостиницы</li>-->
+<!--                        <li>• Роль службы размещения в операционной деятельности гостиницы</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">Раздел 4. Системы управления гостиницей</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Основные системы управления гостиницей</li>-->
+<!--                        <li>• Основные модули управления гостиницей. Отражение основных показателей</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">Раздел 5. Основы коммуникации и работа с жалобами и обращениями</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Телефонный этикет и навыки деловой переписки</li>-->
+<!--                        <li>• Основы коммуникации с гостями: приветствие, прощание, непринужденная беседа, обращение к гостю по имени</li>-->
+<!--                        <li>• Работа с жалобами</li>-->
+<!--                        <li>• Работа с отзывами</li>-->
+<!--                        <li>• Метрики удовлетворенности гостей</li>-->
+<!--                        <li>• Коммуникация после выезда гостей</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">Раздел 6. Процедура бронирования</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Стандартная операционная процедура бронирования номера в зависимости от типа гостя</li>-->
+<!--                        <li>• Групповое бронирование</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">Раздел 7. Процедура заселения</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Стандартная операционная процедура заселения гостя с бронированием</li>-->
+<!--                        <li>• Стандартная операционная процедура заселения гостя без бронирования</li>-->
+<!--                        <li>• Стандартная операционная процедура группового заселения </li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">Раздел 8. Процедура выезда</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Стандартная операционная процедура выезда</li>-->
+<!--                        <li>• Стандартная операционная процедура группового выезда</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">Раздел 9. Кассовая дисциплина</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Проведение предоплат и авторизаций</li>-->
+<!--                        <li>• Проведение возвратов</li>-->
+<!--                        <li>• Проведение оплат</li>-->
+<!--                        <li>• Проведение корректировок начислений</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">Раздел 10. Закрытие бизнес-дня: ночной аудит</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Цели проведения ночного аудита</li>-->
+<!--                        <li>• Стандартная операционная процедура проведения ночного аудита</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">Раздел 11. Безопасность гостей и сотрудников</h3>-->
+<!--                    <ul class="program__module-content" data-accordion="content">-->
+<!--                        <li>• Конфиденциальность информации о гостях, сотрудниках и гостинице</li>-->
+<!--                        <li>• Способы идентификации гостя при просьбе выдать ключ или открыть номер</li>-->
+<!--                        <li>• Запрос информации от органов государственной власти</li>-->
+<!--                        <li>• Общение со средствами массовой информации</li>-->
+<!--                    </ul>-->
+<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
+<!--                </li>-->
+<!---->
+<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
+<!--                    <h3 class="program__module-title">Итоговая аттестация</h3>-->
 <!--                    <ul class="program__module-content" data-accordion="content">-->
 <!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
 <!--                        <li>• Тестовые методики: область применения и анализ</li>-->
 <!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
 <!--                    </ul>-->
 <!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-                </li>
+<!--                </li>-->
 
 <!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
 <!--                    <h3 class="program__module-title">13Психологическая диагностика</h3>-->
@@ -806,13 +811,13 @@
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
                                 <div class="cases__slide-info">
-                                    <img src="images/photo13.png" loading="lazy" alt="Отзыв Ирины">
-                                    <h4>Ирина, 34 года</h4>
+                                    <img src="images/photo20.png" loading="lazy" alt="Отзыв 1">
+                                    <h4>Екатерина, 25 лет</h4>
 <!--                                    <p>Выпускница программы</p>-->
 <!--                                    <p><span>«Аналитик данных — с нуля до разработки прикладных решений для бизнеса»</span></p>-->
                                 </div>
                                 <div class="cases__slide-text">
-                                    <p>То, что такой качественный курс может быть бесплатным - стало для меня настоящим открытием! Я давно хотела перепрофилироваться из оператора колл-центра в более живую работу, и сейчас полна решимости в самореализации!</p>
+                                    <p>У меня с детства была мания все стандартизировать, а потом соблюдать их или завставлять всех окружающих, но к сожалению я отучилась на музыканта. За 4 месяца обучения я получила невероятное удовольствие, и сейчас буду стажироваться! Спасибо кураторам и преподавателям за отличную работу!</p>
                                 </div>
 <!--                                <div class="cases__slide-btn">-->
 <!--                                    <button type="button" data-modal-id="cases-modal--8" data-modal-open=""> азвернуть кейс</button>-->
@@ -822,13 +827,13 @@
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
                                 <div class="cases__slide-info">
-                                    <img src="images/photo14.jpg" loading="lazy" alt="Алла">
-                                    <h4>Алла, 22 года</h4>
+                                    <img src="images/photo21.png" loading="lazy" alt="отзыв 2">
+                                    <h4>Анатолий, 56 лет</h4>
 <!--                                    <p>Выпускница программы</p>-->
 <!--                                    <p><span>«Графический дизайнер: старт карьеры»</span></p>-->
                                 </div>
                                 <div class="cases__slide-text">
-                                    <p>Это именно то, что мне было нужно для профессионального роста. Отдельное спасибо Александру, все подробно объяснял и всегда был в ресурсе.</p>
+                                    <p>Никогда не поздно учиться чему-то новому, даже в моем возрасте. Приятно что меня терпели и действительно хотели мне помочь в обучении. Это очень важно, спасибо вам.</p>
                                 </div>
 <!--                                <div class="cases__slide-btn">-->
 <!--                                    <button type="button" data-modal-id="cases-modal--9" data-modal-open=""> азвернуть кейс</button>-->
@@ -838,13 +843,13 @@
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
                                 <div class="cases__slide-info">
-                                    <img src="images/photo15.png" loading="lazy" alt="Сергей">
-                                    <h4>Сергей, 39 лет</h4>
+                                    <img src="images/photo22.png" loading="lazy" alt="отзыв 3">
+                                    <h4>Александр, 28 лет</h4>
 <!--                                    <p>Выпускник программы</p>-->
 <!--                                    <p><span>«Программист 1С»</span></p>-->
                                 </div>
                                 <div class="cases__slide-text">
-                                    <p>Иногда мне не хватало ориганизации, но мне сразу сказали, что наш поток первый, и для первого потока все было великолепно! Надеюсь моя обратная связь поможет вам еще эффективнее обучать ребят</p>
+                                    <p>Удивил опыт преподавателей, как правило в курсах, особенно бесплатных, но тут прям высший уровень! Максимальная вовлеченность и экспертиза. Было круто.</p>
                                 </div>
 <!--                                <div class="cases__slide-btn">-->
 <!--                                    <button type="button" data-modal-id="cases-modal--6" data-modal-open=""> азвернуть кейс</button>-->
@@ -854,13 +859,13 @@
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
                                 <div class="cases__slide-info">
-                                    <img src="images/photo16.png" loading="lazy" alt="Илона">
-                                    <h4>Илона, 40 лет</h4>
+                                    <img src="images/photo23.png" loading="lazy" alt="отзыв 4">
+                                    <h4>Тимур, 30 лет</h4>
 <!--                                    <p>Выпускница программы</p>-->
 <!--                                    <p><span>«HR-специалист»</span></p>-->
                                 </div>
                                 <div class="cases__slide-text">
-                                    <p>Спасибо команде академии Космос за основательное и при этом бесплатное обучение!</p>
+                                    <p>Мне все очень понравилось, после того как записался понял что скорее всего санитарные нормы это очень скучно, но кураторы меня переубедили и не зря.</p>
                                 </div>
 <!--                                <div class="cases__slide-btn">-->
 <!--                                    <button type="button" data-modal-id="cases-modal--7" data-modal-open=""> азвернуть кейс</button>-->
@@ -869,14 +874,14 @@
                         </div>
                         <div class="cases__slide swiper-slide">
                             <div class="cases__slide-content">
-                                <img src="images/photo17.jpg" loading="lazy" alt="Игорь">
+                                <img src="images/photo24.png" loading="lazy" alt="отзыв 5">
                                 <div class="cases__slide-info">
-                                    <h4>Игорь</h4>
+                                    <h4>Мария, 37 лет</h4>
 <!--                                    <p>Выпускница программы</p>-->
 <!--                                    <p><span>«Педагог дополнительного образования»</span></p>-->
                                 </div>
                                 <div class="cases__slide-text">
-                                    <p>Многое слышал про содействие занятости, не самые лестные отзывы, но решил проверить на себе - и не прогадал, спасибо за действительно качественный материал, который явно разрабатывался для коммерческих проектов, и это безусловно чувствуется, очень высокий уровень и материала, и преподавания.</p>
+                                    <p>Хоть я и обучалась на пищевого технолога, но в этом курсе информация гораздо шире. И теперь я гораздо глубже и обширнее понимаю тему! Думаю, это отличный опыт, спасибо.</p>
                                 </div>
 <!--                                <div class="cases__slide-btn">-->
 <!--                                    <button type="button" data-modal-id="cases-modal--4" data-modal-open=""> азвернуть кейс</button>-->
@@ -885,7 +890,7 @@
                         </div>
 <!--                        <div class="cases__slide swiper-slide">-->
 <!--                            <div class="cases__slide-content">-->
-<!--                                <img src="images/" loading="lazy" alt="отзыв">-->
+<!--                                <img src="images/photo24.png" loading="lazy" alt="отзыв">-->
 <!--                                <div class="cases__slide-info">-->
 <!--                                    <h4>отзыв</h4>-->
 <!--                                    <p>Выпускница программы</p>-->
@@ -941,14 +946,14 @@
                         <p class="other__description-item">з/п от 100 тыс. руб</p>
                     </div>
                 </div>
-                <a href="foodsafety.php">
+                <a href="/index.php">
                     <div class="other__item">
                         <img src="images/icon14.svg" loading="lazy" alt="">
-                        <h5>Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере</h5>
+                        <h5>Администратор Гостиницы</h5>
                         <div class="other__description">
-                            <p class="other__description-item">256 часов</p>
+                            <p class="other__description-item">144 часа</p>
                             <p class="other__description-item">12 недель</p>
-                            <p class="other__description-item">з/п от 80 тыс. руб</p>
+                            <p class="other__description-item">з/п от 65 тыс. руб</p>
                         </div>
                     </div>
                 </a>

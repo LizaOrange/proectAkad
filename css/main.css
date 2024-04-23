@@ -865,7 +865,7 @@ section {
 
 @media screen and (max-width: 1440px) {
     .home__title {
-        /*font-size: 29px;*/
+        font-size: 33px;
         max-width: 34.375rem;
     }
 }
@@ -2473,6 +2473,96 @@ section {
     }
 }
 
+
+
+
+.demand__wrapper-safety {
+    background-color: #587abc;
+    /*padding: 1.25rem;*/
+    border-radius: 1.25rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: space-between;
+    /*gap: 6.9375rem*/
+}
+
+
+@media (max-width: 767px) {
+    .demand__wrapper-safety {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /*gap: 0;*/
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        padding: 15px;
+        border-radius: 20px
+    }
+}
+
+.demand__wrapper-safety::before {
+    content: "";
+    width: 30rem;
+    height: 25rem;
+    background-image: url("../images/photo18.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.25rem;
+    /*-ms-flex-negative: 0;*/
+    /*flex-shrink: 1;*/
+}
+
+/*@media (max-width: 1120px){*/
+/*    .demand__wrapper-safety::before {*/
+/*        content: "";*/
+/*        position: relative;*/
+/*        width: 40rem;*/
+/*        height: 25rem;*/
+/*        top: -31px;*/
+/*        background-repeat: no-repeat;*/
+/*        background-size: contain;*/
+/*        border-radius: 1.25rem;*/
+/*        align-self: center;*/
+/*        margin-bottom: -20px*/
+/*        !*-ms-flex-negative: 0;*!*/
+/*        !*flex-shrink: 1;*!*/
+/*    }*/
+/*}*/
+@media (max-width: 767px) {
+    .demand__wrapper-safety::before {
+        position: relative;
+        top: -31px;
+        width: 500px;
+        height: 500px;
+        -ms-flex-item-align: center;
+        align-self: center;
+        margin-bottom: -20px
+    }
+}
+
+@media (max-width: 420px) {
+    .demand__wrapper-safety::before {
+        position: relative;
+        top: -31px;
+        width: 300px;
+        height: 200px;
+        -ms-flex-item-align: center;
+        align-self: center;
+        margin-bottom: -20px
+    }
+}
+
+
+
+
+
+
 .demand__list {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3877,7 +3967,7 @@ section {
     border-radius: 50%;
     width: 8rem;
     max-height: 8rem;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 /*@media (max-width: 767px) {*/
