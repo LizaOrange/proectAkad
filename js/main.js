@@ -496,6 +496,21 @@ function validateEmail(email) {
 
 // регионы
 // Загрузка данных из файла region.json
+fetch('region.json')
+    .then(response => response.json())
+    .then(data => {
+        const selectElement = document.getElementById('Regions');
+
+        // Создание элементов <option> для каждого объекта в данных
+        data.forEach(item => {
+            const option = document.createElement('option');
+            option.value = item.link; // Значение равно ссылке
+            option.textContent = item.region; // Текстовое содержимое равно названию региона
+            selectElement.appendChild(option); // Добавляем <option> в <select>
+        });
+    })
+    .catch(error => console.error('Ошибка загрузки данных:', error));
+// Загрузка данных из файла regionfoodsafety.json
 fetch('regionfoodsafety.json')
     .then(response => response.json())
     .then(data => {

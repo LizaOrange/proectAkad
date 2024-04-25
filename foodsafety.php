@@ -473,158 +473,57 @@
             <ol class="program__modules" data-accordion="parent" data-single="">
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 1. Введение в программу</h3>
+                    <h3 class="program__module-title">Раздел 1. Основы гигиены и санитарный надзор: от питания до общественных объектов.</h3>
                     <ul class="program__module-content" data-accordion="content">
-                        <li>1.1 Построение карьерной траектории с помощью аналитики рынка труда</li>
-                        <li>1.2 Профессиональная адаптация на новом рабочем месте</li>
-                        <li>1.3 Гигиена питания и общая гигиена: основные положения и нормативные документы</li>
-                        <li>1.4 Организация, формы и методы надзора за качеством, безопасностью пищевых продуктов и рационализацией питания</li>
-                        <li>1.5 Организация, формы и методы надзора в области общей гигиены, в том числе отельной</li>
-                        <li>1.6 Предупредительный санитарный надзор за проектированием, реконструкцией и пуском законченных объектов в эксплуатацию</li>
+                        <li>•Построение карьерной траектории с помощью аналитики рынка труда</li>
+                        <li>• Профессиональная адаптация на новом рабочем месте</li>
+                        <li>• Гигиена питания и общая гигиена: основные положения и нормативные документы </li>
+                        <li>• Организация, формы и методы надзора за качеством, безопасностью пищевых продуктов и рационализацией питания</li>
+                        <li>• Организация, формы и методы надзора в области общей гигиены, в том числе отельной </li>
+                        <li>• Предупредительный санитарный надзор за проектированием, реконструкцией и пуском законченных объектов в эксплуатацию</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label="показать/закрыть содержание модуля"></button>
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-<!--                    <h3 class="program__module-title">Раздел 2. Нормативные требования для сотрудников службы приема и размещения</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Закон о защите прав потребителей</li>-->
-<!--                        <li>• Правила предоставления гостиничных услуг в РФ. Предоставление платных и бесплатных услуг</li>-->
-<!--                        <li>• Регистрация гостей</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 3. Структура отеля и роль службы приема и размещения в деятельности гостиницы</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Структура гостиницы</li>-->
-<!--                        <li>• Роль службы размещения в операционной деятельности гостиницы</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 4. Системы управления гостиницей</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Основные системы управления гостиницей</li>-->
-<!--                        <li>• Основные модули управления гостиницей. Отражение основных показателей</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 5. Основы коммуникации и работа с жалобами и обращениями</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Телефонный этикет и навыки деловой переписки</li>-->
-<!--                        <li>• Основы коммуникации с гостями: приветствие, прощание, непринужденная беседа, обращение к гостю по имени</li>-->
-<!--                        <li>• Работа с жалобами</li>-->
-<!--                        <li>• Работа с отзывами</li>-->
-<!--                        <li>• Метрики удовлетворенности гостей</li>-->
-<!--                        <li>• Коммуникация после выезда гостей</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 6. Процедура бронирования</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Стандартная операционная процедура бронирования номера в зависимости от типа гостя</li>-->
-<!--                        <li>• Групповое бронирование</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 7. Процедура заселения</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Стандартная операционная процедура заселения гостя с бронированием</li>-->
-<!--                        <li>• Стандартная операционная процедура заселения гостя без бронирования</li>-->
-<!--                        <li>• Стандартная операционная процедура группового заселения </li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 8. Процедура выезда</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Стандартная операционная процедура выезда</li>-->
-<!--                        <li>• Стандартная операционная процедура группового выезда</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 9. Кассовая дисциплина</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Проведение предоплат и авторизаций</li>-->
-<!--                        <li>• Проведение возвратов</li>-->
-<!--                        <li>• Проведение оплат</li>-->
-<!--                        <li>• Проведение корректировок начислений</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 10. Закрытие бизнес-дня: ночной аудит</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Цели проведения ночного аудита</li>-->
-<!--                        <li>• Стандартная операционная процедура проведения ночного аудита</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 11. Безопасность гостей и сотрудников</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Конфиденциальность информации о гостях, сотрудниках и гостинице</li>-->
-<!--                        <li>• Способы идентификации гостя при просьбе выдать ключ или открыть номер</li>-->
-<!--                        <li>• Запрос информации от органов государственной власти</li>-->
-<!--                        <li>• Общение со средствами массовой информации</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Итоговая аттестация</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
-<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
-<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
+                    <h3 class="program__module-title">Раздел 2. Система менеджмента безопасности пищевой продукции (СМБПП)</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Эпидемиология и профилактика острых кишечных инфекций и паразитарных заболеваний</li>
+                        <li>• Пищевые отравления и их профилактика</li>
+                        <li>• Чужеродные вещества в пище и оценка степени риска воздействия контаминантов пищи на организм человека</li>
+                        <li>• Понятие о системе контроля HACCP. Процессный подход</li>
+                        <li>• Политика в области безопасности пищевой продукции</li>
+                        <li>• Требования к прослеживаемости</li>
+                        <li>• Управление и анализ опасностей. Разработка плана ХАССП и иных мероприятий по управлению опасными факторами</li>
+                        <li>• Мониторинг и измерения для обеспечения безопасности пищевой продукции</li>
+                        <li>• Внутренний аудит: планирование, проведение и последующие действия</li>
+                        <li>• Управление несоответствиями</li>
+                        <li>• Оценка системы менеджмента безопасности пищевой продукции</li>
+                        <li>• Программы обязательных предварительных мероприятий</li>
+                        <li>• Организация работ в рамках внедрения СМБПП</li>
+                        <li>• Организация производственного контроля за объектами питания</li>
+                        <li>• Принципы организации и проведения профилактических медосмотров работников</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
 
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">13Психологическая диагностика</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
-<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
-<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">14Психологическая диагностика</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
-<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
-<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">15Психологическая диагностика</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
-<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
-<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 3. Общая отельная гигиена</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Мониторинг и оценка санитарного состояния услуг по проживанию и дополнительных услуг, предоставляемых в гостиницах</li>
+                        <li>• Осуществление контроля за соблюдением санитарных правил, гигиенических нормативов, организацией и проведением санитарно-противоэпидемических (профилактических) мероприятий</li>
+                        <li>• Вопросы дезинфектологии, паразитологии, эпидемиологии</li>
+                        <li>• Методы обследования различных объектов: хостелов, гостиниц, офисов и других</li>
+                        <li>• Требования к менеджменту  факторов санитарного риска в различных средах: в воде, почве, воздухе</li>
+                        <li>• Разработка и осуществление  мероприятий для предотвращения неблагоприятного воздействия различных факторов на здоровье и жизнь людей</li>
+                        <li>• Внутренний аудит: планирование, проведение и последующие действия</li>
+                        <li>• Организация и проведение  производственного контроля в гостиницах</li>
+                        <li>• Принципы организации и проведения профилактических медосмотров работников</li>
+                        <li>• Организация и проведение мероприятий по дератизации и дезинсекции</li>
 
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
             </ol>
             <button class="show-button" type="button" data-show-button="">Показать еще</button>
         </div>
@@ -1042,7 +941,7 @@
                         </div>
 
                         <input type="hidden" class="direction-hidden" name="Direction" value="">
-                        <input type="hidden" class="program-hidden" name="Program" value="Психолог-консультант: с нуля до первого клиента">
+                        <input type="hidden" class="program-hidden" name="Program" value="">
 
                         <p class="form__mandatory"><span class="purple">*</span> <strong>— Обязательные поля для заполнения</strong></p>
                         <div class="form__checkboxs">
