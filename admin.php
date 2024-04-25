@@ -598,44 +598,7 @@
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
                     <h3 class="program__module-title">Итоговая аттестация</h3>
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
-<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
-<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
                 </li>
-
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">13Психологическая диагностика</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
-<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
-<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">14Психологическая диагностика</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
-<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
-<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">15Психологическая диагностика</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
-<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
-<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-
             </ol>
             <button class="show-button" type="button" data-show-button="">Показать еще</button>
         </div>
@@ -894,26 +857,8 @@
                                 <div class="cases__slide-text">
                                     <p>Многое слышал про содействие занятости, не самые лестные отзывы, но решил проверить на себе - и не прогадал, спасибо за действительно качественный материал, который явно разрабатывался для коммерческих проектов, и это безусловно чувствуется, очень высокий уровень и материала, и преподавания.</p>
                                 </div>
-<!--                                <div class="cases__slide-btn">-->
-<!--                                    <button type="button" data-modal-id="cases-modal--4" data-modal-open=""> азвернуть кейс</button>-->
-<!--                                </div>-->
                             </div>
                         </div>
-<!--                        <div class="cases__slide swiper-slide">-->
-<!--                            <div class="cases__slide-content">-->
-<!--                                <img src="images/" loading="lazy" alt="отзыв">-->
-<!--                                <div class="cases__slide-info">-->
-<!--                                    <h4>отзыв</h4>-->
-<!--                                    <p>Выпускница программы</p>-->
-<!--                                    <p><span>«Профессия Product Manager в IT»</span></p>-->
-<!--                                </div>-->
-<!--                                <div class="cases__slide-text">С учётом сложившейся международной обстановки, новая модель организационной деятельности требует от нас анализа кластеризации усилий.</div>-->
-<!--                                <div class="cases__slide-btn">-->
-<!--                                    <button type="button" data-modal-id="cases-modal--1" data-modal-open=""> азвернуть кейс</button>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-
                     </div>
                 </div>
             </div>
@@ -948,8 +893,8 @@
         <div class="container">
             <h2>Не подходит программа? У нас есть другие:</h2>
             <div class="other__items">
-                <a href="/supervisor.php">
-                    <div class="other__item">
+                <a class="other__item" href="/supervisor.php">
+<!--                    <div class="other__item">-->
                         <img src="images/icon13.svg" loading="lazy" alt="">
                         <h5>Супервайзер службы приема и размещения</h5>
                         <div class="other__description">
@@ -957,10 +902,10 @@
                             <p class="other__description-item">7 недель</p>
                             <p class="other__description-item">з/п от 100 тыс. руб</p>
                         </div>
-                    </div>
+<!--                    </div>-->
                 </a>
-                <a href="foodsafety.php">
-                    <div class="other__item">
+                <a class="other__item" href="foodsafety.php">
+<!--                    <div class="other__item">-->
                         <img src="images/icon14.svg" loading="lazy" alt="">
                         <h5>Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере</h5>
                         <div class="other__description">
@@ -968,7 +913,7 @@
                             <p class="other__description-item">12 недель</p>
                             <p class="other__description-item">з/п от 80 тыс. руб</p>
                         </div>
-                    </div>
+<!--                    </div>-->
                 </a>
 
             </div>
@@ -984,23 +929,12 @@
                 <div class="position-center">
                 <p class="form__lead"><strong>Окончание набора:  2 мая 23:59 <br>Количество мест: менее 50</strong></p>
                 </div>
-<!--                <p><strong><span>*Важно:</span></strong> Проверяйте корректность введенных данных для получения инструкций участия и уведомлений, а так же проверяйте папку <b>«Спам»</b></p>-->
-<!--                <div class="form__info-options">-->
-<!--                    <div>Бесплатно</div>-->
-<!--                    <div>Преподаватели-эксперты</div>-->
-<!--                    <div>Онлайн</div>-->
-<!--                    <div>Доход от 70 тыс.</div>-->
-<!--                    <div>От 2 месяцев</div>-->
-<!--                    <div>Помощь с трудоустройством</div>-->
-<!--                    <div>Поддержка кураторов и группы</div>-->
-<!--                </div>-->
             </div>
             <div class="form__panel">
-<!--                <h3>Оставьте заявку</h3>-->
                 <form id="form-app">
                     <div class="form__group">
                         <div class="form__field">
-                            <input type="text" name="FirstName" class="form__input" placeholder="Имя">
+                            <input type="text" name="FirstName" class="form__input" placeholder="ФИО">
                             <span class="form-required">*</span>
                         </div>
                         <div class="form__field">
@@ -1014,7 +948,6 @@
                         <div class="form__field form-tooltip">
                             <select class="form__select" id="Category" name="category">
                                 <option disabled selected>Ваша категория</option>
-                                <!--                                <option value="12">ищущие работу (или трудоустроенные)</option>-->
                                 <option value="4">Трудоустроены или ищите работу</option>
                                 <option value="11">Под риском увольнения</option>
                                 <option value="5">Находитесь в декрете</option>

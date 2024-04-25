@@ -540,6 +540,9 @@
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
                 </li>
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Итоговая аттестация</h3>
+                </li>
             </ol>
             <button class="show-button" type="button" data-show-button="">Показать еще</button>
         </div>
@@ -888,23 +891,12 @@
                 <div class="position-center">
                 <p class="form__lead"><strong>Окончание набора:  2 мая 23:59 <br>Количество мест: менее 50</strong></p>
                 </div>
-<!--                <p><strong><span>*Важно:</span></strong> Проверяйте корректность введенных данных для получения инструкций участия и уведомлений, а так же проверяйте папку <b>«Спам»</b></p>-->
-<!--                <div class="form__info-options">-->
-<!--                    <div>Бесплатно</div>-->
-<!--                    <div>Преподаватели-эксперты</div>-->
-<!--                    <div>Онлайн</div>-->
-<!--                    <div>Доход от 70 тыс.</div>-->
-<!--                    <div>От 2 месяцев</div>-->
-<!--                    <div>Помощь с трудоустройством</div>-->
-<!--                    <div>Поддержка кураторов и группы</div>-->
-<!--                </div>-->
             </div>
             <div class="form__panel">
-<!--                <h3>Оставьте заявку</h3>-->
                 <form id="form-app">
                     <div class="form__group">
                         <div class="form__field">
-                            <input type="text" name="FirstName" class="form__input" placeholder="Имя">
+                            <input type="text" name="FirstName" class="form__input" placeholder="ФИО">
                             <span class="form-required">*</span>
                         </div>
                         <div class="form__field">

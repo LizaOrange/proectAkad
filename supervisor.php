@@ -412,7 +412,7 @@
                 <div class="causes__item">
                     <img src="images/icon3.svg" loading="lazy" alt="">
                     <h5>Опытные преподаватели</h5>
-                    <p>Многолетний стаж в Академии и вузах РФ</p>
+                    <p>Многолетний стаж в Академии и вузах РФ, практика в международных гостиничных cетях</p>
                 </div>
                 <div class="causes__item">
                     <img src="images/icon4.svg" loading="lazy" alt="">
@@ -436,11 +436,11 @@
     <section class="demand">
         <div class="container">
             <h2>Востребованность на рынке</h2>
-            <div class="demand__wrapper">
+            <div class="demand__wrapper-supervisor">
                 <ul class="demand__list">
-                    <li class="demand__item"><p>Зарплата подготовленного специалиста начинается от <b>65 000 рублей</b></p></li>
-                    <li class="demand__item"><p>Внутренний туризм динамично развивается, <br>это одна из самых быстрорастущих индустрий в России</p></li>
-                    <li class="demand__item"><p>Стандарты качества постоянно становятся выше, <br>потребность в компетентных администраторах растет</p></li>
+                    <li class="demand__item"><p>Средняя зарплата - <b>90 000 рублей</b></p></li>
+                    <li class="demand__item"><p>Индустрия отельного бизнеса динамично развивается</p></li>
+                    <li class="demand__item"><p>Стандарты качества постоянно становятся выше, <br>потребность в компетентных специалистах растет</p></li>
                 </ul>
             </div>
         </div>
@@ -450,12 +450,11 @@
         <div class="container">
             <h2 id="features-content">Вы научитесь</h2>
             <ul class="features__items">
-                <li class="features__item">Осуществлять регистрацию гостей отеля</li>
-                <li class="features__item">Обрабатывать информацию о гостях с помощью современных информационных систем</li>
-                <li class="features__item">Понимать индивидуальную психологию каждого гостя и находить общий язык</li>
-                <li class="features__item">Использовать необходимые инструменты для дистанционной работы с клиентами</li>
-                <li class="features__item">Осуществлять расчеты с гостями</li>
-                <li class="features__item">Информировать гостя об услугах на территории отеля</li>
+                <li class="features__item">осуществлять планирование и организацию деятельности службы приема и размещения отеля</li>
+                <li class="features__item">осуществлять координацию и контроль, проводить оценку эффективности деятельности службы приема и размещения</li>
+                <li class="features__item">определять формы и методы контроля бизнес-процессов</li>
+                <li class="features__item">организовывать контроль соблюдения технических и санитарных условий работы структурных подразделений</li>
+                <li class="features__item">организовывать контроль выполнения сотрудниками стандартов обслуживания</li>
             </ul>
         </div>
     </section>
@@ -497,17 +496,17 @@
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 2. Нормативные требования для сотрудников службы приема и размещения</h3>
+                    <h3 class="program__module-title">Раздел 2. Законодательство Российской Федерации о предоставлении гостиничных услуг</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Закон о защите прав потребителей</li>
-                        <li>• Правила предоставления гостиничных услуг в РФ. Предоставление платных и бесплатных услуг</li>
+                        <li>• Правила предоставления гостиничных услуг в РФ</li>
                         <li>• Регистрация гостей</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 3. Структура отеля и роль службы приема и размещения в деятельности гостиницы</h3>
+                    <h3 class="program__module-title">Раздел 3. Основы организации деятельности гостиниц и иных средств размещения</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Структура гостиницы</li>
                         <li>• Роль службы размещения в операционной деятельности гостиницы</li>
@@ -519,16 +518,16 @@
                     <h3 class="program__module-title">Раздел 4. Системы управления гостиницей</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Основные системы управления гостиницей</li>
-                        <li>• Основные модули управления гостиницей. Отражение основных показателей</li>
+                        <li>• Основные модули управления гостиницей</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 5. Основы коммуникации и работа с жалобами и обращениями</h3>
+                    <h3 class="program__module-title">Раздел 5. Теория межличностного и делового общения, переговоров, конфликтологии малой группы</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Телефонный этикет и навыки деловой переписки</li>
-                        <li>• Основы коммуникации с гостями: приветствие, прощание, непринужденная беседа, обращение к гостю по имени</li>
+                        <li>• Приветствие гостя</li>
                         <li>• Работа с жалобами</li>
                         <li>• Работа с отзывами</li>
                         <li>• Метрики удовлетворенности гостей</li>
@@ -538,35 +537,35 @@
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 6. Процедура бронирования</h3>
+                    <h3 class="program__module-title">Раздел 6. Технологии продаж</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Основные показатели гостиничного бизнеса: ADR, RevPAR, RevPAC, загрузка, TRevPAR</li>
+                        <li>• Приемы технологии продаж. Навыки Upsell и cross-selling</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 7. Процедуры бронирования, заселения, выезда</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Стандартная операционная процедура бронирования номера в зависимости от типа гостя</li>
-                        <li>• Групповое бронирование</li>
+                        <li>• Стандартные операционные процедуры заселения (с бронированием, без бронирования) и выселения гостя</li>
+                        <li>• Стандартные операционные процедуры группового заселения и выезда</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 7. Процедура заселения</h3>
+                    <h3 class="program__module-title">Раздел 8. Специализированные информационные программы и технологии, применяемые в работе службы приема и размещения</h3>
                     <ul class="program__module-content" data-accordion="content">
-                        <li>• Стандартная операционная процедура заселения гостя с бронированием</li>
-                        <li>• Стандартная операционная процедура заселения гостя без бронирования</li>
-                        <li>• Стандартная операционная процедура группового заселения </li>
+                        <li>• Виды специализированных информационных программ и технологий, используемых в работе службы приема и размещения</li>
+                        <li>• Сравнение основных специализированных информационных программ</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 8. Процедура выезда</h3>
-                    <ul class="program__module-content" data-accordion="content">
-                        <li>• Стандартная операционная процедура выезда</li>
-                        <li>• Стандартная операционная процедура группового выезда</li>
-                    </ul>
-                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
-                </li>
-
-                <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 9. Кассовая дисциплина</h3>
+                    <h3 class="program__module-title">Раздел 9. Управление финансами</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Проведение предоплат и авторизаций</li>
                         <li>• Проведение возвратов</li>
@@ -577,16 +576,16 @@
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 10. Закрытие бизнес-дня: ночной аудит</h3>
+                    <h3 class="program__module-title">Раздел 10. Основы охраны здоровья и санитарных правил</h3>
                     <ul class="program__module-content" data-accordion="content">
-                        <li>• Цели проведения ночного аудита</li>
-                        <li>• Стандартная операционная процедура проведения ночного аудита</li>
+                        <li>• Основные требования санитарных правил в гостиничном деле</li>
+                        <li>• Соблюдение санитарных правил в службе приема и размещения</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 11. Безопасность гостей и сотрудников</h3>
+                    <h3 class="program__module-title">Раздел 11. Требования безопасности в службе приема и размещения</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Конфиденциальность информации о гостях, сотрудниках и гостинице</li>
                         <li>• Способы идентификации гостя при просьбе выдать ключ или открыть номер</li>
@@ -598,44 +597,7 @@
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
                     <h3 class="program__module-title">Итоговая аттестация</h3>
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
-<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
-<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
                 </li>
-
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">13Психологическая диагностика</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
-<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
-<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">14Психологическая диагностика</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
-<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
-<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">15Психологическая диагностика</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Методы психодиагностики в психологическом консультировании</li>-->
-<!--                        <li>• Тестовые методики: область применения и анализ</li>-->
-<!--                        <li>• Наблюдение и беседа как инструменты психодиагностики</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-
             </ol>
             <button class="show-button" type="button" data-show-button="">Показать еще</button>
         </div>
@@ -982,23 +944,12 @@
                 <div class="position-center">
                 <p class="form__lead"><strong>Окончание набора:  2 мая 23:59 <br>Количество мест: менее 50</strong></p>
                 </div>
-<!--                <p><strong><span>*Важно:</span></strong> Проверяйте корректность введенных данных для получения инструкций участия и уведомлений, а так же проверяйте папку <b>«Спам»</b></p>-->
-<!--                <div class="form__info-options">-->
-<!--                    <div>Бесплатно</div>-->
-<!--                    <div>Преподаватели-эксперты</div>-->
-<!--                    <div>Онлайн</div>-->
-<!--                    <div>Доход от 70 тыс.</div>-->
-<!--                    <div>От 2 месяцев</div>-->
-<!--                    <div>Помощь с трудоустройством</div>-->
-<!--                    <div>Поддержка кураторов и группы</div>-->
-<!--                </div>-->
             </div>
             <div class="form__panel">
-<!--                <h3>Оставьте заявку</h3>-->
                 <form id="form-app">
                     <div class="form__group">
                         <div class="form__field">
-                            <input type="text" name="FirstName" class="form__input" placeholder="Имя">
+                            <input type="text" name="FirstName" class="form__input" placeholder="ФИО">
                             <span class="form-required">*</span>
                         </div>
                         <div class="form__field">
@@ -1011,7 +962,7 @@
                         </div>
                         <div class="form__field form-tooltip">
                             <select class="form__select" id="Category" name="category">
-<!--                                <option value="12">ищущие работу (или трудоустроенные)</option>-->
+                                <option disabled selected>Ваша категория</option>
                                 <option value="4">Трудоустроены или ищите работу</option>
                                 <option value="11">Под риском увольнения</option>
                                 <option value="5">Находитесь в декрете</option>
@@ -1028,6 +979,7 @@
                         </div>
                         <div class="form__field form-tooltip">
                             <select class="form__select" id="EmploymentFormat" name="EmploymentFormat">
+                                <option disabled selected>Трудоустройство</option>
                                 <option value="2">Официально трудоустроен</option>
                                 <option value="4">Индивидуальный предприниматель</option>
                                 <option value="3">Самозанятый</option>
@@ -1039,6 +991,7 @@
                         </div>
                         <div class="form__field">
                             <select class="form__select" name="Education" id="Education">
+                                <option disabled selected>Ваше образование</option>
                                 <option value="1">Среднее (школьное)</option>
                                 <option value="2">Получаю среднее профессиональное</option>
                                 <option value="3">Среднее профессиональное (колледж, техникум и т.д.)</option>
