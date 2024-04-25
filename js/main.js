@@ -383,28 +383,43 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
         return;
     }
 
+    let employmentText = $('#Category').select2('data')[0].text;
+    let categoryText = $('#EmploymentFormat').select2('data')[0].text;
+    let educationText = $('#Education').select2('data')[0].text;
+    let regionText = $('.region_class').select2('data')[0].text;
+    let programText = $('.program-class-text').select2('data')[0].text;
+
 
     let region = document.querySelector('.region_class').value;
-    window.location.href = region;
-
-
-
-    // Раскомитить как будет ПОЧТА
-    // let url = "mail.php";
+    let url = "mail.php";
     // let formData = new FormData(document.getElementById('form-app'));
-    //
-    // fetch(url, {
-    //     method: 'POST',
-    //     body: formData
-    // })
-    //     .then(response => {
-    //         if (response.ok) {
-    //             console.log('ok');
-    //             // Если запрос успешный, показываем благодарность
-    //             document.getElementById('success-modal').style.display = 'block';
-    //         }
-    //     })
-    //     .catch(error => console.error('Ошибка отправки данных:', error));
+
+    // Создаем новый объект FormData
+    let formData = new FormData();
+
+// Добавляем значения переменных в объект formData
+    formData.append('FirstName', firstName);
+    formData.append('Phone', phone);
+    formData.append('Email', email);
+    formData.append('category', categoryText);
+    formData.append('EmploymentFormat', employmentText);
+    formData.append('Education', educationText);
+    formData.append('Regions', regionText);
+    formData.append('Program', programText);
+
+    fetch(url, {
+        method: 'POST',
+        body: formData
+    })
+        .then(response => {
+            if (response.ok) {
+                console.log('ok');
+                window.location.href = region;
+                // Если запрос успешный, показываем благодарность
+                //document.getElementById('success-modal').style.display = 'block';
+            }
+        })
+        .catch(error => console.error('Ошибка отправки данных:', error));
 });
 // ajax end
 
