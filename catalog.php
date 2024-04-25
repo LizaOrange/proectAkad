@@ -20,7 +20,8 @@
         <div class="catalog__DPO">
             <h4 class="catalog__courses-title">Не подходит программа? У нас есть другие:</h4>
             <div class="catalog__tiles">
-                <a href="https://supervisor.cosmos-academy.ru" class="tile__open-btn">
+<!--                <a href="https://supervisor.cosmos-academy.ru" class="tile__open-btn">-->
+                <a href="/supervisor.php" class="tile__open-btn">
                     <div class="tile">
                         <div class="tile__oval"></div>
                         <div class="tile__head">
@@ -43,7 +44,8 @@
 <!--                        </div>-->
                     </div>
                 </a>
-                <a href="https://foodsafety.cosmos-academy.ru" class="tile__open-btn">
+<!--                <a href="https://foodsafety.cosmos-academy.ru" class="tile__open-btn">-->
+                <a href="/foodsafety.php" class="tile__open-btn">
                     <div class="tile">
                         <div class="tile__oval"></div>
                         <div class="tile__head">
@@ -65,7 +67,8 @@
 <!--                        </div>-->
                     </div>
                 </a>
-                <a href="https://admin.cosmos-academy.ru" class="tile__open-btn">
+<!--                <a href="https://admin.cosmos-academy.ru" class="tile__open-btn">-->
+                <a href="/admin.php" class="tile__open-btn">
                     <div class="tile">
                         <div class="tile__oval"></div>
                         <div class="tile__head">

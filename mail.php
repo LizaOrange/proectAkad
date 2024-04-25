@@ -25,8 +25,7 @@
         //От кого письмо. Здесь дублируем почту из поля Username
         $mail->setFrom('alize.kolosova@yandex.ru', 'Сайт cosmos-academy.ru');
         //Кому отправить. Указать почту, куда должна падать заявка
-//        $mail->addAddress('bagirovdil96@gmail.com');
-        $mail->addAddress('kolosovaalisa@gmail.com');
+        $mail->addAddress('bagirovdil96@gmail.com');
         //Тема письма
         $mail->Subject = 'Заявка с сайта';
     

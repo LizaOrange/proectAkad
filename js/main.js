@@ -392,7 +392,7 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
     let categoryText = $('#EmploymentFormat').select2('data')[0].text;
     let educationText = $('#Education').select2('data')[0].text;
     let regionText = $('.region_class').select2('data')[0].text;
-    let programText = $('.program-class-text').select2('data')[0].text;
+    let programText = document.querySelector('input[name="Program"]').value;
 
 
     let region = document.querySelector('.region_class').value;

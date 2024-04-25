@@ -26,10 +26,14 @@
             </div>
             <div class="header-wrapper">
                 <div class="header__links">
-                    <a class="header__link" href="https://admin.cosmos-academy.ru#federation-project">О проекте</a>
-                    <a class="header__link" href="https://admin.cosmos-academy.ru#features-content">Чему научитесь</a>
-                    <a class="header__link" href="https://admin.cosmos-academy.ru#form">Начать обучение</a>
-                    <a class="header__link" href="https://catalog.cosmos-academy.ru/">Другие программы</a>
+<!--                    <a class="header__link" href="https://admin.cosmos-academy.ru#federation-project">О проекте</a>-->
+<!--                    <a class="header__link" href="https://admin.cosmos-academy.ru#features-content">Чему научитесь</a>-->
+<!--                    <a class="header__link" href="https://admin.cosmos-academy.ru#form">Начать обучение</a>-->
+<!--                    <a class="header__link" href="https://catalog.cosmos-academy.ru/">Другие программы</a>-->
+                    <a class="header__link" href="/admin.php#federation-project">О проекте</a>
+                    <a class="header__link" href="/admin.php#features-content">Чему научитесь</a>
+                    <a class="header__link" href="/admin.php#form">Начать обучение</a>
+                    <a class="header__link" href="/catalog.php">Другие программы</a>
                 </div>
             </div>
         </div>
@@ -40,10 +44,14 @@
     <div class="popup-mob">
         <div class="popup-mob__container">
             <ul class="popup-mob__list">
-                <li><a href="https://admin.cosmos-academy.ru#federation-project" class="">О проекте</a></li>
-                <li><a href="https://admin.cosmos-academy.ru#features-content" class="">Чему научитесь</a></li>
-                <li><a href="https://admin.cosmos-academy.ru#form" class="">Начать обучение</a></li>
-                <li><a href="https://catalog.cosmos-academy.ru" class="">Другие программы</a></li>
+<!--                <li><a href="https://admin.cosmos-academy.ru#federation-project" class="">О проекте</a></li>-->
+<!--                <li><a href="https://admin.cosmos-academy.ru#features-content" class="">Чему научитесь</a></li>-->
+<!--                <li><a href="https://admin.cosmos-academy.ru#form" class="">Начать обучение</a></li>-->
+<!--                <li><a href="https://catalog.cosmos-academy.ru" class="">Другие программы</a></li>-->
+                <li><a href="/admin.php#federation-project" class="">О проекте</a></li>
+                <li><a href="/admin.php#features-content" class="">Чему научитесь</a></li>
+                <li><a href="/admin.php#form" class="">Начать обучение</a></li>
+                <li><a href="/catalog.php" class="">Другие программы</a></li>
             </ul>
         </div>
     </div>
