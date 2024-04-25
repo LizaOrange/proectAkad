@@ -1,4 +1,20 @@
-<?php include 'head.php'; ?>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="Image/x-icon" href="/images/favicon.ico" rel="icon">
+    <title>Специалист по пищевой безопасности</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/select2.min.css">
+</head>
+<body>
+<div class="wrapper">
 <?php include 'header.php'; ?>
 <main>
     <section class="home home--admin">
@@ -836,15 +852,17 @@
         <div class="container">
             <h2>Не подходит программа? У нас есть другие:</h2>
             <div class="other__items">
-                <div class="other__item">
-                    <img src="images/icon13.svg" loading="lazy" alt="">
-                    <h5>Супервайзер службы приема и размещения</h5>
-                    <div class="other__description">
-                        <p class="other__description-item">144 часа</p>
-                        <p class="other__description-item">7 недель</p>
-                        <p class="other__description-item">з/п от 100 тыс. руб</p>
+                <a href="/supervisor.php">
+                    <div class="other__item">
+                        <img src="images/icon13.svg" loading="lazy" alt="">
+                        <h5>Супервайзер службы приема и размещения</h5>
+                        <div class="other__description">
+                            <p class="other__description-item">144 часа</p>
+                            <p class="other__description-item">7 недель</p>
+                            <p class="other__description-item">з/п от 100 тыс. руб</p>
+                        </div>
                     </div>
-                </div>
+                </a>
                 <a href="/admin.php">
                     <div class="other__item">
                         <img src="images/icon14.svg" loading="lazy" alt="">
