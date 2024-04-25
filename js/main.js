@@ -117,6 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let categorySelect = document.getElementById('Category');
     let employmentFormatSelect = document.getElementById('EmploymentFormat');
     let regionsSelect = document.getElementById('Regions');
+    let regionsSupervizorSelect = document.getElementById('RegionsSupervizor');
     let regionFoodSafetySelect = document.getElementById('RegionFoodSafety');
     let educationSelect = document.getElementById('Education');
 
@@ -131,6 +132,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (regionsSelect) {
         $(regionsSelect).select2();
+    }
+
+    if (regionsSupervizorSelect) {
+        $(regionsSupervizorSelect).select2();
     }
 
     if (regionFoodSafetySelect) {
@@ -510,6 +515,22 @@ fetch('regionfoodsafety.json')
     .then(response => response.json())
     .then(data => {
         const selectElement = document.getElementById('RegionFoodSafety');
+
+        // Создание элементов <option> для каждого объекта в данных
+        data.forEach(item => {
+            const option = document.createElement('option');
+            option.value = item.link; // Значение равно ссылке
+            option.textContent = item.region; // Текстовое содержимое равно названию региона
+            selectElement.appendChild(option); // Добавляем <option> в <select>
+        });
+    })
+    .catch(error => console.error('Ошибка загрузки данных:', error));
+
+// Загрузка данных из файла supervisor.json
+fetch('supervisor.json')
+    .then(response => response.json())
+    .then(data => {
+        const selectElement = document.getElementById('RegionsSupervizor');
 
         // Создание элементов <option> для каждого объекта в данных
         data.forEach(item => {
