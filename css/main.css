@@ -286,7 +286,7 @@ section {
 /*    max-width: 100%;*/
 /*    max-height: 100%;*/
 /*    display: block;*/
-}
+/*}*/
 
 /*.header-social__link{*/
 /*    height: 5rem;*/
@@ -731,7 +731,6 @@ section {
     padding: .8125rem 1.25rem;
     border-radius: 10px;
     color: #1f1f1f;
-    color: var(--black, #1f1f1f)
 }
 
 .header .popup-menu__link:hover {
@@ -3003,7 +3002,7 @@ section {
         top: 22px;
         width: 14px;
         height: 18px;
-        background-image: url("../images/down.svg");
+        /*background-image: url("../images/down.svg");*/
         -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         transform: rotate(90deg)
