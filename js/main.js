@@ -117,6 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let categorySelect = document.getElementById('Category');
     let employmentFormatSelect = document.getElementById('EmploymentFormat');
     let regionsSelect = document.getElementById('Regions');
+    let regionFoodSafetySelect = document.getElementById('RegionFoodSafety');
     let educationSelect = document.getElementById('Education');
 
     // Инициализация Select2 для каждого элемента select
@@ -130,6 +131,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     if (regionsSelect) {
         $(regionsSelect).select2();
+    }
+
+    if (regionFoodSafetySelect) {
+        $(regionFoodSafetySelect).select2();
     }
 
     if (educationSelect) {
@@ -510,6 +515,8 @@ fetch('region.json')
         });
     })
     .catch(error => console.error('Ошибка загрузки данных:', error));
+
+
 // Загрузка данных из файла regionfoodsafety.json
 fetch('regionfoodsafety.json')
     .then(response => response.json())
