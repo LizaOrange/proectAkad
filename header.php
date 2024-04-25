@@ -68,11 +68,6 @@
     </div>
 
 
-    admin.cosmos-academy.ru
-    catalog.cosmos-academy.ru
-    foodsafety.cosmos-academy.ru
-    supervisor.cosmos-academy.ru
-
     <div class="popup-mob">
         <div class="popup-mob__container">
             <ul class="popup-mob__list">
