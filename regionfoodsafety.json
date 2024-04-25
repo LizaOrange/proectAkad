@@ -1,198 +1,170 @@
 [
-  {
-    "region": "Алтайский край",
-    "link": "https://trudvsem.ru/educational-programs/card?id=c91d7a3f-8ec7-4984-8ac3-36b878bbabcb"
-  },
-  {
-    "region": "Архангельская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=746c5f87-e92a-4010-8d27-3daf2739b0cc"
-  },
-  {
-    "region": "Астраханская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=94b96def-5dc1-4428-88d1-293599c92f25"
-  },
-  {
-    "region": "Владимирская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=0c276cda-4385-4deb-81fa-def5ad9b6d22"
-  },
-  {
-    "region": "г Севастополь",
-    "link": "https://trudvsem.ru/educational-programs/card?id=74870c84-7712-4245-be63-dc7315d8cb60"
-  },
-  {
-    "region": "Еврейская автономная область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=005543ec-9562-4e35-9120-274bc90a6bf6"
-  },
-  {
-    "region": "Забайкальский край",
-    "link": "https://trudvsem.ru/educational-programs/card?id=56216646-1c72-4b19-a1e5-cfa3c8f0b1b1"
-  },
-  {
-    "region": "Запорожская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=cbb31c3b-265b-4f69-8f8e-108fdcfbae4a"
-  },
-  {
-    "region": "Ивановская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=8c8b311b-2d5d-4a59-ab02-bdc2925cc5ad"
-  },
-  {
-    "region": "Иркутская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=9290fa20-49ed-4ee7-886b-bdc0339e30288"
-  },
-  {
-    "region": "Кабардино-Балкарская Республика",
-    "link": "https://trudvsem.ru/educational-programs/card?id=856f36f6-7245-4864-b82f-46e4eeb9dd76"
-  },
-  {
-    "region": "Калужская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=9722369b-ed70-42ef-922d-48f40064cae0"
-  },
-  {
-    "region": "Камчатский край",
-    "link": "https://trudvsem.ru/educational-programs/card?id=9fb63fcc-0387-4421-96d6-d62b0abe8100"
-  },
-  {
-    "region": "Карачаево-Черкесская Республика",
-    "link": "https://trudvsem.ru/educational-programs/card?id=add51df0-6257-49c2-b5da-48e6b1331aad"
-  },
-  {
-    "region": "Кемеровская область - Кузбасс",
-    "link": "https://trudvsem.ru/educational-programs/card?id=5abc2cb0-0b8f-4433-ad20-62bdfb128efc"
-  },
-  {
-    "region": "Краснодарский край",
-    "link": "https://trudvsem.ru/educational-programs/card?id=7a427737-b6b2-412a-b16a-9a4e77f9ebe4"
-  },
-  {
-    "region": "Красноярский край",
-    "link": "https://trudvsem.ru/educational-programs/card?id=160236a9-939a-432b-95ea-ef285d277c87"
-  },
-  {
-    "region": "Курская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=7c83b3de-a3e7-4773-b357-0b9a8d5ac145"
-  },
-  {
-    "region": "Ленинградская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=df1b1aa0-0b1b-4420-8d3b-3caf9d9de8d8"
-  },
-  {
-    "region": "Липецкая область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=2a9a0e8b-ebd2-4731-b89f-3fbcff669833"
-  },
-  {
-    "region": "Магаданская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=3b87f03d-1bd1-465c-9f39-be2dfa0c35e4"
-  },
-  {
-    "region": "Мурманская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=807e5327-4e8c-447a-b01a-66fb093b22c1"
-  },
-  {
-    "region": "Ненецкий автономный округ",
-    "link": "https://trudvsem.ru/educational-programs/card?id=e792eb7c-1c7d-447c-9cbb-7208af33077b"
-  },
-  {
-    "region": "Нижегородская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=5a428123-8c3a-48bb-ab77-152204ddf47e"
-  },
-  {
-    "region": "Новгородская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=870be83a-aaec-4716-8a19-2f3bfcd06b2b"
-  },
-  {
-    "region": "Новосибирская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=4b49fe17-fcb8-44f7-a5fa-5f82890b2299"
-  },
-  {
-    "region": "Омская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=14a7d414-a186-403d-9641-37c9cc2b896d"
-  },
-  {
-    "region": "Оренбургская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=d244a684-04c8-42b7-9f78-21e1aae7e775"
-  },
-  {
-    "region": "Орловская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=a5153861-c656-4dd1-a83f-2d59dde23b9c"
-  },
-  {
-    "region": "Приморский край",
-    "link": "https://trudvsem.ru/educational-programs/card?id=7cc428e7-81f3-47d8-a3bf-73f1eb9415c0"
-  },
-  {
-    "region": "Псковская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=2344cfc7-9379-4a67-9d3c-19ae9de51e6c"
-  },
-  {
-    "region": "Республика Адыгея (Адыгея)",
-    "link": "https://trudvsem.ru/educational-programs/card?id=4c18128a-90d1-4c0c-b09a-7500efaf93e6"
-  },
-  {
-    "region": "Республика Алтай",
-    "link": "https://trudvsem.ru/educational-programs/card?id=ce9086de-cadb-46b1-8f47-18f19d2cfcdf"
-  },
-  {
-    "region": "Республика Дагестан",
-    "link": "https://trudvsem.ru/educational-programs/card?id=5ffb8534-1d94-4354-b896-b628b8cd3c7ee"
-  },
-  {
-    "region": "Республика Ингушетия",
-    "link": "https://trudvsem.ru/educational-programs/card?id=7204cd9c-4247-4eca-8e26-e5b1b3604834"
-  },
-  {
-    "region": "Республика Карелия",
-    "link": "https://trudvsem.ru/educational-programs/card?id=aee9a44f-9e55-4723-a9a2-5cdaa6333a1b"
-  },
-  {
-    "region": "Республика Крым",
-    "link": "https://trudvsem.ru/educational-programs/card?id=c6496a2f-f03a-455a-87d5-63ddf33d5033"
-  },
-  {
-    "region": "Республика Марий Эл",
-    "link": "https://trudvsem.ru/educational-programs/card?id=b64f0c40-4062-4796-ae1b-49e84e29ee0e"
-  },
-  {
-    "region": "Республика Саха (Якутия)",
-    "link": "https://trudvsem.ru/educational-programs/card?id=44d5ecf8-a41e-49ab-8234-f787a8d60280"
-  },
-  {
-    "region": "Республика Северная Осетия - Алания",
-    "link": "https://trudvsem.ru/educational-programs/card?id=cfedb4fe-5fff-4dfa-8f1f-e2b59f43037b"
-  },
-  {
-    "region": "Республика Татарстан (Татарстан)",
-    "link": "https://trudvsem.ru/educational-programs/card?id=c4d5595f-74b4-4867-811d-83c3b53bd622"
-  },
-  {
-    "region": "Республика Тыва",
-    "link": "https://trudvsem.ru/educational-programs/card?id=9b015e51-7e47-453f-b8aa-79b0f8112246"
-  },
-  {
-    "region": "Республика Хакасия",
-    "link": "https://trudvsem.ru/educational-programs/card?id=8fcaf7fc-4bbf-43f5-825b-7cf2f7228a18"
-  },
-  {
-    "region": "Сахалинская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=5f5ca299-b7b5-4fa8-a5c0-d94353bd5bf9"
-  },
-  {
-    "region": "Ульяновская область",
-    "link": "https://trudvsem.ru/educational-programs/card?id=ae1ca406-9b43-4246-a7f3-594abad4a042"
-  },
-  {
-    "region": "Хабаровский край",
-    "link": "https://trudvsem.ru/educational-programs/card?id=c4ddcd7c-feec-4e70-a9f9-99acf6e1bd9e"
-  },
-  {
-    "region": "Ханты-Мансийский автономный округ - Югра",
-    "link": "https://trudvsem.ru/educational-programs/card?id=2c8a0e7f-0ed9-4f34-b4c4-221b23dc48a8"
-  },
-  {
-    "region": "Чувашская Республика - Чувашия",
-    "link": "https://trudvsem.ru/educational-programs/card?id=684d737a-5ca2-4c80-b4e4-6f56f59daff4"
-  },
-  {
-    "region": "Ямало-Ненецкий автономный округ",
-    "link": "https://trudvsem.ru/educational-programs/card?id=2808edac-f043-49c9-953d-c625b4b10c81"
-  }
+    {
+        "region": "Алтайский край",
+        "link": "https://trudvsem.ru/educational-programs/card?id=9ff1e1ed-96a0-4cf9-945b-383d825c526b"
+    },
+    {
+        "region": "Архангельская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=2a6da342-496c-4d92-8420-371c96b06ec2"
+    },
+    {
+        "region": "Астраханская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=abc6711a-fd0e-4e00-ac39-f1615389f2f1"
+    },
+    {
+        "region": "Волгоградская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=bb70dd6c-f54c-4665-a8e4-3ca96eed9d15"
+    },
+    {
+        "region": "Вологодская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=7a027eba-2db3-4e00-834f-8613a96a9131"
+    },
+    {
+        "region": "Еврейская АО",
+        "link": "https://trudvsem.ru/educational-programs/card?id=076dea38-03fd-4a6c-8971-1c456041655f"
+    },
+    {
+        "region": "Забайкальский край",
+        "link": "https://trudvsem.ru/educational-programs/card?id=e71a53ac-c0fc-42a1-b8a8-3345fd7539d1"
+    },
+    {
+        "region": "Запорожская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=246b73c3-f34b-4f39-8650-65daace7a5e1"
+    },
+    {
+        "region": "Ивановская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=a2a00c6b-3e12-4820-be4e-c809b996d833"
+    },
+    {
+        "region": "Иркутская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=78c7dd5a-7583-46f6-8641-908c76c338eb"
+    },
+    {
+        "region": "Кабардино-Балкарская Республика",
+        "link": "https://trudvsem.ru/educational-programs/card?id=449f8d0b-6c4c-4940-a87d-e10d26778365"
+    },
+    {
+        "region": "Калининградская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=274ae4a2-b5b7-49aa-aa24-bc2fa021a8da"
+    },
+    {
+        "region": "Калужская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=70fa07af-02e2-4fee-a47f-57f6ae9d4946"
+    },
+    {
+        "region": "Карачаево-Черкесская Республика",
+        "link": "https://trudvsem.ru/educational-programs/card?id=ea45073e-396c-4bab-9bd0-4a16384b21a3"
+    },
+    {
+        "region": "Кемеровская область — Кузбасс",
+        "link": "https://trudvsem.ru/educational-programs/card?id=2e818ac3-0bde-4d45-bdba-3d3615d0a2b5"
+    },
+    {
+        "region": "Курская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=bc9b336b-7a7c-47fc-b4b3-aded3f9db340"
+    },
+    {
+        "region": "Ленинградская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=e8acf72b-64ad-47ec-a933-a68baaddc3bd"
+    },
+    {
+        "region": "Липецкая область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=a4fda018-d2f9-481a-94f0-c098e3912732"
+    },
+    {
+        "region": "Ненецкий АО",
+        "link": "https://trudvsem.ru/educational-programs/card?id=02ca0f24-fcb9-474a-a5e7-cadd7c350c50"
+    },
+    {
+        "region": "Нижегородская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=ef42f9f2-d7d9-4cf7-b046-aa5cf833e24c"
+    },
+    {
+        "region": "Омская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=f4297426-b152-41e0-9af4-76c2046bbf26"
+    },
+    {
+        "region": "Оренбургская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=9666cfa4-6213-483a-bf33-70e76a719766"
+    },
+    {
+        "region": "Орловская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=834d676a-f842-4930-8b47-50a05043c736"
+    },
+    {
+        "region": "Приморский край",
+        "link": "https://trudvsem.ru/educational-programs/card?id=0a0ef9b2-150a-4637-a129-aad7a5c28163"
+    },
+    {
+        "region": "Псковская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=d8cccd04-e81d-4cf8-a4d9-57a14e3a83a1"
+    },
+    {
+        "region": "Республика Адыгея",
+        "link": "https://trudvsem.ru/educational-programs/card?id=43b0ada9-1eb6-4811-a70c-b5f97e9ace6d"
+    },
+    {
+        "region": "Республика Алтай",
+        "link": "https://trudvsem.ru/educational-programs/card?id=33da90a7-a137-41d8-ab2c-b49ed1d75d46"
+    },
+    {
+        "region": "Республика Дагестан",
+        "link": "https://trudvsem.ru/educational-programs/card?id=5d8f2bee-7579-4c98-a785-5ca87b345de8"
+    },
+    {
+        "region": "Республика Ингушетия",
+        "link": "https://trudvsem.ru/educational-programs/card?id=e5325e96-fa6e-47ec-baf9-55bf204cc2a8"
+    },
+    {
+        "region": "Республика Калмыкия",
+        "link": "https://trudvsem.ru/educational-programs/card?id=0fa73a3e-4021-488b-857f-acc464223b9d"
+    },
+    {
+        "region": "Республика Карелия",
+        "link": "https://trudvsem.ru/educational-programs/card?id=5c7bc3bd-7b62-4088-b12c-62c15c764efd"
+    },
+    {
+        "region": "Республика Крым",
+        "link": "https://trudvsem.ru/educational-programs/card?id=906f6a29-2533-49fd-accc-e188eb4e951d"
+    },
+    {
+        "region": "Республика Марий Эл",
+        "link": "https://trudvsem.ru/educational-programs/card?id=db0dd64c-a8ed-4367-a9ab-806617696112"
+    },
+    {
+        "region": "Республика Саха (Якутия)",
+        "link": "https://trudvsem.ru/educational-programs/card?id=d73f83a8-b45b-442e-a9b6-d0b6b42e5d65"
+    },
+    {
+        "region": "Республика Северная Осетия - Алания",
+        "link": "https://trudvsem.ru/educational-programs/card?id=086c2bfc-6014-495e-8fcd-bf5eb5e01461"
+    },
+    {
+        "region": "Республика Татарстан",
+        "link": "https://trudvsem.ru/educational-programs/card?id=6363530a-7ffc-491a-a0d8-16427f3678f0"
+    },
+    {
+        "region": "Рязанская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=59cffd7b-3aec-4078-8395-574cfbfbe012"
+    },
+    {
+        "region": "Сахалинская область",
+        "link": "https://trudvsem.ru/educational-programs/card?id=76a0abb7-eee2-4aaa-abc2-8b3ea3b73a2b"
+    },
+    {
+        "region": "Ставропольский край",
+        "link": "https://trudvsem.ru/educational-programs/card?id=25382da8-1b0e-41a3-9fc0-411fc787e500"
+    },
+    {
+        "region": "Хабаровский край",
+        "link": "https://trudvsem.ru/educational-programs/card?id=133cfac5-640f-4195-8c59-b79ecf17493f"
+    },
+    {
+        "region": "Чеченская Республика",
+        "link": "https://trudvsem.ru/educational-programs/card?id=eb4a4b11-859c-4264-a8af-4b77e1e3cefc"
+    },
+    {
+        "region": "Ямало-Ненецкий АО",
+        "link": "https://trudvsem.ru/educational-programs/card?id=0fe2c9af-e043-4816-8947-adab70ab0e08"
+    }
 ]
