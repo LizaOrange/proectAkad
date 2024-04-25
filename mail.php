@@ -25,7 +25,7 @@
         //От кого письмо. Здесь дублируем почту из поля Username
         $mail->setFrom('alize.kolosova@yandex.ru', 'Сайт cosmos-academy.ru');
         //Кому отправить. Указать почту, куда должна падать заявка
-        $mail->addAddress('kolosovaalisa@gmail.com');
+        $mail->addAddress('test@gmail.com');
         //Тема письма
         $mail->Subject = 'Заявка с сайта';
     
@@ -54,7 +54,7 @@
             $body.= '<p><strong>Регион:</strong> '.$_POST['Direction'].'</p>';
         }
         if(trim(!empty($_POST['Regions']))){
-            $body.= '<p><strong>Программа:</strong> '.$_POST['Program'].'</p>';
+            $body.= '<p><strong>Регион:</strong> '.$_POST['Program'].'</p>';
         }
         if(trim(!empty($_POST['Program']))){
             $body.= '<p><strong>Программа:</strong> '.$_POST['Program'].'</p>';

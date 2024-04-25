@@ -1032,7 +1032,7 @@
                             <span class="form-required">*</span>
                         </div>
                         <div class="form__field">
-                            <select class="form__select" name="Region" id="Regions"></select>
+                            <select class="form__select region_class" name="Region" id="Regions"></select>
                             <span class="form-required">*</span>
                         </div>
 

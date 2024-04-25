@@ -327,40 +327,6 @@ var ModalManager = function () {
     return ModalManager;
 }();
 
-
-// form
-// var s = {
-//     required: function (value, messageContainer) {
-//         if (!value || value.trim() === '') {
-//             messageContainer.textContent = "Это поле обязательно";
-//             return false;
-//         }
-//         return true;
-//     },
-//     phone: function (value, messageContainer) {
-//         if (value.length !== 18) {
-//             messageContainer.textContent = "Некорректный номер";
-//             return false;
-//         }
-//         return true;
-//     },
-//     email: function (value, messageContainer) {
-//         if (!/.+@.+\..+/.test(value)) {
-//             messageContainer.textContent = "Некорректный email";
-//             return false;
-//         }
-//         return true;
-//     },
-//     birthday: function (value, messageContainer) {
-//         var parts = value.split(".");
-//         if (parts.length !== 3 || parts[0].length !== 2 || parts[1].length !== 2 || parts[2].length !== 4) {
-//             messageContainer.textContent = "Некорректная дата рождения";
-//             return false;
-//         }
-//         return true;
-//     }
-// };
-
 document.getElementById('form-app').addEventListener('submit', function(event) {
     event.preventDefault();
 
@@ -417,21 +383,28 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
         return;
     }
 
-    let url = "mail.php";
-    let formData = new FormData(document.getElementById('form-app'));
 
-    fetch(url, {
-        method: 'POST',
-        body: formData
-    })
-        .then(response => {
-            if (response.ok) {
-                console.log('ok');
-                // Если запрос успешный, показываем благодарность
-                document.getElementById('success-modal').style.display = 'block';
-            }
-        })
-        .catch(error => console.error('Ошибка отправки данных:', error));
+    let region = document.querySelector('.region_class').value;
+    window.location.href = region;
+
+
+
+    // Раскомитить как будет ПОЧТА
+    // let url = "mail.php";
+    // let formData = new FormData(document.getElementById('form-app'));
+    //
+    // fetch(url, {
+    //     method: 'POST',
+    //     body: formData
+    // })
+    //     .then(response => {
+    //         if (response.ok) {
+    //             console.log('ok');
+    //             // Если запрос успешный, показываем благодарность
+    //             document.getElementById('success-modal').style.display = 'block';
+    //         }
+    //     })
+    //     .catch(error => console.error('Ошибка отправки данных:', error));
 });
 // ajax end
 
@@ -480,11 +453,11 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // При клике вне модального окна также закрываем его
-window.addEventListener('click', function(event) {
-    if (event.target == modal) {
-        modal.style.display = 'none';
-    }
-});
+// window.addEventListener('click', function(event) {
+//     if (event.target == modal) {
+//         modal.style.display = 'none';
+//     }
+// });
 
 
 // Функция для проверки телефона
