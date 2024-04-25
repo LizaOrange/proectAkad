@@ -79,7 +79,7 @@
                                 <h3 style="line-height: 2.5em">Администратор Гостиницы</h3>
                                 <div class="other__description">
                                     <p class="other__description-item">144 часа</p>
-                                    <p class="other__description-item">12 недель</p>
+                                    <p class="other__description-item">7 недель</p>
                                     <p class="other__description-item">з/п от 65 тыс. руб</p>
                                 </div>
                             </div>
