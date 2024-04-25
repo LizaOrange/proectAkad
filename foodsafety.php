@@ -845,7 +845,7 @@
                         <p class="other__description-item">з/п от 100 тыс. руб</p>
                     </div>
                 </div>
-                <a href="/index.php">
+                <a href="/admin.php">
                     <div class="other__item">
                         <img src="images/icon14.svg" loading="lazy" alt="">
                         <h5>Администратор Гостиницы</h5>

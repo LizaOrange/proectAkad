@@ -57,9 +57,9 @@
             </div>
             <div class="header-wrapper">
                 <div class="header__links">
-                    <a class="header__link" href="/index.php#federation-project">О проекте</a>
-                    <a class="header__link" href="/index.php#features-content">Чему научитесь</a>
-                    <a class="header__link" href="/index.php#form">Начать обучение</a>
+                    <a class="header__link" href="/admin.php#federation-project">О проекте</a>
+                    <a class="header__link" href="/admin.php#features-content">Чему научитесь</a>
+                    <a class="header__link" href="/admin.php#form">Начать обучение</a>
                     <a class="header__link" href="/catalogprogram.php">Другие программы</a>
                 </div>
             </div>
@@ -70,9 +70,9 @@
     <div class="popup-mob">
         <div class="popup-mob__container">
             <ul class="popup-mob__list">
-                <li><a href="/index.php#federation-project" class="">О проекте</a></li>
-                <li><a href="/index.php#features-content" class="">Чему научитесь</a></li>
-                <li><a href="/index.php#form" class="">Начать обучение</a></li>
+                <li><a href="/admin.php#federation-project" class="">О проекте</a></li>
+                <li><a href="/admin.php#features-content" class="">Чему научитесь</a></li>
+                <li><a href="/admin.php#form" class="">Начать обучение</a></li>
                 <li><a href="/catalogprogram.php" class="">Другие программы</a></li>
             </ul>
         </div>

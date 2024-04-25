@@ -92,7 +92,7 @@
 <!--                        </div>-->
                     </div>
                     <div class="tile__open">
-                        <a href="/index.php" class="tile__open-btn">
+                        <a href="/admin.php" class="tile__open-btn">
                             <img src="images/open.svg" alt="Открыть программу">
                             <span>Открыть программу</span>
                         </a>
