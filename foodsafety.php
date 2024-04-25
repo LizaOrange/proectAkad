@@ -1037,7 +1037,7 @@
                             <span class="form-required">*</span>
                         </div>
                         <div class="form__field">
-                            <select class="form__select" name="Region" id="Regions"></select>
+                            <select class="form__select" name="Region" id="RegionFoodSafety"></select>
                             <span class="form-required">*</span>
                         </div>
 

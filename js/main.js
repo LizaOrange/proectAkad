@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
         toggleButton.addEventListener("click", function () {
             if (toggleButton.classList.contains("active")) {
                 toggleButton.classList.remove("active");
-                if (innerWidth < 767) {
+                if (innerWidth < 1070) {
                     popupMob.classList.remove("active");
                     body.style.overflow = "visible";
                     header.style.zIndex = "unset";
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             } else {
                 toggleButton.classList.add("active");
-                if (innerWidth < 767) {
+                if (innerWidth < 1070) {
                     popupMob.classList.add("active");
                     body.style.overflow = "hidden";
                     header.style.zIndex = "100000";
@@ -496,10 +496,10 @@ function validateEmail(email) {
 
 // регионы
 // Загрузка данных из файла region.json
-fetch('region.json')
+fetch('regionfoodsafety.json')
     .then(response => response.json())
     .then(data => {
-        const selectElement = document.getElementById('Regions');
+        const selectElement = document.getElementById('RegionFoodSafety');
 
         // Создание элементов <option> для каждого объекта в данных
         data.forEach(item => {
