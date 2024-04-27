@@ -5165,7 +5165,7 @@ section {
 
 .form__field span.select2 .select2-selection__arrow b {
     border: none;
-    background: url("../images/down_1.svg") no-repeat center;
+    /*background: url("../images/down_1.svg") no-repeat center;*/
     background-size: contain;
     width: 1.0625rem;
     height: .5625rem;
@@ -5175,7 +5175,7 @@ section {
 
 @media (max-width: 767px) {
     .form__field span.select2 .select2-selection__arrow b {
-        background: url("../images/down-purple.svg") no-repeat center;
+        /*background: url("../images/down-purple.svg") no-repeat center;*/
         background-size: contain
     }
 }
