@@ -27,7 +27,6 @@
                 <p class="home__description">Бесплатно обучитесь искусству гостеприимства от лидера гостиничной отрасли <strong>Cosmos Hotel Group</strong></p>
                 <p class="home__description_p2">И получите помощь с трудоустройством от государства</p>
                 <button type="button" class="btn"><a href="#form">Начать обучение</a></button>
-                <!--                     data-modal-id="modal-main-form" data-modal-open=""-->
             </div>
         </div>
     </section>
@@ -64,7 +63,6 @@
     <section class="about">
         <div class="container">
             <h2>Cosmos Academy - это</h2>
-<!--            <p class="about__description">«Содействие занятости» — это государственный проект, цель которого — бесплатно помочь гражданам повысить квалификацию и востребованность на рынке труда или сменить профессию.</p>-->
             <ul class="about__items">
                 <li class="about__item">
                     <h4>3500</h4>
@@ -81,7 +79,6 @@
             </ul>
         </div>
     </section>
-
 
     <section class="participation" id="participation">
 
@@ -356,21 +353,10 @@
                     </div>
 
                 </li>
-
-
-
-
             </ul>
             <div class="swiper-pagination"></div>
         </div>
-
-<!--        <div class="container">-->
-<!--            <p class="participation__accent">Категории, выделенные <span class="note">звездочкой</span>, предназначены для лиц до 35 лет включительно</p>-->
-<!--        </div>-->
     </section>
-
-
-
 
     <section class="d-none">
         <div class="participation__modal custom-modal__hidden" id="participation-modal">
@@ -468,19 +454,15 @@
 
             <dl class="program__description">
                 <div class="program__description-item">
-<!--                    <dt>Занимает</dt>-->
                     <dd>до 2 часов в день</dd>
                 </div>
                 <div class="program__description-item">
-<!--                    <dt>длится обучение</dt>-->
                     <dd>2 месяца</dd>
                 </div>
                 <div class="program__description-item">
-<!--                    <dt>продолжительность</dt>-->
                     <dd>144 часа</dd>
                 </div>
                 <div class="program__description-item">
-<!--                    <dt>формат</dt>-->
                     <dd>онлайн-лекции и видео</dd>
                 </div>
             </dl>
@@ -612,35 +594,21 @@
                     <h3>Новая профессия</h3>
                     <ul>
                         <li> Освоите новые компетенции и получите знания в востребованной сфере и примените их сразу после обучения</li>
-<!--                        <li>Освоите актуальные навыки в вашей сфере, необходимые для карьерного роста</li>-->
-<!--                        <li>Пройдете повышение квалификации и получите документ об образовании</li>-->
                     </ul>
                 </li>
                 <li class="prospects__item">
                     <h3>Поддержка  трудоустройства</h3>
                     <ul>
-<!--                        <li>Освоите новую профессию в востребованной и надежной сфере*</li>-->
                         <li>Составите сильное, конкурентное резюме и разработаете пошаговый план действий</li>
-<!--                        <li> азработаете пошаговый план по развитию карьеры и выходу на желаемый заработок</li>-->
                     </ul>
                 </li>
                 <li class="prospects__item">
                     <h3>Документ об образовании</h3>
                     <ul>
                         <li>Удостоверение о повышении квалификации установленного образца</li>
-<!--                        <li>Получите доступ к проверенным вакансиям, бирже заказов и HR-консультациям</li>-->
-<!--                        <li>Подготовитесь к поиску работы в новой сфере или в вашей нише, на более высокие позиции</li>-->
                     </ul>
                 </li>
             </ul>
-<!--            <div class="prospects__bottom prospects-bottom">-->
-<!--                <div class="prospects-bottom__wrap">-->
-<!--                    <p class="prospects-bottom__p">-->
-<!--                        * Мы анализируем тенденции, определяющие профессии будущего, рынок труда и спрос среди компаний-партнеров проекта.-->
-<!--                        После этого разрабатываем образовательные программы по наиболее перспективным специальностям в различных областях.-->
-<!--                    </p>-->
-<!--                </div>-->
-<!--            </div>-->
         </div>
     </section>
 
@@ -649,7 +617,6 @@
             <h2>Как бесплатно начать обучение?</h2>
             <ol class="steps__list">
                 <li class="steps__item">
-<!--                    <em class="steps__item-time"><span>≈ ? мин.</span></em>-->
                     <p>Отправьте заявку и подтвердите участие в программе на портале «Работа России».</p>
                     <div class="steps__item-buttons">
                         <a class="btn" href="#form">Отправить</a>
@@ -667,12 +634,10 @@
                         <b>После этого Центр занятости населения рассмотрит вашу заявку в течение 7 рабочих дней.</b>
                         <div class="steps__item-links">
                             <a class="steps__item-link" href="#form" data-modal-close="">Отправить заявку</a>
-<!--                            <a class="steps__item-link" href="/files/documents/Instruction_TGU.pdf" target="_blank">Скачать инструкцию</a>-->
                         </div>
                     </div>
                 </li>
                 <li class="steps__item">
-<!--                    <em class="steps__item-time"><span>≈ 3 дня</span></em>-->
                     <p>Загрузите документы подтверждающие категорию участника в личный кабинет гражданина и подайте их в Центр занятости населения <b>в течение 3 дней после подтверждения заявки</b>.</p>
                     <div class="steps__item-buttons">
                         <button class="btn-white" type="button" data-modal-id="steps-modal" data-modal-open="">Подробнее</button>
@@ -684,12 +649,10 @@
                         <b> В <a href="/documents/documents.pdf" download="Перечень документов.pdf">инструкции</a> вы узнаете, какие документы необходимо предоставить в зависимости от вашей категории. Важно иметь эти документы при себе при посещении Центра занятости.</b>
                         <div class="steps__item-links">
                             <a class="steps__item-link" href="#form" data-modal-close="">Отправить заявку</a>
-<!--                            <a class="steps__item-link" href="/files/documents/Instruction_TGU.pdf" target="_blank">Скачать инструкцию</a>-->
                         </div>
                     </div>
                 </li>
                 <li class="steps__item">
-<!--                    <em class="steps__item-time"><span>≈ 3 дня</span></em>-->
                     <p>Получите согласие на подписание договора на обучение от работодателя.</p>
                     <p><i>* кроме граждан, зарегистрированных в качестве безработных.</i></p>
                     <div class="steps__item-buttons">
@@ -707,12 +670,10 @@
                         <p>Убедитесь, что все действия по подписанию договора проводятся с согласия и участием работодателя, чтобы обеспечить успешное участие в проекте.</p>
                         <div class="steps__item-links">
                             <a class="steps__item-link" href="#form" data-modal-close="">Отправить заявку</a>
-<!--                            <a class="steps__item-link" href="/files/documents/Instruction_TGU.pdf" target="_blank">Скачать инструкцию</a>-->
                         </div>
                     </div>
                 </li>
                 <li class="steps__item">
-<!--                    <em class="steps__item-time"><span>≈ 15 мин.</span></em>-->
                     <p>Пройдите профориентацию в Центре занятости населения. Тестирование определит готовность приступить к обучению в установленные сроки.</p>
                     <div class="steps__item-buttons">
                         <button class="btn-white" type="button" data-modal-id="steps-modal" data-modal-open="">Подробнее</button>
@@ -725,12 +686,10 @@
                         <p>Важно учитывать обратную связь и возможные рекомендации для повышения шансов успешного продолжения процесса обучения.</p>
                         <div class="steps__item-links">
                             <a class="steps__item-link" href="#form" data-modal-close="">Отправить заявку</a>
-<!--                            <a class="steps__item-link" href="/files/documents/Instruction_TGU.pdf" target="_blank">Скачать инструкцию</a>-->
                         </div>
                     </div>
                 </li>
                 <li class="steps__item">
-<!--                    <em class="steps__item-time"><span>≈ 2 дня</span></em>-->
                     <p>Подпишите два договора:<br> 1. с образовательной организацией <br>2. с работодателем<br> или ЦЗН</p>
                     <div class="steps__item-buttons">
                         <button class="btn-white" type="button" data-modal-id="steps-modal" data-modal-open="">Подробнее</button>
@@ -758,12 +717,10 @@
 
                         <div class="steps__item-links">
                             <a class="steps__item-link" href="#form" data-modal-close="">Отправить заявку</a>
-<!--                            <a class="steps__item-link" href="/files/documents/Instruction_TGU.pdf" target="_blank">Скачать инструкцию</a>-->
                         </div>
                     </div>
                 </li>
             </ol>
-<!--            <p class="steps__bottom">Воспользуйтесь нашей <a class="steps__item-link" href="/files/documents/Instruction_TGU.pdf" target="_blank">инструкцией</a> — в ней подробно описан каждый шаг</p>-->
         </div>
         <div class="d-none">
             <div class="steps__modal custom-modal__hidden" id="steps-modal"></div>
@@ -787,15 +744,10 @@
                                 <div class="cases__slide-info">
                                     <img src="images/photo13.png" loading="lazy" alt="Отзыв Ирины">
                                     <h4>Ирина, 34 года</h4>
-<!--                                    <p>Выпускница программы</p>-->
-<!--                                    <p><span>«Аналитик данных — с нуля до разработки прикладных решений для бизнеса»</span></p>-->
                                 </div>
                                 <div class="cases__slide-text">
                                     <p>То, что такой качественный курс может быть бесплатным - стало для меня настоящим открытием! Я давно хотела перепрофилироваться из оператора колл-центра в более живую работу, и сейчас полна решимости в самореализации!</p>
                                 </div>
-<!--                                <div class="cases__slide-btn">-->
-<!--                                    <button type="button" data-modal-id="cases-modal--8" data-modal-open=""> азвернуть кейс</button>-->
-<!--                                </div>-->
                             </div>
                         </div>
                         <div class="cases__slide swiper-slide">
@@ -803,15 +755,10 @@
                                 <div class="cases__slide-info">
                                     <img src="images/photo14.jpg" loading="lazy" alt="Алла">
                                     <h4>Алла, 22 года</h4>
-<!--                                    <p>Выпускница программы</p>-->
-<!--                                    <p><span>«Графический дизайнер: старт карьеры»</span></p>-->
                                 </div>
                                 <div class="cases__slide-text">
                                     <p>Это именно то, что мне было нужно для профессионального роста. Отдельное спасибо Александру, все подробно объяснял и всегда был в ресурсе.</p>
                                 </div>
-<!--                                <div class="cases__slide-btn">-->
-<!--                                    <button type="button" data-modal-id="cases-modal--9" data-modal-open=""> азвернуть кейс</button>-->
-<!--                                </div>-->
                             </div>
                         </div>
                         <div class="cases__slide swiper-slide">
@@ -819,15 +766,10 @@
                                 <div class="cases__slide-info">
                                     <img src="images/photo15.png" loading="lazy" alt="Сергей">
                                     <h4>Сергей, 39 лет</h4>
-<!--                                    <p>Выпускник программы</p>-->
-<!--                                    <p><span>«Программист 1С»</span></p>-->
                                 </div>
                                 <div class="cases__slide-text">
                                     <p>Иногда мне не хватало ориганизации, но мне сразу сказали, что наш поток первый, и для первого потока все было великолепно! Надеюсь моя обратная связь поможет вам еще эффективнее обучать ребят</p>
                                 </div>
-<!--                                <div class="cases__slide-btn">-->
-<!--                                    <button type="button" data-modal-id="cases-modal--6" data-modal-open=""> азвернуть кейс</button>-->
-<!--                                </div>-->
                             </div>
                         </div>
                         <div class="cases__slide swiper-slide">
@@ -835,15 +777,10 @@
                                 <div class="cases__slide-info">
                                     <img src="images/photo16.png" loading="lazy" alt="Илона">
                                     <h4>Илона, 40 лет</h4>
-<!--                                    <p>Выпускница программы</p>-->
-<!--                                    <p><span>«HR-специалист»</span></p>-->
                                 </div>
                                 <div class="cases__slide-text">
                                     <p>Спасибо команде академии Космос за основательное и при этом бесплатное обучение!</p>
                                 </div>
-<!--                                <div class="cases__slide-btn">-->
-<!--                                    <button type="button" data-modal-id="cases-modal--7" data-modal-open=""> азвернуть кейс</button>-->
-<!--                                </div>-->
                             </div>
                         </div>
                         <div class="cases__slide swiper-slide">
@@ -851,8 +788,6 @@
                                 <img src="images/photo17.jpg" loading="lazy" alt="Игорь">
                                 <div class="cases__slide-info">
                                     <h4>Игорь</h4>
-<!--                                    <p>Выпускница программы</p>-->
-<!--                                    <p><span>«Педагог дополнительного образования»</span></p>-->
                                 </div>
                                 <div class="cases__slide-text">
                                     <p>Многое слышал про содействие занятости, не самые лестные отзывы, но решил проверить на себе - и не прогадал, спасибо за действительно качественный материал, который явно разрабатывался для коммерческих проектов, и это безусловно чувствуется, очень высокий уровень и материала, и преподавания.</p>
@@ -894,7 +829,6 @@
             <h2>Не подходит программа? У нас есть другие:</h2>
             <div class="other__items">
                 <a class="other__item" href="/supervisor.php">
-<!--                    <div class="other__item">-->
                         <img src="images/icon13.svg" loading="lazy" alt="">
                         <h5>Супервайзер службы приема и размещения</h5>
                         <div class="other__description">
@@ -902,10 +836,8 @@
                             <p class="other__description-item">7 недель</p>
                             <p class="other__description-item">з/п от 100 тыс. руб</p>
                         </div>
-<!--                    </div>-->
                 </a>
                 <a class="other__item" href="foodsafety.php">
-<!--                    <div class="other__item">-->
                         <img src="images/icon14.svg" loading="lazy" alt="">
                         <h5>Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере</h5>
                         <div class="other__description">
@@ -913,7 +845,6 @@
                             <p class="other__description-item">12 недель</p>
                             <p class="other__description-item">з/п от 80 тыс. руб</p>
                         </div>
-<!--                    </div>-->
                 </a>
 
             </div>
@@ -997,10 +928,6 @@
 
                         <p class="form__mandatory"><span class="purple">*</span> <strong>— Обязательные поля для заполнения</strong></p>
                         <div class="form__checkboxs">
-<!--                            <div class="form__checkbox">-->
-<!--                                <input type="checkbox" id="form-check" checked="">-->
-<!--                                <label for="form-check">Я принимаю <a href="/files/documents/PD_Policy.pdf" target="blank">условия соглашения</a> об обработке персональных данных</label>-->
-<!--                            </div>-->
                             <div class="form__checkbox">
                                 <input type="checkbox" id="form-check--pd" checked="">
                                 <label for="form-check--pd">Я даю <a href="https://cosmosgroup.ru/ru/policy" target="blank">согласие на обработку персональных данных</a></label>
@@ -1014,15 +941,6 @@
             </div>
         </div>
     </section>
-
-    <div class="modal" id="success-modal">
-        <div class="modal-content">
-            <span class="close-modal">&times;</span>
-            <p>Заявка отправлена</p>
-        </div>
-    </div>
-
-
 </main>
 
 <?php include 'footer.php'; ?>
