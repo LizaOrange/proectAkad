@@ -343,50 +343,54 @@ function validateEmail(email) {
     var emailRegex = /.+@.+\..+/;
     return emailRegex.test(email);
 }
-fetch('region.json')
-    .then(response => response.json())
-    .then(data => {
-        const selectElement = document.getElementById('Regions');
 
-        // Создание элементов <option> для каждого объекта в данных
-        data.forEach(item => {
-            const option = document.createElement('option');
-            option.value = item.link; // Значение равно ссылке
-            option.textContent = item.region; // Текстовое содержимое равно названию региона
-            selectElement.appendChild(option); // Добавляем <option> в <select>
-        });
-    })
-    .catch(error => console.error('Ошибка загрузки данных:', error));
+const Regions = document.getElementById('Regions');
+if(Regions){
+    fetch('region.json')
+        .then(response => response.json())
+        .then(data => {
+            const selectElement = document.getElementById('Regions');
 
-fetch('regionfoodsafety.json')
-    .then(response => response.json())
-    .then(data => {
-        const selectElement = document.getElementById('RegionFoodSafety');
+            // Создание элементов <option> для каждого объекта в данных
+            data.forEach(item => {
+                const option = document.createElement('option');
+                option.value = item.link; // Значение равно ссылке
+                option.textContent = item.region; // Текстовое содержимое равно названию региона
+                Regions.appendChild(option); // Добавляем <option> в <select>
+            });
+        })
+        .catch(error => console.error('Ошибка загрузки данных:', error));
+}
 
-        // Создание элементов <option> для каждого объекта в данных
-        data.forEach(item => {
-            const option = document.createElement('option');
-            option.value = item.link; // Значение равно ссылке
-            option.textContent = item.region; // Текстовое содержимое равно названию региона
-            selectElement.appendChild(option); // Добавляем <option> в <select>
-        });
-    })
-    .catch(error => console.error('Ошибка загрузки данных:', error));
+const RegionFoodSafety = document.getElementById('RegionFoodSafety');
+if(RegionFoodSafety){
+    fetch('regionfoodsafety.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(item => {
+                const option = document.createElement('option');
+                option.value = item.link;
+                option.textContent = item.region;
+                RegionFoodSafety.appendChild(option);
+            });
+        })
+        .catch(error => console.error('Ошибка загрузки данных:', error));
+}
 
-fetch('supervisor.json')
-    .then(response => response.json())
-    .then(data => {
-        const selectElement = document.getElementById('RegionsSupervizor');
-
-        // Создание элементов <option> для каждого объекта в данных
-        data.forEach(item => {
-            const option = document.createElement('option');
-            option.value = item.link; // Значение равно ссылке
-            option.textContent = item.region; // Текстовое содержимое равно названию региона
-            selectElement.appendChild(option); // Добавляем <option> в <select>
-        });
-    })
-    .catch(error => console.error('Ошибка загрузки данных:', error));
+const RegionsSupervizor = document.getElementById('RegionsSupervizor');
+if(RegionsSupervizor){
+    fetch('supervisor.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(item => {
+                const option = document.createElement('option');
+                option.value = item.link;
+                option.textContent = item.region;
+                RegionsSupervizor.appendChild(option);
+            });
+        })
+        .catch(error => console.error('Ошибка загрузки данных:', error));
+}
 
 
 

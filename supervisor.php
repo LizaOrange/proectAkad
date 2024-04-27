@@ -888,7 +888,7 @@
                             </select>
                             <span class="form-required">*</span>
                             <span class="form-tooltip__text">Если вы не уверены, к какой категории относитесь, или уже трудоустроены — выберите категорию «Граждане, ищущие работу (или трудоустроенные)»</span>
-                            <button class="form-tooltip__btn" type="button"><img src="images/info-form.svg" alt=""></button>
+<!--                            <button class="form-tooltip__btn" type="button"><img src="images/info-form.svg" alt=""></button>-->
                         </div>
                         <div class="form__field form-tooltip">
                             <select class="form__select" id="EmploymentFormat" name="EmploymentFormat">
@@ -900,7 +900,7 @@
                             </select>
                             <span class="form-required">*</span>
                             <span class="form-tooltip__text">Если вы совмещаете несколько форм занятости, например трудоустройство и ИП — выберите в списке «Трудоустроен».</span>
-                            <button class="form-tooltip__btn" type="button"><img src="images/info-form.svg" alt=""></button>
+<!--                            <button class="form-tooltip__btn" type="button"><img src="images/info-form.svg" alt=""></button>-->
                         </div>
                         <div class="form__field">
                             <select class="form__select" name="Education" id="Education">
