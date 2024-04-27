@@ -3472,109 +3472,6 @@ section {
     }
 }
 
-.cases__modal {
-    position: relative;
-    max-width: 73.125rem
-}
-
-.cases__modal::before {
-    position: absolute;
-    content: "";
-    background: url("../images/herb.svg") no-repeat center;
-    background-size: contain;
-    width: 16.6875rem;
-    height: 15rem;
-    top: 1rem;
-    right: -6rem
-}
-
-.cases__modal-wrap {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -webkit-column-gap: 2.5rem;
-    -moz-column-gap: 2.5rem;
-    column-gap: 2.5rem
-}
-
-@media (max-width: 767px) {
-    .cases__modal-wrap {
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        row-gap: 36px
-    }
-}
-
-.cases__modal img {
-    width: 12.5rem;
-    min-width: 12.5rem
-}
-
-@media (max-width: 767px) {
-    .cases__modal img {
-        min-width: 120px;
-        width: 120px
-    }
-}
-
-.cases__modal-content__info {
-    margin-bottom: 1.875rem
-}
-
-@media (max-width: 767px) {
-    .cases__modal-content__info {
-        margin-bottom: 16px
-    }
-}
-
-.cases__modal-content__info h4 {
-    font-family: "Circe-Bold", sans-serif;
-    font-weight: 700;
-    font-size: 1.75rem;
-    line-height: normal;
-    margin-bottom: .75rem
-}
-
-@media (max-width: 767px) {
-    .cases__modal-content__info h4 {
-        font-size: 18px;
-        margin-bottom: 4px
-    }
-}
-
-.cases__modal-content__info p {
-    font-size: 1.25rem;
-    line-height: normal
-}
-
-@media (max-width: 767px) {
-    .cases__modal-content__info p {
-        font-size: 16px;
-        line-height: 22px
-    }
-}
-
-.cases__modal-content__info p span {
-    color: #25408f;
-    font-family: "Circe-Bold", sans-serif;
-    font-weight: 600
-}
-
-.cases__modal-content__info p:not(:last-child) {
-    margin-bottom: .25rem
-}
-
-.cases__modal-content__text p:not(:last-child) {
-    margin-bottom: .625rem
-}
-
-
 /*partners*/
 .join {
     position: relative;
@@ -3592,7 +3489,7 @@ section {
 .join::before {
     position: absolute;
     content: "";
-    background: url("../images/herb.svg") no-repeat center;
+    /*background: url("../images/herb.svg") no-repeat center;*/
     background-size: contain;
     width: 30.5625rem;
     height: 31.6875rem;
@@ -3804,7 +3701,7 @@ section {
 .other__item::before {
     position: absolute;
     content: "";
-    background: url("../images/herb.svg") no-repeat center;
+    /*background: url("../images/herb.svg") no-repeat center;*/
     background-size: contain;
     width: 14.3125rem;
     height: 15.6875rem;
@@ -4010,7 +3907,7 @@ section {
 .form__info::before {
     position: absolute;
     content: "";
-    background: url("../images/herb.svg") no-repeat center;
+    /*background: url("../images/herb.svg") no-repeat center;*/
     background-size: contain;
     width: 17.6875rem;
     height: 18.3125rem;
@@ -4219,9 +4116,9 @@ section {
     content: "";
     width: 2.0625rem;
     height: 2.0625rem;
-    background-image: url("../images/info.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
+    /*background-image: url("../images/info.svg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
     -ms-flex-negative: 0;
     flex-shrink: 0
 }
@@ -4397,7 +4294,6 @@ section {
 
 .form__field span.select2 .select2-selection__arrow b {
     border: none;
-    /*background: url("../images/down_1.svg") no-repeat center;*/
     background-size: contain;
     width: 1.0625rem;
     height: .5625rem;
@@ -4407,7 +4303,6 @@ section {
 
 @media (max-width: 767px) {
     .form__field span.select2 .select2-selection__arrow b {
-        /*background: url("../images/down-purple.svg") no-repeat center;*/
         background-size: contain
     }
 }
