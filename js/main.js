@@ -388,43 +388,92 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
         return;
     }
 
-    let employmentText = $('#Category').select2('data')[0].text;
-    let categoryText = $('#EmploymentFormat').select2('data')[0].text;
+    let categoryText = $('#Category').select2('data')[0].text;
+    let employmentText = $('#EmploymentFormat').select2('data')[0].text;
     let educationText = $('#Education').select2('data')[0].text;
     let regionText = $('.region_class').select2('data')[0].text;
     let programText = document.querySelector('input[name="Program"]').value;
 
 
     let region = document.querySelector('.region_class').value;
-    let url = "mail.php";
+    // let url = "mail.php";
     // let formData = new FormData(document.getElementById('form-app'));
 
     // Создаем новый объект FormData
-    let formData = new FormData();
+    // let formData = new FormData();
 
 // Добавляем значения переменных в объект formData
-    formData.append('FirstName', firstName);
-    formData.append('Phone', phone);
-    formData.append('Email', email);
-    formData.append('category', categoryText);
-    formData.append('EmploymentFormat', employmentText);
-    formData.append('Education', educationText);
-    formData.append('Regions', regionText);
-    formData.append('Program', programText);
+//     formData.append('FirstName', firstName);
+//     formData.append('Phone', phone);
+//     formData.append('Email', email);
+//     formData.append('category', categoryText);
+//     formData.append('EmploymentFormat', employmentText);
+//     formData.append('Education', educationText);
+//     formData.append('Regions', regionText);
+//     formData.append('Program', programText);
 
-    fetch(url, {
+    // Создаем объект с данными для отправки
+    let data = {
+        'FIELDS': {
+            'TITLE': 'Новая форма с лендинга',
+            'NAME': firstName, // замените на данные из вашей формы
+            'EMAIL': [{
+                'VALUE': email, // замените на данные из вашей формы
+                'VALUE_TYPE': 'WORK'
+            }],
+            'PHONE': [{
+                'VALUE': phone, // замените на данные из вашей формы
+                'VALUE_TYPE': 'WORK'
+            }],
+            'UF_CRM_1714128589': categoryText, // замените на данные из вашей формы
+            'UF_CRM_1714128570': employmentText, // замените на данные из вашей формы
+            'UF_CRM_1714128542': educationText, // замените на данные из вашей формы
+            'UF_CRM_1714128525': regionText, // замените на данные из вашей формы
+            'UF_CRM_1714144900': programText, // замените на данные из вашей формы
+            'SOURCE_ID': 'WEB'
+        }
+    };
+
+// Преобразуем объект в JSON
+    var jsonData = JSON.stringify(data);
+
+// Отправляем запрос на сервер Bitrix24
+    fetch('https://szcosmosacademy.bitrix24.ru/rest/6/3mecasiz0mskt99g/crm.lead.add.json', {
         method: 'POST',
-        body: formData
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: jsonData
     })
         .then(response => {
             if (response.ok) {
-                console.log('ok');
                 window.location.href = region;
-                // Если запрос успешный, показываем благодарность
-                //document.getElementById('success-modal').style.display = 'block';
+                //return response.json();
             }
+            throw new Error('Network response was not ok.');
         })
-        .catch(error => console.error('Ошибка отправки данных:', error));
+        .then(data => {
+            console.log(data); // Обработка успешного ответа
+        })
+        .catch(error => {
+            console.error('There was a problem with your fetch operation:', error); // Обработка ошибки
+        });
+
+//ПОЧТА
+    // fetch(url, {
+    //     method: 'POST',
+    //     body: formData
+    // })
+    //     .then(response => {
+    //         if (response.ok) {
+    //             console.log('ok');
+    //             console.log(response);
+    //             // window.location.href = region;
+    //             // Если запрос успешный, показываем благодарность
+    //             //document.getElementById('success-modal').style.display = 'block';
+    //         }
+    //     })
+    //     .catch(error => console.error('Ошибка отправки данных:', error));
 });
 // ajax end
 

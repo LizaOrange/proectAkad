@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link type="Image/x-icon" href="/images/favicon.ico" rel="icon">
-    <title>Супервайзер службы према и размещения</title>
+    <title>Супервайзер службы приема и размещения</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -971,7 +971,7 @@
                         </div>
 
                         <input type="hidden" class="direction-hidden" name="Direction" value="">
-                        <input type="hidden" class="program-hidden program-class-text" name="Program" value="Супервайзер службы према и размещения">
+                        <input type="hidden" class="program-hidden program-class-text" name="Program" value="Супервайзер службы приема и размещения">
 
                         <p class="form__mandatory"><span class="purple">*</span> <strong>— Обязательные поля для заполнения</strong></p>
                         <div class="form__checkboxs">

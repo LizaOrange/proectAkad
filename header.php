@@ -30,9 +30,9 @@
 <!--                    <a class="header__link" href="https://admin.cosmos-academy.ru#features-content">Чему научитесь</a>-->
 <!--                    <a class="header__link" href="https://admin.cosmos-academy.ru#form">Начать обучение</a>-->
 <!--                    <a class="header__link" href="https://catalog.cosmos-academy.ru/">Другие программы</a>-->
-                    <a class="header__link" href="/admin.php#federation-project">О проекте</a>
-                    <a class="header__link" href="/admin.php#features-content">Чему научитесь</a>
-                    <a class="header__link" href="/admin.php#form">Начать обучение</a>
+                    <a class="header__link" href="#federation-project">О проекте</a>
+                    <a class="header__link" href="#features-content">Чему научитесь</a>
+                    <a class="header__link" href="#form">Начать обучение</a>
                     <a class="header__link" href="/catalog.php">Другие программы</a>
                 </div>
             </div>
@@ -48,9 +48,9 @@
 <!--                <li><a href="https://admin.cosmos-academy.ru#features-content" class="">Чему научитесь</a></li>-->
 <!--                <li><a href="https://admin.cosmos-academy.ru#form" class="">Начать обучение</a></li>-->
 <!--                <li><a href="https://catalog.cosmos-academy.ru" class="">Другие программы</a></li>-->
-                <li><a href="/admin.php#federation-project" class="">О проекте</a></li>
-                <li><a href="/admin.php#features-content" class="">Чему научитесь</a></li>
-                <li><a href="/admin.php#form" class="">Начать обучение</a></li>
+                <li><a href="#federation-project" class="">О проекте</a></li>
+                <li><a href="#features-content" class="">Чему научитесь</a></li>
+                <li><a href="#form" class="">Начать обучение</a></li>
                 <li><a href="/catalog.php" class="">Другие программы</a></li>
             </ul>
         </div>
