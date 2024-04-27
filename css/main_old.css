@@ -603,7 +603,7 @@ section {
 .home__content::before {
     position: absolute;
     content: "";
-    background-image: url("../images/theHead.jpeg");
+    background-image: url("../images/theHead.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;

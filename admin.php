@@ -21,7 +21,7 @@
         <div class="container">
             <div class="home__content">
                 <div class="img-admin">
-                    <img src="images/theHead.jpeg" loading="eager" alt="Администратор гостиницы">
+                    <img src="images/theHeadMobile.webp" loading="eager" alt="Администратор гостиницы">
                 </div>
                 <h1 class="home__title">«Администратор гостиницы»</h1>
                 <p class="home__description">Бесплатно обучитесь искусству гостеприимства от лидера гостиничной отрасли <strong>Cosmos Hotel Group</strong></p>
