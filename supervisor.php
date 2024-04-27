@@ -19,7 +19,7 @@
         <div class="container">
             <div class="home__content">
                 <div class="img-admin">
-                    <img src="images/theHead.jpeg" loading="lazy" alt="Супервайзер службы приема и размещения">
+                    <img src="images/theHeadMobile.webp" loading="lazy" alt="Супервайзер службы приема и размещения">
                 </div>
                 <h1 class="home__title">«Супервайзер службы приема и размещения»</h1>
                 <p class="home__description">Бесплатно обучитесь искусству гостеприимства от лидера гостиничной отрасли <strong>Cosmos Hotel Group</strong></p>

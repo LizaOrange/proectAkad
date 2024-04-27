@@ -20,7 +20,7 @@
         <div class="container">
             <div class="home__content">
                 <div class="img-admin">
-                    <img src="images/theHead.jpeg" loading="lazy" alt="Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере">
+                    <img src="images/theHeadMobile.webp" loading="lazy" alt="Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере">
                 </div>
                 <h1 class="home__title">«Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере»</h1>
                 <p class="home__description">Бесплатно обучитесь искусству гостеприимства от лидера гостиничной отрасли <strong>Cosmos Hotel Group</strong></p>
