@@ -45,7 +45,7 @@
                             <img class="logo3" src="images/Logo3.png" loading="lazy" alt="Томский Государственный Университет">
                             <img class="logo4" src="images/Logo4.png" loading="lazy" alt="Национальные проекты России">
                         </div>
-                        <img class="photo2" src="images/photo2.jpg" loading="lazy" alt="Фото о проекте">
+                        <img class="photo2" src="images/photo2.webp" loading="lazy" alt="Фото о проекте">
                     </div>
                 </div>
                 <div class="resolution__block">

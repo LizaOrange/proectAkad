@@ -1808,7 +1808,7 @@ section {
     content: "";
     width: 50rem;
     height: 25rem;
-    background-image: url("../images/photo12.jpg");
+    background-image: url("../images/photo12.webp");
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 1.25rem;
@@ -1884,7 +1884,7 @@ section {
     content: "";
     width: 30rem;
     height: 25rem;
-    background-image: url("../images/photo18.jpg");
+    background-image: url("../images/photo18.webp");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 1.25rem;
@@ -1945,7 +1945,7 @@ section {
     content: "";
     width: 50rem;
     height: 25rem;
-    background-image: url("../images/photo26.jpg");
+    background-image: url("../images/photo26.webp");
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 1.25rem;
