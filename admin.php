@@ -42,8 +42,8 @@
                     <div class="about__project__logo">
                         <div class="about__project__logo_upd">
                             <img class="logo1" src="images/cosmosacademy.webp" loading="lazy" alt="Космос академия">
-                            <img class="logo2" src="images/Logo2.png" loading="lazy" alt="Министерство труда">
-                            <img class="logo3" src="images/Logo3.png" loading="lazy" alt="Томский Государственный Университет">
+                            <img class="logo2" src="images/Logo2.webp" loading="lazy" alt="Министерство труда">
+                            <img class="logo3" src="images/Logo3.webp" loading="lazy" alt="Томский Государственный Университет">
                             <img class="logo4" src="images/Logo4.png" loading="lazy" alt="Национальные проекты России">
                         </div>
                         <img class="photo2" src="images/photo2.webp" loading="lazy" alt="Фото о проекте">

@@ -10,10 +10,10 @@
                 <img class="logo-main" src="images/cosmosacademy.webp" loading="lazy" alt="Космос Академия">
             </a>
             <a class="header-social__logo" href="#" target="_blank">
-                <img class="logo-trud" src="images/Logo2.png" loading="lazy" alt="Минтруд РФ">
+                <img class="logo-trud" src="images/Logo2.webp" loading="lazy" alt="Минтруд РФ">
             </a>
             <a class="header-social__logo" href="#" target="_blank">
-                <img class="logo-tgu" src="images/Logo3.png" loading="lazy" alt="Томский Государственный Университет">
+                <img class="logo-tgu" src="images/Logo3.webp" loading="lazy" alt="Томский Государственный Университет">
             </a>
             <a class="header-social__logo" href="#" target="_blank">
                 <img class="logo-npr" src="images/Logo4.png" loading="lazy" alt="Национальные проекты России">
