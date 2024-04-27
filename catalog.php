@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link type="Image/x-icon" href="/images/favicon.ico" rel="icon">
     <title>Каталог программ</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main_old.css">
 </head>
 <body>
 <div class="wrapper">
