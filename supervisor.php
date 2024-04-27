@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link type="Image/x-icon" href="/images/favicon.ico" rel="icon">
     <title>Супервайзер службы приема и размещения</title>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main_old.css">
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
