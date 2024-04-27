@@ -4,7 +4,7 @@
     <div class="container">
         <div class="footer__block">
 
-            <img src="images/logo_white.png" class="footer__logo" loading="lazy" alt="Логотип">
+            <img src="images/logo_white.webp" class="footer__logo" loading="lazy" alt="Логотип">
             <div class="footer__contain">
                 <div class="footer__items">
 <!--                    <div class="footer__item">-->
