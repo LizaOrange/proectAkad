@@ -7,16 +7,16 @@
 
         <div class="header-social">
             <a class="header-social__logo" href="#" target="_blank">
-                <img class="logo-main" src="images/cosmosacademy.png" loading="eager" alt="Космос Академия">
+                <img class="logo-main" src="images/cosmosacademy.png" loading="lazy" alt="Космос Академия">
             </a>
             <a class="header-social__logo" href="#" target="_blank">
-                <img class="logo-trud" src="images/Logo2.png" loading="eager" alt="Минтруд РФ">
+                <img class="logo-trud" src="images/Logo2.png" loading="lazy" alt="Минтруд РФ">
             </a>
             <a class="header-social__logo" href="#" target="_blank">
-                <img class="logo-tgu" src="images/Logo3.png" loading="eager" alt="Томский Государственный Университет">
+                <img class="logo-tgu" src="images/Logo3.png" loading="lazy" alt="Томский Государственный Университет">
             </a>
             <a class="header-social__logo" href="#" target="_blank">
-                <img class="logo-npr" src="images/Logo4.png" loading="eager" alt="Национальные проекты России">
+                <img class="logo-npr" src="images/Logo4.png" loading="lazy" alt="Национальные проекты России">
             </a>
         </div>
 

@@ -7,8 +7,6 @@
     <div class="appearing-modal__content">
         <ul class="appearing-modal__list">
             <li>Бесплатное обучение в Академии с 20-летним опытом. Освойте новую профессию и поднимитесь по карьерной лестнице!</li>
-<!--            <li>Диплом и удостоверение об образовании установленного образца</li>-->
-<!--            <li>Помощь с поиском работы: HR-консультации, Биржа заказов, каналы с вакансиями, карьерные марафоны</li>-->
         </ul>
     </div>
     <div class="appearing-modal__bottom">
@@ -27,6 +25,7 @@
 
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/select2.min.js"></script>
 <script src="js/slider.js"></script>

@@ -7,10 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link type="Image/x-icon" href="/images/favicon.ico" rel="icon">
     <title>Специалист по пищевой безопасности</title>
-    <link rel="stylesheet" href="css/main_old.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="css/select2.min.css">
 </head>
 <body>
@@ -21,7 +20,7 @@
         <div class="container">
             <div class="home__content">
                 <div class="img-admin">
-                    <img src="images/theHead.jpeg" loading="eager" alt="Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере">
+                    <img src="images/theHead.jpeg" loading="lazy" alt="Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере">
                 </div>
                 <h1 class="home__title">«Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере»</h1>
                 <p class="home__description">Бесплатно обучитесь искусству гостеприимства от лидера гостиничной отрасли <strong>Cosmos Hotel Group</strong></p>
@@ -42,12 +41,12 @@
                     </div>
                     <div class="about__project__logo">
                         <div class="about__project__logo_upd">
-                            <img class="logo1" src="images/cosmosacademy.png" loading="eager" alt="Космос академия">
-                            <img class="logo2" src="images/Logo2.png" loading="eager" alt="Министерство труда">
-                            <img class="logo3" src="images/Logo3.png" loading="eager" alt="Томский Государственный Университет">
-                            <img class="logo4" src="images/Logo4.png" loading="eager" alt="Национальные проекты России">
+                            <img class="logo1" src="images/cosmosacademy.png" loading="lazy" alt="Космос академия">
+                            <img class="logo2" src="images/Logo2.png" loading="lazy" alt="Министерство труда">
+                            <img class="logo3" src="images/Logo3.png" loading="lazy" alt="Томский Государственный Университет">
+                            <img class="logo4" src="images/Logo4.png" loading="lazy" alt="Национальные проекты России">
                         </div>
-                        <img class="photo2" src="images/photo2.jpg" loading="eager" alt="Фото о проекте">
+                        <img class="photo2" src="images/photo2.jpg" loading="lazy" alt="Фото о проекте">
                     </div>
                 </div>
                 <div class="resolution__block">
