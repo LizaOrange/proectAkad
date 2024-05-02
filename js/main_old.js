@@ -270,14 +270,23 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
     let educationText = $('#Education').select2('data')[0].text;
     let regionText = $('.region_class').select2('data')[0].text;
     let programText = document.querySelector('input[name="Program"]').value;
-    console.log(firstName.length);
-    console.log(email.length);
-    console.log(phone.length);
-    console.log(categoryText.length);
-    console.log(employmentText.length);
-    console.log(educationText.length);
-    console.log(regionText.length);
-    console.log(programText.length);
+
+    if (categoryText == 'Ваша категория') {
+        alert('Выберите категорию');
+        return;
+    }
+    if (employmentText == 'Трудоустройство') {
+        alert('Выберите трудоустройство');
+        return;
+    }
+    if (educationText == 'Ваше образование') {
+        alert('Выберите образование');
+        return;
+    }if (regionText == 'Ваш регион') {
+        alert('Выберите регион');
+        return;
+    }
+
     let region = document.querySelector('.region_class').value;
     let data = {
         'FIELDS': {
