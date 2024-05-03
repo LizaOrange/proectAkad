@@ -855,7 +855,7 @@
                 <p>1. Заполните заявку</p>
                 <p>2. Подтвердите заявку на портале "Работа России"</p>
                 <div class="position-center">
-                <p class="form__lead"><strong>Окончание набора:  2 мая 23:59 <br>Количество мест: менее 50</strong></p>
+                <p class="form__lead"><strong>Идет предзапись на поток в июне</strong></p>
                 </div>
             </div>
             <div class="form__panel">
