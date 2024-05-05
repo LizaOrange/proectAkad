@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /footer.php
+Disallow: /head.php
+Disallow: /header.php
+Disallow: /mail.php
+Disallow: /modal.php
+Disallow: /css/
+Disallow: /documents/
+Disallow: /fonts/
+Disallow: /images/
+Disallow: /js/
+Disallow: /phpmailer/

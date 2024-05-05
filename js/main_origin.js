@@ -248,20 +248,25 @@ var ModalManager = function () {
 }();
 // ajax start
 document.getElementById('form-btn').addEventListener('click', function(e) {
-    e.preventDefault(); // Предотвращаем стандартное поведение формы
+    e.preventDefault();
+    showLoader();
+
     let firstName = document.querySelector('input[name="FirstName"]').value;
     let phone = document.querySelector('input[name="Phone"]').value;
     let email = document.querySelector('input[name="Email"]').value;
     if (!validatePhone(phone)) {
         alert('Некорректный номер телефона');
+        hideLoader();
         return;
     }
     if (!validateEmail(email)) {
         alert('Некорректный email');
+        hideLoader();
         return;
     }
     if (firstName.length < 2) {
         alert('Имя должно содержать не менее 2 символов');
+        hideLoader();
         return;
     }
 
@@ -273,38 +278,73 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
 
     if (categoryText == 'Ваша категория') {
         alert('Выберите категорию');
+        hideLoader();
         return;
     }
     if (employmentText == 'Трудоустройство') {
         alert('Выберите трудоустройство');
+        hideLoader();
         return;
     }
     if (educationText == 'Ваше образование') {
         alert('Выберите образование');
-        return;
-    }if (regionText == 'Ваш регион') {
-        alert('Выберите регион');
+        hideLoader();
         return;
     }
+    if (regionText == 'Ваш регион') {
+        alert('Выберите регион');
+        hideLoader();
+        return;
+    }
+
+    // AJAX запрос для записи данных в файл
+    fetch('write_log_data_to_file.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            firstName: firstName,
+            phone: phone,
+            email: email,
+            category: categoryText,
+            employment: employmentText,
+            education: educationText,
+            region: regionText,
+            program: programText
+        })
+    })
+        .then(response => {
+            if (response.ok) {
+                hideLoader();
+                console.log('Данные успешно записаны в файл');
+            } else {
+                throw new Error('Ошибка записи данных в файл');
+            }
+        })
+        .catch(error => {
+            console.error('Произошла ошибка:', error);
+        });
+
 
     let region = document.querySelector('.region_class').value;
     let data = {
         'FIELDS': {
             'TITLE': 'Новая форма с лендинга',
-            'NAME': firstName, // замените на данные из вашей формы
+            'NAME': firstName,
             'EMAIL': [{
-                'VALUE': email, // замените на данные из вашей формы
+                'VALUE': email,
                 'VALUE_TYPE': 'WORK'
             }],
             'PHONE': [{
-                'VALUE': phone, // замените на данные из вашей формы
+                'VALUE': phone,
                 'VALUE_TYPE': 'WORK'
             }],
-            'UF_CRM_1714128589': categoryText, // замените на данные из вашей формы
-            'UF_CRM_1714128570': employmentText, // замените на данные из вашей формы
-            'UF_CRM_1714128542': educationText, // замените на данные из вашей формы
-            'UF_CRM_1714128525': regionText, // замените на данные из вашей формы
-            'UF_CRM_1714144900': programText, // замените на данные из вашей формы
+            'UF_CRM_1714128589': categoryText,
+            'UF_CRM_1714128570': employmentText,
+            'UF_CRM_1714128542': educationText,
+            'UF_CRM_1714128525': regionText,
+            'UF_CRM_1714144900': programText,
             'SOURCE_ID': 'WEB'
         }
     };
@@ -323,13 +363,24 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
             }
             throw new Error('Network response was not ok.');
         })
-        .then(data => {
-            console.log(data); // Обработка успешного ответа
-        })
         .catch(error => {
-            console.error('There was a problem with your fetch operation:', error); // Обработка ошибки
+            hideLoader();
+            alert('Ошибка отправки формы: '+ error);
         });
 });
+
+function showLoader() {
+    $('#loader-wrapper').css('display', 'flex'); // Показываем лоадер и его обертку
+    $('#loader').css('display', 'block'); // Показываем лоадер
+}
+
+function hideLoader() {
+    $('#loader-wrapper').css('display', 'none'); // Скрываем лоадер и его обертку
+    $('#loader').css('display', 'none'); // Скрываем лоадер
+}
+
+
+
 document.getElementById("phone").addEventListener("input", function(event) {
     let inputValue = event.target.value;
     let cleanedValue = inputValue.replace(/\D/g, "");
