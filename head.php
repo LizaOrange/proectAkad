@@ -8,8 +8,6 @@
     <link type="Image/x-icon" href="/images/favicon.ico" rel="icon">
     <title>Спасибо</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="css/select2.min.css">
 </head>
 <body>
 <div class="wrapper">

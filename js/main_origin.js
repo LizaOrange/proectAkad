@@ -327,7 +327,10 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
         });
 
 
+    let success_type = this.dataset.success;
     let region = document.querySelector('.region_class').value;
+
+
     let data = {
         'FIELDS': {
             'TITLE': 'Новая форма с лендинга',
@@ -358,7 +361,11 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
     })
         .then(response => {
             if (response.ok) {
-                window.location.href = region;
+                if(success_type === 'true'){
+                    window.location.href = 'https://cosmos-academy.ru/success.php';
+                }else{
+                    window.location.href = region;
+                }
                 //return response.json();
             }
             throw new Error('Network response was not ok.');

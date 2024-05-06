@@ -8,7 +8,7 @@
     <link type="Image/x-icon" href="/images/favicon.ico" rel="icon">
     <title>Специалист по премиум-сервису в сферах услуг</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/swiper.css"/>
     <link rel="stylesheet" href="css/select2.min.css">
 </head>
 <body>
@@ -859,7 +859,7 @@
                             </div>
                         </div>
                         <div class="form__btn">
-                            <button class="btn" id="form-btn" type="button">Учиться бесплатно</button>
+                            <button class="btn" id="form-btn" type="button" data-success="true">Учиться бесплатно</button>
                         </div>
                     </div>
                 </form>

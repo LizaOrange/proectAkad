@@ -28,7 +28,7 @@
 
 </div>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/swiper.js"></script>
 <script src="js/jquery.min.js"></script>
 <script src="js/select2.min.js"></script>
 <script src="js/slider.js"></script>
