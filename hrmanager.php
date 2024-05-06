@@ -465,119 +465,72 @@
             <ol class="program__modules" data-accordion="parent" data-single="">
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 1. Общая характеристика программы</h3>
+                    <h3 class="program__module-title">Раздел 1. Корпоративная культура и управление персоналом на предприятиях сферы гостеприимства и общественного питания</h3>
                     <ul class="program__module-content" data-accordion="content">
-                        <li>• Общие положения</li>
-                        <li>• Цель освоения и характеристика новой квалификации</li>
-                        <li>• Планируемые результаты обучения</li>
-                        <li>• Учебно-тематический план</li>
-                        <li>• Календарный учебный график</li>
-                        <li>• Рабочие программы дисциплин (модулей, разделов)</li>
-                        <li>• Организационно-педагогические условия</li>
-                        <li>• Формы аттестации</li>
+                        <li>• Оценка прибыльности гостиничного бизнеса. Критерии эффективности работы гостиничного предприятия</li>
+                        <li>• Организационная структура</li>
+                        <li>• Понятие корпоративной культуры </li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label="показать/закрыть содержание модуля"></button>
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 2. Оценочные материалы</h3>
+                    <h3 class="program__module-title">Раздел 2. Поколения X, Y, Z – как эффективно управлять командой и нанимать сотрудников для сферы гостеприимства</h3>
                     <ul class="program__module-content" data-accordion="content">
-                        <li>• Текущий контроль</li>
-                        <li>• Промежуточная аттестация</li>
+                        <li>• Суть теории поколений в том, чтобы показать, что промежуток времени, в котором родился человек, влияет на его мировоззрение</li>
+                        <li>• Определение понятий</li>
+                        <li>• Почему именно для сферы гостеприимства так важна теория поколений</li>
+                        <li>• Тенденции и подходы к управлению и найму в рамках теории поколений для сферы гостеприимства</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
                 </li>
 
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 3. Основы организации деятельности гостиниц и иных средств размещения</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Структура гостиницы</li>-->
-<!--                        <li>• Роль службы размещения в операционной деятельности гостиницы</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 4. Системы управления гостиницей</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Основные системы управления гостиницей</li>-->
-<!--                        <li>• Основные модули управления гостиницей</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 5. Теория межличностного и делового общения, переговоров, конфликтологии малой группы</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Телефонный этикет и навыки деловой переписки</li>-->
-<!--                        <li>• Приветствие гостя</li>-->
-<!--                        <li>• Работа с жалобами</li>-->
-<!--                        <li>• Работа с отзывами</li>-->
-<!--                        <li>• Метрики удовлетворенности гостей</li>-->
-<!--                        <li>• Коммуникация после выезда гостей</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 6. Технологии продаж</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Основные показатели гостиничного бизнеса: ADR, RevPAR, RevPAC, загрузка, TRevPAR</li>-->
-<!--                        <li>• Приемы технологии продаж. Навыки Upsell и cross-selling</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 7. Процедуры бронирования, заселения, выезда</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Стандартная операционная процедура бронирования номера в зависимости от типа гостя</li>-->
-<!--                        <li>• Стандартные операционные процедуры заселения (с бронированием, без бронирования) и выселения гостя</li>-->
-<!--                        <li>• Стандартные операционные процедуры группового заселения и выезда</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 8. Специализированные информационные программы и технологии, применяемые в работе службы приема и размещения</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Виды специализированных информационных программ и технологий, используемых в работе службы приема и размещения</li>-->
-<!--                        <li>• Сравнение основных специализированных информационных программ</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 9. Управление финансами</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Проведение предоплат и авторизаций</li>-->
-<!--                        <li>• Проведение возвратов</li>-->
-<!--                        <li>• Проведение оплат</li>-->
-<!--                        <li>• Проведение корректировок начислений</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 10. Основы охраны здоровья и санитарных правил</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Основные требования санитарных правил в гостиничном деле</li>-->
-<!--                        <li>• Соблюдение санитарных правил в службе приема и размещения</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 11. Требования безопасности в службе приема и размещения</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Конфиденциальность информации о гостях, сотрудниках и гостинице</li>-->
-<!--                        <li>• Способы идентификации гостя при просьбе выдать ключ или открыть номер</li>-->
-<!--                        <li>• Запрос информации от органов государственной власти</li>-->
-<!--                        <li>• Общение со средствами массовой информации</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 3. Задачи работодателя в период адаптации профессиональных стандартов для индустрии гостеприимства</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Корреляция между теоретическими знаниями и умениями = Профстандарт</li>
+                        <li>• Профессии, соответствующие и не соответствующие Профстандарту</li>
+                        <li>• Деньги или грамота? Что мотивирует работников?</li>
+                        <li>• Роль работодателя при популяризации Профстандартов</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 4. Принцип бюджетирование затрат на персонал в индустрии гостеприимства; оплата труда и расчет - FTE для бюджетных показателей с целью повышения эффективности бизнеса</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Основания для увольнения</li>
+                        <li>• FTE (понятие и принципы учета)</li>
+                        <li>• Системы оплаты труда</li>
+                        <li>• Приоритет не у оклада, а у часовой ставки – Почему?</li>
+                        <li>• Составляющие бюджета затрат на персонал</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 5. Технологии собеседовании и подбор кандидатов для индустрии гостеприимства. Ключевые компетенции и механизмы их оценки у соискателей</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• 100 % гарантия в подборе</li>
+                        <li>• Методики для подбора кандидатов в команду для сферы гостеприимства</li>
+                        <li>• Цель собеседования!</li>
+                        <li>• План интервью и интервью по компетенциям</li>
+                        <li>• Основные компетенции кандидатов для сферы гостеприимства – как выявить и оценить?</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 6. Управление конфликтами и инструменты их разрешения. Корпоративная культура предприятия гостеприимства и ее роль в разрешении и предотвращении конфликтов</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Основные понятия. Типы конфликтов</li>
+                        <li>• Факт – конфликт</li>
+                        <li>• Способы разрешения конфликтов</li>
+                        <li>• Как при конфликте достичь ситуации: выигрыш – выигрыш</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
                 <li class="program__module" data-accordion="element" data-collapse-item="">
                     <h3 class="program__module-title">Итоговая аттестация</h3>
                 </li>

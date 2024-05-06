@@ -465,118 +465,115 @@
             <ol class="program__modules" data-accordion="parent" data-single="">
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 1. Общая характеристика программы</h3>
+                    <h3 class="program__module-title">Раздел 1. Навыки межличностного общения</h3>
                     <ul class="program__module-content" data-accordion="content">
-                        <li>• Общие положения</li>
-                        <li>• Цель освоения и характеристика новой квалификации</li>
-                        <li>• Планируемые результаты обучения</li>
-                        <li>• Учебно-тематический план</li>
-                        <li>• Календарный учебный график</li>
-                        <li>• Рабочие программы дисциплин (модулей, разделов)</li>
-                        <li>• Организационно-педагогические условия</li>
-                        <li>• Формы аттестации</li>
+                        <li>• Эмоциональный интеллект и эмпатия</li>
+                        <li>• Деловой этикет</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label="показать/закрыть содержание модуля"></button>
                 </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
-                    <h3 class="program__module-title">Раздел 2. Оценочные материалы</h3>
+                    <h3 class="program__module-title">Раздел 2. Законодательство Российской Федерации о предоставлении гостиничных услуг</h3>
                     <ul class="program__module-content" data-accordion="content">
                         <li>• Текущий контроль</li>
-                        <li>• Промежуточная аттестация</li>
+                        <li>• Закон о защите прав потребителей</li>
+                        <li>• Гражданский кодекс, Запрет курения и особенности применения нормативных актов</li>
+                        <li>• Гигиенические требования к содержанию жилых помещений и общественных зон</li>
                     </ul>
                     <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
                 </li>
 
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 3. Основы организации деятельности гостиниц и иных средств размещения</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Структура гостиницы</li>-->
-<!--                        <li>• Роль службы размещения в операционной деятельности гостиницы</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 4. Системы управления гостиницей</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Основные системы управления гостиницей</li>-->
-<!--                        <li>• Основные модули управления гостиницей</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 5. Теория межличностного и делового общения, переговоров, конфликтологии малой группы</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Телефонный этикет и навыки деловой переписки</li>-->
-<!--                        <li>• Приветствие гостя</li>-->
-<!--                        <li>• Работа с жалобами</li>-->
-<!--                        <li>• Работа с отзывами</li>-->
-<!--                        <li>• Метрики удовлетворенности гостей</li>-->
-<!--                        <li>• Коммуникация после выезда гостей</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 6. Технологии продаж</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Основные показатели гостиничного бизнеса: ADR, RevPAR, RevPAC, загрузка, TRevPAR</li>-->
-<!--                        <li>• Приемы технологии продаж. Навыки Upsell и cross-selling</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 7. Процедуры бронирования, заселения, выезда</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Стандартная операционная процедура бронирования номера в зависимости от типа гостя</li>-->
-<!--                        <li>• Стандартные операционные процедуры заселения (с бронированием, без бронирования) и выселения гостя</li>-->
-<!--                        <li>• Стандартные операционные процедуры группового заселения и выезда</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 8. Специализированные информационные программы и технологии, применяемые в работе службы приема и размещения</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Виды специализированных информационных программ и технологий, используемых в работе службы приема и размещения</li>-->
-<!--                        <li>• Сравнение основных специализированных информационных программ</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 9. Управление финансами</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Проведение предоплат и авторизаций</li>-->
-<!--                        <li>• Проведение возвратов</li>-->
-<!--                        <li>• Проведение оплат</li>-->
-<!--                        <li>• Проведение корректировок начислений</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 10. Основы охраны здоровья и санитарных правил</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Основные требования санитарных правил в гостиничном деле</li>-->
-<!--                        <li>• Соблюдение санитарных правил в службе приема и размещения</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
-<!---->
-<!--                <li class="program__module" data-accordion="element" data-collapse-item="">-->
-<!--                    <h3 class="program__module-title">Раздел 11. Требования безопасности в службе приема и размещения</h3>-->
-<!--                    <ul class="program__module-content" data-accordion="content">-->
-<!--                        <li>• Конфиденциальность информации о гостях, сотрудниках и гостинице</li>-->
-<!--                        <li>• Способы идентификации гостя при просьбе выдать ключ или открыть номер</li>-->
-<!--                        <li>• Запрос информации от органов государственной власти</li>-->
-<!--                        <li>• Общение со средствами массовой информации</li>-->
-<!--                    </ul>-->
-<!--                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>-->
-<!--                </li>-->
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 3. Основы организации деятельности гостиниц</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Структура гостиницы</li>
+                        <li>• Роль службы гостиничного хозяйства в операционной деятельности гостиницы</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 4. Системы управления гостиницей</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Основные системы управления гостиницей</li>
+                        <li>• Основные модули управления гостиницей</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 5. Теория межличностного и делового общения, переговоров, конфликтологии малой группы</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Телефонный этикет и навыки деловой переписки</li>
+                        <li>• Приветствие гостя. Навыки межличностного общения</li>
+                        <li>• Работа с жалобами</li>
+                        <li>• Работа с отзывами</li>
+                        <li>• Метрики удовлетворенности гостей</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 6. Основы управления персоналом</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Показатели гостиничной деятельности: загрузка, статусы номеров, прогноз загрузки</li>
+                        <li>• Работа с графиками сменности и табелями учета рабочего времени. Заказ расходных материалов</li>
+                        <li>• Распределение работ и учет выполненных работ. Система контроля выполненных работ</li>
+                        <li>• Обучение сотрудников. Навыки наставничества и обучения на рабочих местах</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 7. Процедуры обслуживания службой гостиничного хозяйства</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Стандартная операционная процедура уборки гостиничных номеров</li>
+                        <li>• Стандартные операционные процедуры обслуживания гостей в номерах</li>
+                        <li>• Дополнительный сервис для гостей</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 8. Специализированные информационные программы и технологии, используемые в работе службы гостиничного хозяйства</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Виды специализированных информационных программ и технологий, используемых в работе службы гостиничного хозяйства</li>
+                        <li>• Сравнение основных специализированных информационных программ</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 9. Основные виды деятельности службы гостиничного хозяйства</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Поддержание чистоты в гостинице</li>
+                        <li>• Деятельность прачечной, химчистки и бюро забытых вещей</li>
+                        <li>• Контроль технического состояния номерного фонда</li>
+                        <li>• Руководство персоналом гостиничного хозяйства</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 10. Основы охраны здоровья, санитарии и гигиены</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Основные требования санитарных правил в гостиничном деле</li>
+                        <li>• Соблюдение санитарных норм в службе гостиничного хозяйства</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
+
+                <li class="program__module" data-accordion="element" data-collapse-item="">
+                    <h3 class="program__module-title">Раздел 11. Требования безопасности в службе гостиничного хозяйства</h3>
+                    <ul class="program__module-content" data-accordion="content">
+                        <li>• Конфиденциальность информации о гостях, сотрудниках и гостинице</li>
+                        <li>• Безопасность в гостевых зонах. Открытие дверей гостям, вход в номер, открытие сейфов</li>
+                        <li>• Запрос информации от органов государственной власти</li>
+                        <li>• Общение со средствами массовой информации</li>
+                    </ul>
+                    <button class="program__module-button" type="button" data-accordion="button" aria-label=" раскрыть/закрыть содержание модуля"></button>
+                </li>
 
                 <li class="program__module" data-accordion="element" data-collapse-item="">
                     <h3 class="program__module-title">Итоговая аттестация</h3>

@@ -101,6 +101,42 @@ h2 {
     }
 }
 
+.success {
+    height: 55vh;
+}
+
+@media (max-width: 767px) {
+    .success {
+        height: 70vh;
+    }
+}
+
+.success h2{
+    margin-top: 3rem;
+}
+
+@media (max-width: 767px) {
+    .success h2{
+        margin-top: 1rem;
+    }
+}
+
+.success h3 {
+    font-family: "Circe-Light", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3.375rem;
+    margin-bottom: 2rem
+}
+
+@media (max-width: 767px) {
+    .success h3 {
+        font-size: 20px;
+        line-height: 36px;
+        margin-bottom: 30px
+    }
+}
+
 button {
     cursor: pointer;
     border: none;
