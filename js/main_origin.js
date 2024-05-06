@@ -318,8 +318,6 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
             if (response.ok) {
                 hideLoader();
                 console.log('Данные успешно записаны в файл');
-            } else {
-                throw new Error('Ошибка записи данных в файл');
             }
         })
         .catch(error => {
@@ -368,7 +366,6 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
                 }
                 //return response.json();
             }
-            throw new Error('Network response was not ok.');
         })
         .catch(error => {
             hideLoader();
