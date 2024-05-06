@@ -102,7 +102,6 @@
 <!--                        </div>-->
                     </div>
                 </a>
-<!--                <a href="https://foodsafety.cosmos-academy.ru" class="tile__open-btn">-->
                 <a href="/foodsafety.php" class="tile__open-btn">
                     <div class="tile">
                         <div class="tile__oval"></div>
@@ -125,7 +124,6 @@
 <!--                        </div>-->
                     </div>
                 </a>
-<!--                <a href="https://admin.cosmos-academy.ru" class="tile__open-btn">-->
                 <a href="/admin.php" class="tile__open-btn">
                     <div class="tile">
                         <div class="tile__oval"></div>
@@ -148,7 +146,94 @@
 <!--                        </div>-->
                     </div>
                 </a>
-
+                <a href="/hrmanager.php" class="tile__open-btn">
+                    <div class="tile">
+                        <div class="tile__oval"></div>
+                        <div class="tile__head">
+                            <div class="tile__body">
+                                <div class="tile__info">
+                                    <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                                </div>
+                                <h3 style="line-height: 2.5em">Менеджер по управлению персоналом в гостиничной сфере</h3>
+                                <div class="other__description">
+                                    <p class="other__description-item">144 часа</p>
+                                    <p class="other__description-item">7 недель</p>
+                                    <p class="other__description-item">з/п от 90 тыс. руб</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--                        <div class="tile__open">-->
+                        <!--                                <img src="images/open.svg" alt="Открыть программу">-->
+                        <!--                                <span>Открыть программу</span>-->
+                        <!--                        </div>-->
+                    </div>
+                </a>
+                <a href="/coachhotel.php" class="tile__open-btn">
+                    <div class="tile">
+                        <div class="tile__oval"></div>
+                        <div class="tile__head">
+                            <div class="tile__body">
+                                <div class="tile__info">
+                                    <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                                </div>
+                                <h3 style="line-height: 2.5em">Преподаватель, тренинг менеджер в гостиничной сфере</h3>
+                                <div class="other__description">
+                                    <p class="other__description-item">144 часа</p>
+                                    <p class="other__description-item">7 недель</p>
+                                    <p class="other__description-item">з/п от 80 тыс. руб</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--                        <div class="tile__open">-->
+                        <!--                                <img src="images/open.svg" alt="Открыть программу">-->
+                        <!--                                <span>Открыть программу</span>-->
+                        <!--                        </div>-->
+                    </div>
+                </a>
+                <a href="/servicespecialist.php" class="tile__open-btn">
+                    <div class="tile">
+                        <div class="tile__oval"></div>
+                        <div class="tile__head">
+                            <div class="tile__body">
+                                <div class="tile__info">
+                                    <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                                </div>
+                                <h3 style="line-height: 2.5em">Специалист по премиум-сервису в сферах услуг</h3>
+                                <div class="other__description">
+                                    <p class="other__description-item">144 часа</p>
+                                    <p class="other__description-item">7 недель</p>
+                                    <p class="other__description-item">з/п от 80 тыс. руб</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--                        <div class="tile__open">-->
+                        <!--                                <img src="images/open.svg" alt="Открыть программу">-->
+                        <!--                                <span>Открыть программу</span>-->
+                        <!--                        </div>-->
+                    </div>
+                </a>
+                <a href="/supervisorutility.php" class="tile__open-btn">
+                    <div class="tile">
+                        <div class="tile__oval"></div>
+                        <div class="tile__head">
+                            <div class="tile__body">
+                                <div class="tile__info">
+                                    <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                                </div>
+                                <h3 style="line-height: 2.5em">Супервайзер службы гостиничного хозяйства</h3>
+                                <div class="other__description">
+                                    <p class="other__description-item">144 часа</p>
+                                    <p class="other__description-item">7 недель</p>
+                                    <p class="other__description-item">з/п от 85 тыс. руб</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--                        <div class="tile__open">-->
+                        <!--                                <img src="images/open.svg" alt="Открыть программу">-->
+                        <!--                                <span>Открыть программу</span>-->
+                        <!--                        </div>-->
+                    </div>
+                </a>
             </div>
         </div>
     </div>
