@@ -15,6 +15,10 @@
 <div class="wrapper">
 <?php include 'header.php'; ?>
 <main>
+    <section class="container breadcrumbs">
+        <p><a href="catalog.php">Каталог программ</a>/ Специалист по пищевой безопасности</p>
+    </section>
+
     <section class="home home--admin">
         <div class="container">
             <div class="home__content">
@@ -793,6 +797,7 @@
                         <div class="form__field form-tooltip">
                             <select class="form__select" id="Category" name="category">
                                 <option disabled selected>Ваша категория</option>
+                                <option value="4">Трудоустроены или ищите работу</option>
                                 <option value="11">Под риском увольнения</option>
                                 <option value="5">Находитесь в декрете</option>
                                 <option value="2">Мама ребенка до 7 лет</option>

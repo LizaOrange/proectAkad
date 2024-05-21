@@ -6,19 +6,22 @@
     <div class="header-wrap">
 
         <div class="header-social">
-            <a class="header-social__logo" href="#" target="_blank">
-                <img class="logo-main" src="images/cosmosacademy.webp" loading="lazy" alt="Космос Академия">
-            </a>
-            <a class="header-social__logo" href="#" target="_blank">
-                <img class="logo-trud" src="images/Logo2.webp" loading="lazy" alt="Минтруд РФ">
-            </a>
-            <a class="header-social__logo" href="#" target="_blank">
-                <img class="logo-tgu" src="images/Logo3.webp" loading="lazy" alt="Томский Государственный Университет">
-            </a>
-            <a class="header-social__logo" href="#" target="_blank">
-                <img class="logo-npr" src="images/Logo4.png" loading="lazy" alt="Национальные проекты России">
-            </a>
+            <div class="header-social__logo">
+                <a href="/catalog.php" target="_blank">
+                <img src="images/cosmosacademy.webp" loading="lazy" alt="Космос Академия, ссылка на каталог">
+                </a>
+            </div>
+            <div class="header-social__logo">
+                <img src="images/Logo2.webp" loading="lazy" alt="Минтруд РФ">
+            </div>
+            <div class="header-social__logo">
+                <img src="images/Logo3.webp" loading="lazy" alt="Томский Государственный Университет">
+            </div>
+            <div class="header-social__logo">
+                <img src="images/Logo4.png" loading="lazy" alt="Национальные проекты России">
+            </div>
         </div>
+
 
         <div class="header-content">
             <div class="header__hamburger header-btn">
@@ -30,10 +33,10 @@
 <!--                    <a class="header__link" href="https://admin.cosmos-academy.ru#features-content">Чему научитесь</a>-->
 <!--                    <a class="header__link" href="https://admin.cosmos-academy.ru#form">Начать обучение</a>-->
 <!--                    <a class="header__link" href="https://catalog.cosmos-academy.ru/">Другие программы</a>-->
-                    <a class="header__link" href="#federation-project">О проекте</a>
-                    <a class="header__link" href="#features-content">Чему научитесь</a>
-                    <a class="header__link" href="#form">Начать обучение</a>
-                    <a class="header__link" href="/catalog.php">Другие программы</a>
+                    <a class="header__link" href="admin.php#federation-project" target="_blank">О проекте</a>
+                    <a class="header__link" href="admin.php#features-content" target="_blank">Чему научитесь</a>
+                    <a class="header__link" href="admin.php#form" target="_blank">Начать обучение</a>
+                    <a class="header__link" href="/catalog.php" target="_blank">Другие программы</a>
                 </div>
             </div>
         </div>

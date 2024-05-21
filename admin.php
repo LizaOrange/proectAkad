@@ -15,6 +15,9 @@
 <div class="wrapper">
 <?php include 'header.php'; ?>
 <main>
+    <section class="container breadcrumbs">
+        <p><a href="catalog.php">Каталог программ</a>/ Администратор гостиницы</p>
+    </section>
     <section class="home home--admin">
         <div class="container">
             <div class="home__content">
@@ -928,7 +931,13 @@
                         <div class="form__checkboxs">
                             <div class="form__checkbox">
                                 <input type="checkbox" id="form-check--pd" checked="">
-                                <label for="form-check--pd">Я даю <a href="https://cosmosgroup.ru/ru/policy" target="blank">согласие на обработку персональных данных</a></label>
+                                <label for="form-check--pd">Я даю <a href="assets/files/file_18.pdf" target="blank">согласие на обработку персональных данных</a></label>
+                            </div>
+                        </div>
+                        <div class="form__checkboxs">
+                            <div class="form__checkbox">
+                                <input type="checkbox" id="form-check--pd" checked="">
+                                <label for="form-check--pd">Я согласен с <a href="assets/files/file_18.pdf" target="blank">политикой конфеденциальности</a></label>
                             </div>
                         </div>
                         <div class="form__btn">

@@ -15,6 +15,10 @@
 <div class="wrapper">
 <?php include 'header.php'; ?>
 <main>
+    <section class="container breadcrumbs">
+        <p><a href="catalog.php">Каталог программ</a>/ Специалист по премиум-сервису в сферах услуг</p>
+    </section>
+
     <section class="home home--admin">
         <div class="container">
             <div class="home__content">

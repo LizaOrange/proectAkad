@@ -3,8 +3,20 @@
 <footer class="footer">
     <div class="container">
         <div class="footer__block">
-
-            <img src="images/logo_white.webp" class="footer__logo" loading="lazy" alt="Логотип">
+            <div class="footer__contacts">
+                <div class="footer__contacts_element"><a href="tel:+78005552731">8(800) 555-27-31</a></div>
+                <div class="footer__contacts_element"><a href="mailto:info@cosmosgroup.ru">info@cosmosgroup.ru</a></div>
+                <div class="footer__contacts_element"><p>Режим работы: 9:00-18:00 <br>с понедельника по пятницу</p></div>
+                <div class="footer__contacts_element"><img src="images/logo_white.webp" class="footer__logo" loading="lazy" alt="Логотип"></div>
+            </div>
+            <div class="footer__messenger">
+                <a href="https://t.me/sodeystvie_cosmos" target="_blank">
+                    <img src="images/Telegram_logo.png" alt="Telegram">
+                </a>
+                <a href="https://wa.me/79850598016" target="_blank">
+                    <img src="images/WhatsApp_icon.png" alt="WhatsApp">
+                </a>
+            </div>
             <div class="footer__contain">
                 <div class="footer__items">
 <!--                    <div class="footer__item">-->
@@ -31,6 +43,16 @@
 <!--                            </div>-->
 <!--                        </div>-->
 <!--                    </div>-->
+<!--                    <a  href="/documents/documents.pdf" download="Перечень документов.pdf">Скачать список документов</a>-->
+                    <div class="footer__item">
+                        <div class="footer__item-list footer__item-list--2">
+                            <div class="footer__item-list__title">
+                                <h5><a href="/dokumenty.php" target="_blank">Образовательная лицензия <br>и другие документы</a></h5>
+                                <i class="footer__item-list__title-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="footer__item">
                         <div class="footer__item-list footer__item-list--2">
                             <div class="footer__item-list__title">

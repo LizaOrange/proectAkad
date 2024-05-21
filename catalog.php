@@ -19,18 +19,18 @@
             <div class="header-wrap">
 
                 <div class="header-social">
-                    <a class="header-social__logo" href="#" target="_blank">
-                        <img class="logo-main" src="images/cosmosacademy.webp" loading="lazy" alt="Космос Академия">
-                    </a>
-                    <a class="header-social__logo" href="#" target="_blank">
-                        <img class="logo-trud" src="images/Logo2.webp" loading="lazy" alt="Минтруд РФ">
-                    </a>
-                    <a class="header-social__logo" href="#" target="_blank">
-                        <img class="logo-tgu" src="images/Logo3.webp" loading="lazy" alt="Томский Государственный Университет">
-                    </a>
-                    <a class="header-social__logo" href="#" target="_blank">
-                        <img class="logo-npr" src="images/Logo4.png" loading="lazy" alt="Национальные проекты России">
-                    </a>
+                    <div class="header-social__logo">
+                            <img src="images/cosmosacademy.webp" loading="lazy" alt="Космос Академия, ссылка на каталог">
+                    </div>
+                    <div class="header-social__logo">
+                        <img src="images/Logo2.webp" loading="lazy" alt="Минтруд РФ">
+                    </div>
+                    <div class="header-social__logo">
+                        <img src="images/Logo3.webp" loading="lazy" alt="Томский Государственный Университет">
+                    </div>
+                    <div class="header-social__logo">
+                        <img src="images/Logo4.png" loading="lazy" alt="Национальные проекты России">
+                    </div>
                 </div>
 
                 <div class="header-content">
@@ -76,7 +76,7 @@
 
     <div class="catalog__courses">
         <div class="catalog__DPO">
-            <h4 class="catalog__courses-title">Не подходит программа? У нас есть другие:</h4>
+            <h4 class="catalog__courses-title">Каталог программ</h4>
             <div class="catalog__tiles">
 <!--                <a href="https://supervisor.cosmos-academy.ru" class="tile__open-btn">-->
                 <a href="/supervisor.php" class="tile__open-btn">
@@ -130,7 +130,7 @@
                         <div class="tile__head">
                             <div class="tile__body">
                                 <div class="tile__info">
-                                    <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                                    <img src="images/icon15.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
                                 </div>
                                 <h3 style="line-height: 2.5em">Администратор Гостиницы</h3>
                                 <div class="other__description">
@@ -152,7 +152,7 @@
                         <div class="tile__head">
                             <div class="tile__body">
                                 <div class="tile__info">
-                                    <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                                    <img src="images/icon16.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
                                 </div>
                                 <h3 style="line-height: 2.5em">Менеджер по управлению персоналом в гостиничной сфере</h3>
                                 <div class="other__description">
@@ -174,7 +174,7 @@
                         <div class="tile__head">
                             <div class="tile__body">
                                 <div class="tile__info">
-                                    <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                                    <img src="images/icon17.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
                                 </div>
                                 <h3 style="line-height: 2.5em">Преподаватель, тренинг менеджер в гостиничной сфере</h3>
                                 <div class="other__description">
@@ -196,7 +196,7 @@
                         <div class="tile__head">
                             <div class="tile__body">
                                 <div class="tile__info">
-                                    <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                                    <img src="images/icon18.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
                                 </div>
                                 <h3 style="line-height: 2.5em">Специалист по премиум-сервису в сферах услуг</h3>
                                 <div class="other__description">
@@ -218,7 +218,7 @@
                         <div class="tile__head">
                             <div class="tile__body">
                                 <div class="tile__info">
-                                    <img src="images/icon4.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
+                                    <img src="images/icon13.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
                                 </div>
                                 <h3 style="line-height: 2.5em">Супервайзер службы гостиничного хозяйства</h3>
                                 <div class="other__description">

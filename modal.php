@@ -14,6 +14,17 @@
     </div>
 </div>
 
+<div class="appearing-modal">
+    <h2>Спасибо! Ваша заявка уже в обработке!</h2>
+    <p class="appearing-modal__accent appearing-modal__accent--alt display-desk">Через 15 секунд произойдет переход на портал "Работа России" для дальнейшего заполнения заявки.</p>
+    <p class="appearing-modal__accent appearing-modal__accent--alt display-mob">Через 15 секунд произойдет переход на портал "Работа России" для дальнейшего заполнения заявки.</p>
+    <div class="appearing-modal__content">
+        <ul class="appearing-modal__list">
+            <li>Если редиректа не произошло - напишите в поддержку и мы отправим вам ссылку.</li>
+        </ul>
+    </div>
+</div>
+
 <!---->
 <!--<div class="scroll-to-top">-->
 <!--    <div class="container">-->
