@@ -931,7 +931,13 @@
                         <div class="form__checkboxs">
                             <div class="form__checkbox">
                                 <input type="checkbox" id="form-check--pd" checked="">
-                                <label for="form-check--pd">Я даю <a href="https://cosmosgroup.ru/ru/policy" target="blank">согласие на обработку персональных данных</a></label>
+                                <label for="form-check--pd">Я даю <a href="assets/files/file_20.pdf" target="blank">согласие на обработку персональных данных</a></label>
+                            </div>
+                        </div>
+                        <div class="form__checkboxs">
+                            <div class="form__checkbox">
+                                <input type="checkbox" id="form-check--pk" checked="">
+                                <label for="form-check--pk">Я согласен с <a href="assets/files/file_18.pdf" target="blank">политикой конфеденциальности</a></label>
                             </div>
                         </div>
                         <div class="form__btn">

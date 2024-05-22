@@ -890,14 +890,14 @@ section {
     justify-content: center;
     position: relative;
     background-color: #fff;
-    /*padding: 2.5rem 3.75rem;*/
+    padding: 2rem;
     border-radius: 20px;
     overflow: hidden;
     min-height: 32.3125rem
 }
 @media screen and (max-width: 1440px) {
     .federation__content {
-        padding-top: 2rem;
+        padding: 2rem;
         min-height: 26.9375rem
     }
 }
@@ -1019,23 +1019,25 @@ section {
 
 @media (max-width: 767px) {
     .logo1{
-        height: 5.5rem;
-    }
-    .logo2{
-        height: 5.5rem;
+        height: 3rem;
     }
     .photo2{
         height: auto;
         border-radius: 20px;
     }
+}
+@media (max-width: 443px) {
+    .logo2{
+        height: 3rem;
+    }
     .logo3{
-        height: 4.5rem;
+        height: 2rem;
     }
     .logo4{
-        height: 8.5rem;
+        height: 3rem;
     }
-
 }
+
 
 .resolution {
     margin-top: -1.875rem
