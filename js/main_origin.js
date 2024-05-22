@@ -372,7 +372,7 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
 
 
     let success_type = this.dataset.success;
-    let region = 'https://cosmosgroup.ru/ru';
+    let region = document.querySelector('.region_class').value;
 
 
     let data = {
