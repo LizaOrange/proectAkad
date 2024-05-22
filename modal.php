@@ -1,20 +1,21 @@
 
-<div class="appearing-modal custom-modal__hidden" data-modal-open="" data-modal-id="leave-page-modal" id="leave-page-modal">
-    <h2>Не упускайте шанс!</h2>
-    <p class="appearing-modal__accent appearing-modal__accent--alt display-desk">Идет набор на обучение в 2024 году. Доступны все ТОП-программы. Оставьте заявку, чтобы попасть в список приоритетных кандидатов на зачисление.</p>
-    <p class="appearing-modal__accent appearing-modal__accent--alt display-mob">Открыт набор на обучение <b>в 2024</b> году</p>
-    <p class="appearing-modal__note appearing-modal__note--alt"><b>Вас ждет:</b></p>
-    <div class="appearing-modal__content">
-        <ul class="appearing-modal__list">
-            <li>Бесплатное обучение в Академии с 20-летним опытом. Освойте новую профессию и поднимитесь по карьерной лестнице!</li>
-        </ul>
-    </div>
-    <div class="appearing-modal__bottom">
-        <a href="#form" rel="modal:close" class="appearing-modal__button btn">Начать обучение</a>
-    </div>
-</div>
+<!--<div class="appearing-modal custom-modal__hidden" data-modal-open="" data-modal-id="leave-page-modal" id="leave-page-modal">-->
+<!--    <h2>Не упускайте шанс!</h2>-->
+<!--    <p class="appearing-modal__accent appearing-modal__accent--alt display-desk">Идет набор на обучение в 2024 году. Доступны все ТОП-программы. Оставьте заявку, чтобы попасть в список приоритетных кандидатов на зачисление.</p>-->
+<!--    <p class="appearing-modal__accent appearing-modal__accent--alt display-mob">Открыт набор на обучение <b>в 2024</b> году</p>-->
+<!--    <p class="appearing-modal__note appearing-modal__note--alt"><b>Вас ждет:</b></p>-->
+<!--    <div class="appearing-modal__content">-->
+<!--        <ul class="appearing-modal__list">-->
+<!--            <li>Бесплатное обучение в Академии с 20-летним опытом. Освойте новую профессию и поднимитесь по карьерной лестнице!</li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--    <div class="appearing-modal__bottom">-->
+<!--        <a href="#form" rel="modal:close" class="appearing-modal__button btn">Начать обучение</a>-->
+<!--    </div>-->
+<!--</div>-->
 
-<div class="appearing-modal">
+<div class="appearing-modal custom-modal__hidden">
+    <button class="modal-close">&times;</button>
     <h2>Спасибо! Ваша заявка уже в обработке!</h2>
     <p class="appearing-modal__accent appearing-modal__accent--alt display-desk">Через 15 секунд произойдет переход на портал "Работа России" для дальнейшего заполнения заявки.</p>
     <p class="appearing-modal__accent appearing-modal__accent--alt display-mob">Через 15 секунд произойдет переход на портал "Работа России" для дальнейшего заполнения заявки.</p>
@@ -24,6 +25,7 @@
         </ul>
     </div>
 </div>
+
 
 <!---->
 <!--<div class="scroll-to-top">-->

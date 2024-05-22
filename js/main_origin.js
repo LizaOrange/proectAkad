@@ -291,11 +291,57 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
         hideLoader();
         return;
     }
+
+    const pdCheckbox = document.getElementById('form-check--pd');
+    const pkCheckbox = document.getElementById('form-check--pk');
+
+    if (!pdCheckbox.checked) {
+        alert('Чтобы продолжить, нужно дать согласие на обработку персональных данных');
+        hideLoader();
+        return;
+    }
+    if (!pkCheckbox.checked) {
+        alert('Чтобы продолжить, нужно согласиться с политикой конфиденциальности');
+        hideLoader();
+        return;
+    }
     if (regionText == 'Ваш регион') {
         alert('Выберите регион');
         hideLoader();
         return;
     }
+
+    hideLoader();
+    let modalElement = document.querySelector('.appearing-modal.custom-modal__hidden');
+    // Проверяем, что элемент найден
+    if (modalElement) {
+        // Добавляем класс "active"
+        modalElement.classList.add('active');
+
+        // Создаем и добавляем затемнение фона
+        let overlay = document.createElement('div');
+        overlay.className = 'modal-overlay';
+        document.body.appendChild(overlay);
+
+        // Добавляем класс к body для предотвращения прокрутки
+        document.body.classList.add('modal-open');
+
+        // Находим кнопку закрытия
+        let closeButton = modalElement.querySelector('.modal-close');
+
+        // Добавляем обработчик события для закрытия модального окна через кнопку
+        closeButton.addEventListener('click', function() {
+            closeModal(modalElement, overlay);
+        });
+
+        // Добавляем обработчик события для закрытия модального окна при клике на затемненный фон
+        overlay.addEventListener('click', function() {
+            closeModal(modalElement, overlay);
+        });
+    } else {
+        console.error('Элемент с классом "appearing-modal custom-modal__hidden" не найден.');
+    }
+
 
     // AJAX запрос для записи данных в файл
     fetch('write_log_data_to_file.php', {
@@ -326,7 +372,7 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
 
 
     let success_type = this.dataset.success;
-    let region = document.querySelector('.region_class').value;
+    let region = 'https://cosmosgroup.ru/ru';
 
 
     let data = {
@@ -359,19 +405,37 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
     })
         .then(response => {
             if (response.ok) {
-                if(success_type === 'true'){
-                    window.location.href = 'https://cosmos-academy.ru/success.php';
-                }else{
-                    window.location.href = region;
-                }
-                //return response.json();
+                // if(success_type === 'true'){
+                //     window.location.href = 'https://cosmos-academy.ru/success.php';
+                // }else{
+                //     window.location.href = region;
+                // }
+                console.log('success');
             }
         })
         .catch(error => {
             hideLoader();
             alert('Ошибка отправки формы: '+ error);
         });
+
+    setTimeout(function() {
+        if(success_type === 'true'){
+            window.location.href = 'https://cosmos-academy.ru/success.php';
+        }else{
+            window.location.href = region;
+        }
+    }, 7000); // 7 секунд
+
 });
+
+// Функция для закрытия модального окна и удаления затемнения фона
+function closeModal(modalElement, overlay) {
+    modalElement.classList.remove('active');
+    document.body.classList.remove('modal-open');
+    if (overlay) {
+        overlay.remove();
+    }
+}
 
 function showLoader() {
     $('#loader-wrapper').css('display', 'flex'); // Показываем лоадер и его обертку
