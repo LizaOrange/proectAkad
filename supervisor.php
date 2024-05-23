@@ -858,9 +858,9 @@
                 <h2>Приступим к обучению?</h2>
                 <p>1. Заполните заявку</p>
                 <p>2. Подтвердите заявку на портале "Работа России"</p>
-                <div class="position-center">
-                <p class="form__lead"><strong>Идет предзапись на поток в июне</strong></p>
-                </div>
+<!--                <div class="position-center">-->
+<!--                <p class="form__lead"><strong>Идет предзапись на поток в июне</strong></p>-->
+<!--                </div>-->
             </div>
             <div class="form__panel">
                 <form id="form-app">

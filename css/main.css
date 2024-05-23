@@ -6100,18 +6100,27 @@ footer__contacts{
 }
 
 .tile__info {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
     margin-top: .8125rem
 }
 
 @media screen and (max-width: 1440px) {
     .tile__info {
+        display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        -webkit-box-align: end;
-        -ms-flex-align: end;
-        align-items: flex-end;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
         text-align: center;
         margin-top: 18px
     }

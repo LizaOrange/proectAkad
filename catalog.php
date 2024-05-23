@@ -131,8 +131,8 @@
                             <div class="tile__body">
                                 <div class="tile__info">
                                     <img src="images/icon15.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
-                                </div>
                                 <h3 style="line-height: 2.5em">Администратор Гостиницы</h3>
+                                </div>
                                 <div class="other__description">
                                     <p class="other__description-item">144 часа</p>
                                     <p class="other__description-item">7 недель</p>
