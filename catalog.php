@@ -8,6 +8,21 @@
     <link type="Image/x-icon" href="/images/favicon.ico" rel="icon">
     <title>Каталог программ</title>
     <link rel="stylesheet" href="css/main.css">
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]function(){(m[i].a=m[i].a[]).push(arguments)};
+            m[i].l=1*new Date();
+            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+        ym(97365134, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/97365134" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
 </head>
 <body>
 <div class="wrapper">
@@ -78,7 +93,6 @@
         <div class="catalog__DPO">
             <h4 class="catalog__courses-title">Каталог программ</h4>
             <div class="catalog__tiles">
-<!--                <a href="https://supervisor.cosmos-academy.ru" class="tile__open-btn">-->
                 <a href="/supervisor.php" class="tile__open-btn">
                     <div class="tile">
                         <div class="tile__oval"></div>
@@ -95,11 +109,6 @@
                                 </div>
                             </div>
                         </div>
-
-<!--                        <div class="tile__open">-->
-<!--                                <img src="images/open.svg" alt="Открыть программу">-->
-<!--                                <span>Открыть программу</span>-->
-<!--                        </div>-->
                     </div>
                 </a>
                 <a href="/foodsafety.php" class="tile__open-btn">
@@ -128,11 +137,11 @@
                     <div class="tile">
                         <div class="tile__oval"></div>
                         <div class="tile__head">
-                            <div class="tile__body">
                                 <div class="tile__info">
                                     <img src="images/icon15.svg" class="tile__head-logo" loading="lazy" alt="Логотип программы">
-                                <h3 style="line-height: 2.5em">Администратор Гостиницы</h3>
                                 </div>
+                            <div class="tile__body">
+                                <h3 style="line-height: 2.5em">Администратор Гостиницы</h3>
                                 <div class="other__description">
                                     <p class="other__description-item">144 часа</p>
                                     <p class="other__description-item">7 недель</p>
