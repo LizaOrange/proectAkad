@@ -5787,7 +5787,7 @@ footer__contacts{
     display: none
 }
 
-.custom-modal .active .custom-modal__hidden {
+.custom-modal.active .custom-modal__hidden {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
