@@ -534,8 +534,3 @@ if(RegionsAll){
         })
         .catch(error => console.error('Ошибка загрузки данных:', error));
 }
-
-
-
-
-
