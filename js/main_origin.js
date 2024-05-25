@@ -96,6 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let regionsSupervizorSelect = document.getElementById('RegionsSupervizor');
     let regionFoodSafetySelect = document.getElementById('RegionFoodSafety');
     let educationSelect = document.getElementById('Education');
+    let regionsAllSelect = document.getElementById('RegionsAll');
     // Инициализация Select2 для каждого элемента select
     if (categorySelect) {
         $(categorySelect).select2();
@@ -112,9 +113,13 @@ document.addEventListener("DOMContentLoaded", function() {
     if (regionFoodSafetySelect) {
         $(regionFoodSafetySelect).select2();
     }
+    if (regionsAllSelect) {
+        $(regionsAllSelect).select2();
+    }
     if (educationSelect) {
         $(educationSelect).select2();
     }
+
 });
 // подробнее слайдер
 document.addEventListener('DOMContentLoaded', function() {
@@ -479,7 +484,6 @@ if(Regions){
         .then(data => {
             const selectElement = document.getElementById('Regions');
 
-            // Создание элементов <option> для каждого объекта в данных
             data.forEach(item => {
                 const option = document.createElement('option');
                 option.value = item.link; // Значение равно ссылке
@@ -529,7 +533,7 @@ if(RegionsAll){
                 const option = document.createElement('option');
                 option.value = item.link;
                 option.textContent = item.region;
-                RegionsSupervizor.appendChild(option);
+                RegionsAll.appendChild(option);
             });
         })
         .catch(error => console.error('Ошибка загрузки данных:', error));
