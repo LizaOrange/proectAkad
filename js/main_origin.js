@@ -520,6 +520,21 @@ if(RegionsSupervizor){
         .catch(error => console.error('Ошибка загрузки данных:', error));
 }
 
+const RegionsAll = document.getElementById('RegionsAll');
+if(RegionsAll){
+    fetch('allRegion.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(item => {
+                const option = document.createElement('option');
+                option.value = item.link;
+                option.textContent = item.region;
+                RegionsSupervizor.appendChild(option);
+            });
+        })
+        .catch(error => console.error('Ошибка загрузки данных:', error));
+}
+
 
 
 

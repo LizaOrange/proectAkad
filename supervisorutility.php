@@ -935,7 +935,7 @@
                             <span class="form-required">*</span>
                         </div>
                         <div class="form__field">
-                            <select class="form__select region_class" name="Region" id="RegionsSupervizor">
+                            <select class="form__select region_class" name="Region" id="RegionsAll">
                                 <option disabled selected>Ваш регион</option>
                             </select>
                             <span class="form-required">*</span>
