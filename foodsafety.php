@@ -46,7 +46,7 @@
                 <h1 class="home__title">«Специалист по пищевой безопасности и общей гигиене в гостиничной и ресторанной сфере»</h1>
                 <p class="home__description">Бесплатно обучитесь искусству гостеприимства от лидера гостиничной отрасли <strong>Cosmos Hotel Group</strong></p>
                 <p class="home__description_p2">И получите помощь с трудоустройством от государства</p>
-                <button type="button" class="btn"><a href="#form">Начать обучение</a></button>
+                <button type="button" class="btn" onclick="ym(97365134,'reachGoal','05_Клик_Начать_обучение_бесплатно')"><a href="#form">Начать обучение</a></button>
             </div>
         </div>
     </section>
@@ -117,6 +117,36 @@
         <div class="participation__slider swiper">
 
             <ul class="participation__slides swiper-wrapper">
+                <li class="participation__slide swiper-slide swiper-slider">
+
+                    <div class="participation__slide-image">
+                        <img src="images/photo3.png" class="swiper-lazy" loading="lazy" width="248" height="234" alt="Фотография выпускника вуза">
+                        <div class="swiper-lazy-preloader"></div>
+                    </div>
+                    <div class="participation__slide-content">
+                        <p>Трудоустроены или ищите работу</p>
+                        <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
+                    </div>
+                    <div class="participation__slide-info">
+                        <p>Как принять участие?</p>
+                        <ol class="participation__slide-rules">
+                            <li>1. Подайте заявку, выбрав категорию "Граждане, ищущие работу (или трудоустроенные)".</li>
+                            <li>2. Зарегистрируйтесь на портале "Работа России" и авторизуйтесь через портал "Госуслуги", имея подтвержденную учетную запись на "Госуслугах".
+                                Информацию о том, как получить этот статус, вы можете найти по указанной <a href="https://www.gosuslugi.ru/help/faq/login/2">ссылке</a>.</li>
+                            <li><strong>Обратите внимание если вы официально трудоустроены, что работодатель также должен быть зарегистрирован на портале "Работа России".</strong></li>
+                            <li>3. Создайте и заполните свое резюме на портале "Работа России". Это обязательное условие, которое не обязывает вас активно искать работу или менять работодателя, если вы уже трудоустроены.</li>
+                            <li>4. Затем составьте заявление, выбрав категорию "Я ищу работу и не претендую на статус безработного" и прикрепив заполненное резюме. Дождитесь модерации заявки в течение 1 дня, инструкция доступна по указанной <a href="https://trudvsem.ru/information-pages/service-assistance-finding-job/info" target="_blank"> ссылке</a>.</li>
+                            <li>5. Подтвердите заявку на обучение на портале "Работа России":
+                                Загрузите необходимые документы в Личный кабинет гражданина (паспорт, диплом об образовании, а также свидетельство о смене фамилии, если имеется). Предоставьте документы, подтверждающие вашу категорию участника, в Центр занятости населения (ЦЗН).</li>
+                        </ol>
+                        <ol class="participation__slide-documents">
+                            <li>Паспорт гражданина РФ или документ, его заменяющий.</li>
+                            <li>Копия трудовой книжки или документ, ее заменяющий. Вы можете получить выписку, даже если никогда не были трудоустроены.</li>
+                            <li>Документ, подтверждающий текущий уровень образования гражданина.</li>
+                        </ol>
+                    </div>
+                </li>
+
                 <li class="participation__slide swiper-slide swiper-slider">
 
                     <div class="participation__slide-image">
@@ -844,10 +874,7 @@
                         <div class="form__field">
                             <select class="form__select" name="Education" id="Education">
                                 <option disabled selected>Ваше образование</option>
-                                <option value="1">Среднее (школьное)</option>
-                                <option value="2">Получаю среднее профессиональное</option>
                                 <option value="3">Среднее профессиональное (колледж, техникум и т.д.)</option>
-                                <option value="4">Получаю высшее образование</option>
                                 <option value="5">Высшее (оконченное)</option>
                             </select>
                             <span class="form-required">*</span>

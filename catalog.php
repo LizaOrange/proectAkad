@@ -62,8 +62,8 @@
                             <!--                    <a class="header__link" href="https://catalog.cosmos-academy.ru/">Другие программы</a>-->
                             <a class="header__link" href="admin.php#federation-project">О проекте</a>
                             <a class="header__link" href="admin.php#features-content">Чему научитесь</a>
-                            <a class="header__link" href="admin.php#form">Начать обучение</a>
-                            <a class="header__link" href="/catalog.php">Другие программы</a>
+                            <a class="header__link" href="admin.php#form" onclick="ym(97365134,'reachGoal','05_Клик_Начать_обучение_бесплатно')">Начать обучение</a>
+                            <a class="header__link" href="/catalog.php" onclick="ym(97365134,'reachGoal','04_Клик_кнопка_Каталог_программ')">Другие программы</a>
                         </div>
                     </div>
                 </div>
@@ -80,8 +80,8 @@
                     <!--                <li><a href="https://catalog.cosmos-academy.ru" class="">Другие программы</a></li>-->
                     <li><a href="admin.php#federation-project" class="">О проекте</a></li>
                     <li><a href="admin.php#features-content" class="">Чему научитесь</a></li>
-                    <li><a href="admin.php#form" class="">Начать обучение</a></li>
-                    <li><a href="/catalog.php" class="">Другие программы</a></li>
+                    <li><a href="admin.php#form" class="" onclick="ym(97365134,'reachGoal','05_Клик_Начать_обучение_бесплатно')">Начать обучение</a></li>
+                    <li><a href="/catalog.php" class="" onclick="ym(97365134,'reachGoal','04_Клик_кнопка_Каталог_программ')">Другие программы</a></li>
                 </ul>
             </div>
         </div>

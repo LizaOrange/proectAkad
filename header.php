@@ -35,8 +35,8 @@
 <!--                    <a class="header__link" href="https://catalog.cosmos-academy.ru/">Другие программы</a>-->
                     <a class="header__link" href="admin.php#federation-project" target="_blank">О проекте</a>
                     <a class="header__link" href="admin.php#features-content" target="_blank">Чему научитесь</a>
-                    <a class="header__link" href="admin.php#form" target="_blank">Начать обучение</a>
-                    <a class="header__link" href="/catalog.php" target="_blank">Другие программы</a>
+                    <a class="header__link" href="admin.php#form" onclick="ym(97365134,'reachGoal','05_Клик_Начать_обучение_бесплатно')" target="_blank">Начать обучение</a>
+                    <a class="header__link" href="/catalog.php" onclick="ym(97365134,'reachGoal','04_Клик_кнопка_Каталог_программ')" target="_blank">Другие программы</a>
                 </div>
             </div>
         </div>
@@ -53,7 +53,7 @@
 <!--                <li><a href="https://catalog.cosmos-academy.ru" class="">Другие программы</a></li>-->
                 <li><a href="#federation-project" class="">О проекте</a></li>
                 <li><a href="#features-content" class="">Чему научитесь</a></li>
-                <li><a href="#form" class="">Начать обучение</a></li>
+                <li><a href="#form" onclick="ym(97365134,'reachGoal','05_Клик_Начать_обучение_бесплатно')" class="">Начать обучение</a></li>
                 <li><a href="/catalog.php" class="">Другие программы</a></li>
             </ul>
         </div>

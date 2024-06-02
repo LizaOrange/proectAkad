@@ -45,7 +45,7 @@
                 <h1 class="home__title">«Администратор гостиницы»</h1>
                 <p class="home__description">Бесплатно обучитесь искусству гостеприимства от лидера гостиничной отрасли <strong>Cosmos Hotel Group</strong></p>
                 <p class="home__description_p2">И получите помощь с трудоустройством от государства</p>
-                <button type="button" class="btn"><a href="#form">Начать обучение</a></button>
+                <button type="button" class="btn" onclick="ym(97365134,'reachGoal','05_Клик_Начать_обучение_бесплатно')"><a href="#form">Начать обучение</a></button>
             </div>
         </div>
     </section>
@@ -927,10 +927,7 @@
                         <div class="form__field">
                             <select class="form__select" name="Education" id="Education">
                                 <option disabled selected>Ваше образование</option>
-                                <option value="1">Среднее (школьное)</option>
-                                <option value="2">Получаю среднее профессиональное</option>
                                 <option value="3">Среднее профессиональное (колледж, техникум и т.д.)</option>
-                                <option value="4">Получаю высшее образование</option>
                                 <option value="5">Высшее (оконченное)</option>
                             </select>
                             <span class="form-required">*</span>
