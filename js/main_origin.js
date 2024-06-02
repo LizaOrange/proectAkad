@@ -427,7 +427,7 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
 
     setTimeout(function() {
         if(employmentText == 'Официально трудоустроен'){
-            новый редирект
+            window.location.href = 'https://cosmos-academy.ru/trudoustroennym.php';
         }else if(success_type === 'true'){
             window.location.href = 'https://cosmos-academy.ru/success.php';
         }else{
