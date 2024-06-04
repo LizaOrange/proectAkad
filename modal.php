@@ -24,6 +24,11 @@
             <li>Если редиректа не произошло - напишите в поддержку и мы отправим вам ссылку.</li>
         </ul>
     </div>
+    <a href="https://t.me/sodeystvie_cosmos" onclick="ym(97365134,'reachGoal','07_Переход_в_тг_саппорт')" target="_blank">
+        <img src="images/Telegram_logo.png" alt="Telegram">
+    </a>
+    <p>Чтобы не потерять ссылку, перейдите в нашего Telegram-бота</p>
+
 </div>
 
 
