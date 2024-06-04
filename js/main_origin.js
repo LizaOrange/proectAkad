@@ -426,9 +426,10 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
     ym(97365134,'reachGoal','01_Отправка_формы');
 
     setTimeout(function() {
-        if(employmentText == 'Официально трудоустроен'){
-            новый редирект
-        }else if(success_type === 'true'){
+        // if(employmentText == 'Официально трудоустроен'){
+        //     новый редирект
+        // }else
+        if(success_type === 'true'){
             window.location.href = 'https://cosmos-academy.ru/success.php';
         }else{
             window.location.href = region;
