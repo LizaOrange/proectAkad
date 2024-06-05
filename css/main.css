@@ -5538,7 +5538,7 @@ footer__contacts{
     font-family: "Circe-Bold", sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: #1f1f1f;
+    color: #000000;
     font-size: 1.5625rem;
     line-height: 1.875rem
 }
@@ -5999,7 +5999,28 @@ footer__contacts{
     }
 }
 
+.trudoustroennym h2{
+    margin-top: 1.5rem;
+    text-align: center;
+}
+.trudoustroennym h3{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    line-height: normal;
+}
 
+.trudoustroennym p{
+    font-size: 1.3rem;
+    margin: 1.5rem 0rem;
+    line-height: normal;
+}
+.trudoustroennym a {
+    color: #25408f;
+}
+.trudoustroennym a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
 
 /*подробнее начало */
 .custom-modal {

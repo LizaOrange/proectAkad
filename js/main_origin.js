@@ -426,10 +426,9 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
     ym(97365134,'reachGoal','01_Отправка_формы');
 
     setTimeout(function() {
-        // if(employmentText == 'Официально трудоустроен'){
-        //     новый редирект
-        // }else
-        if(success_type === 'true'){
+        if(employmentText == 'Официально трудоустроен'){
+            window.location.href = 'https://cosmos-academy.ru/trudoustroennym.php';
+        }else if(success_type === 'true'){
             window.location.href = 'https://cosmos-academy.ru/success.php';
         }else{
             window.location.href = region;
@@ -543,3 +542,18 @@ if(RegionsAll){
         })
         .catch(error => console.error('Ошибка загрузки данных:', error));
 }
+
+let hasScrolled60Percent = false;
+
+window.addEventListener('scroll', function() {
+    if (hasScrolled60Percent) return;
+
+    var documentHeight = document.documentElement.scrollHeight;
+    var windowHeight = window.innerHeight;
+    var scrollTop = window.scrollY || document.documentElement.scrollTop;
+    var scrollPercentage = (scrollTop + windowHeight) / documentHeight;
+    if (scrollPercentage >= 0.6) {
+        ym(97365134,'reachGoal','03_Скролл_60');
+        hasScrolled60Percent = true;
+    }
+});
