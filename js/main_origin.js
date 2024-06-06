@@ -557,3 +557,45 @@ window.addEventListener('scroll', function() {
         hasScrolled60Percent = true;
     }
 });
+
+
+function getQueryParams() {
+    let params = {};
+    let queryString = window.location.search.substring(1);
+    let regex = /([^&=]+)=([^&]*)/g;
+    let m;
+
+    while (m = regex.exec(queryString)) {
+        params[decodeURIComponent(m[1])] = decodeURIComponent(m[2]);
+    }
+
+    return params;
+}
+
+function checkUtmParameters() {
+    const requiredParams = {
+        utm_source: 'direct',
+        utm_medium: 'cpa',
+        utm_campaign: '234834',
+        utm_content: '384844'
+    };
+
+    const queryParams = getQueryParams();
+
+    let allParamsMatch = true;
+    for (const key in requiredParams) {
+        if (queryParams[key] !== requiredParams[key]) {
+            allParamsMatch = false;
+            break;
+        }
+    }
+
+    if (allParamsMatch) {
+        console.log('UTM Parameters found:', queryParams);
+    } else {
+        console.log('Required UTM parameters not found.');
+    }
+}
+
+// Run the check on page load
+window.addEventListener('load', checkUtmParameters);
