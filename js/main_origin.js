@@ -379,6 +379,10 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
     let success_type = this.dataset.success;
     let region = document.querySelector('.region_class').value;
 
+    let campaign = getCookie('campaign')
+    if (campaign === null) {
+        campaign = '-';
+    }
 
     let data = {
         'FIELDS': {
@@ -397,6 +401,7 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
             'UF_CRM_1714128542': educationText,
             'UF_CRM_1714128525': regionText,
             'UF_CRM_1714144900': programText,
+            'UTM_CAMPAIGN': campaign,
             'SOURCE_ID': 'WEB'
         }
     };
@@ -410,11 +415,6 @@ document.getElementById('form-btn').addEventListener('click', function(e) {
     })
         .then(response => {
             if (response.ok) {
-                // if(success_type === 'true'){
-                //     window.location.href = 'https://cosmos-academy.ru/success.php';
-                // }else{
-                //     window.location.href = region;
-                // }
                 console.log('success');
             }
         })
@@ -591,11 +591,30 @@ function checkUtmParameters() {
     }
 
     if (allParamsMatch) {
-        console.log('UTM Parameters found:', queryParams);
-    } else {
-        console.log('Required UTM parameters not found.');
+        setCookie('campaign', 'Заявка с рекламы', 3);
     }
 }
 
 // Run the check on page load
 window.addEventListener('load', checkUtmParameters);
+
+function setCookie(name, value, hours) {
+    let expires = "";
+    if (hours) {
+        let date = new Date();
+        date.setTime(date.getTime() + (hours * 60 * 60 * 1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "") + expires + "; path=/";
+}
+
+function getCookie(name) {
+    let nameEQ = name + "=";
+    let ca = document.cookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+    }
+    return null;
+}
