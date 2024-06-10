@@ -13,7 +13,10 @@
 <!--        <a href="#form" rel="modal:close" class="appearing-modal__button btn">Начать обучение</a>-->
 <!--    </div>-->
 <!--</div>-->
-
+<div id="cookieConsent" class="cookie">
+    <p>Мы используем cookie. Это позволяет нам анализировать взаимодействие посетителей с сайтом и делать его лучше. Продолжая пользоваться сайтом, вы соглашаетесь с использованием файлов cookie.</p>
+    <button id="acceptCookie">Согласен</button>
+</div>
 <div class="appearing-modal custom-modal__hidden">
     <button class="modal-close">&times;</button>
     <h2>Спасибо! Ваша заявка уже в обработке!</h2>

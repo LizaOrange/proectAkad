@@ -1,3 +1,17 @@
+document.addEventListener('DOMContentLoaded', function() {
+    if (localStorage.getItem('cookieConsent') === 'true') {
+        document.getElementById('cookieConsent').style.display = 'none';
+    } else {
+        document.getElementById('cookieConsent').style.display = 'flex';
+    }
+
+    document.getElementById('acceptCookie').addEventListener('click', function() {
+        localStorage.setItem('cookieConsent', 'true');
+        document.getElementById('cookieConsent').style.display = 'none';
+    });
+});
+
+
 document.addEventListener("DOMContentLoaded", function() {
     const toggleButton = document.querySelector(".header-btn");
     const popupMenu = document.querySelector(".popup-menu");
