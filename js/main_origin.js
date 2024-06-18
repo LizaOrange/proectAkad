@@ -108,6 +108,10 @@ document.addEventListener("DOMContentLoaded", function() {
     let employmentFormatSelect = document.getElementById('EmploymentFormat');
     let regionsSelect = document.getElementById('Regions');
     let regionsSupervizorSelect = document.getElementById('RegionsSupervizor');
+    let regionSupervisorUtilitySelect = document.getElementById('RegionSupervisorUtility');
+    let regionCoachSelect = document.getElementById('RegionCoach');
+    let regionsHRSelect = document.getElementById('RegionsHR');
+    let regionsServiceSelect = document.getElementById('RegionsService');
     let regionFoodSafetySelect = document.getElementById('RegionFoodSafety');
     let educationSelect = document.getElementById('Education');
     let regionsAllSelect = document.getElementById('RegionsAll');
@@ -123,6 +127,18 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     if (regionsSupervizorSelect) {
         $(regionsSupervizorSelect).select2();
+    }
+    if (regionSupervisorUtilitySelect) {
+        $(regionSupervisorUtilitySelect).select2();
+    }
+    if (regionCoachSelect) {
+        $(regionCoachSelect).select2();
+    }
+    if (regionsHRSelect) {
+        $(regionsHRSelect).select2();
+    }
+    if (regionsServiceSelect) {
+        $(regionsServiceSelect).select2();
     }
     if (regionFoodSafetySelect) {
         $(regionFoodSafetySelect).select2();
@@ -537,6 +553,65 @@ if(RegionsSupervizor){
                 option.value = item.link;
                 option.textContent = item.region;
                 RegionsSupervizor.appendChild(option);
+            });
+        })
+        .catch(error => console.error('Ошибка загрузки данных:', error));
+}
+const RegionSupervisorUtility = document.getElementById('RegionSupervisorUtility');
+if(RegionSupervisorUtility){
+    fetch('regionsupervisorutility.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(item => {
+                const option = document.createElement('option');
+                option.value = item.link;
+                option.textContent = item.region;
+                RegionSupervisorUtility.appendChild(option);
+            });
+        })
+        .catch(error => console.error('Ошибка загрузки данных:', error));
+}
+
+const RegionCoach = document.getElementById('RegionCoach');
+if(RegionCoach){
+    fetch('regioncoach.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(item => {
+                const option = document.createElement('option');
+                option.value = item.link;
+                option.textContent = item.region;
+                RegionCoach.appendChild(option);
+            });
+        })
+        .catch(error => console.error('Ошибка загрузки данных:', error));
+}
+
+const RegionsHR = document.getElementById('RegionsHR');
+if(RegionsHR){
+    fetch('regionhr.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(item => {
+                const option = document.createElement('option');
+                option.value = item.link;
+                option.textContent = item.region;
+                RegionsHR.appendChild(option);
+            });
+        })
+        .catch(error => console.error('Ошибка загрузки данных:', error));
+}
+
+const RegionsService = document.getElementById('RegionsService');
+if(RegionsService){
+    fetch('regionservice.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(item => {
+                const option = document.createElement('option');
+                option.value = item.link;
+                option.textContent = item.region;
+                RegionsService.appendChild(option);
             });
         })
         .catch(error => console.error('Ошибка загрузки данных:', error));

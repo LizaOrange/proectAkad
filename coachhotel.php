@@ -125,7 +125,7 @@
                         <div class="swiper-lazy-preloader"></div>
                     </div>
                     <div class="participation__slide-content">
-                        <p>Трудоустроены или ищите работу</p>
+                        <p>Трудоустроены или ищу работу (подходит для студентов последних курсов ВУЗов и колледжей)</p>
                         <button type="button" data-modal-id="participation-modal" data-modal-open="">Подробнее</button>
                     </div>
                     <div class="participation__slide-info">
@@ -855,7 +855,7 @@
                         <div class="form__field form-tooltip">
                             <select class="form__select" id="Category" name="category">
                                 <option disabled selected>Ваша категория</option>
-                                <option value="4">Трудоустроены или ищите работу</option>
+                                <option value="4">Трудоустроены или ищу работу (подходит для студентов последних курсов ВУЗов и колледжей)</option>
                                 <option value="11">Под риском увольнения</option>
                                 <option value="5">Находитесь в декрете</option>
                                 <option value="2">Мама ребенка до 7 лет</option>
@@ -890,7 +890,7 @@
                             <span class="form-required">*</span>
                         </div>
                         <div class="form__field">
-                            <select class="form__select region_class" name="Region" id="RegionsAll">
+                            <select class="form__select region_class" name="Region" id="RegionCoach">
                                 <option disabled selected>Ваш регион</option>
                             </select>
                             <span class="form-required">*</span>
